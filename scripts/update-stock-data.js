@@ -2,13 +2,19 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
-const SYMBOLS = [
+const STOCK_SYMBOLS = [
   'AAPL','MSFT','NVDA','TSLA','AMZN','META','GOOGL','AMD','NFLX','JPM','V','XOM','SPY','QQQ','DIA','IWM','XLK','XLF',
   'PLTR','SOFI','COIN','HOOD','RIVN','LCID','F','GM','BAC','WFC','GS','MS','PYPL','SQ','SHOP','CRM','ORCL','AVGO','MU','INTC',
   'TSM','ASML','QCOM','ARM','SMCI','NOW','UBER','ABNB','DIS','WMT','COST','HD','LOW','NKE','SBUX','MCD','PEP','KO','TGT',
   'CVX','OXY','SLB','UNH','LLY','NVO','PFE','MRK','JNJ','ABBV','BA','CAT','GE','LMT','RTX','NOC','DE','BABA','PDD','SNOW',
   'DDOG','PANW','CRWD','NET','ROKU','PINS'
 ];
+
+const CRYPTO_SYMBOLS = [
+  'BTC-USD','ETH-USD','SOL-USD','XRP-USD','BNB-USD','DOGE-USD','ADA-USD','AVAX-USD','LINK-USD','DOT-USD','LTC-USD','BCH-USD'
+];
+
+const SYMBOLS = [...STOCK_SYMBOLS, ...CRYPTO_SYMBOLS];
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -46,7 +52,20 @@ function normalize(raw) {
   const al = losses.slice(-14).reduce((a, b) => a + b, 0) / 14;
   const rsi = al ? 100 - (100 / (1 + ag / al)) : 70;
   const avg = closes.reduce((a, b) => a + b, 0) / closes.length;
-  return { symbol: meta.symbol, name: meta.longName || meta.shortName || meta.symbol, price, change: price - prev, changePct: ((price - prev) / prev) * 100, rsi, avg, belowHigh: ((high - price) / high) * 100, aboveLow: ((price - low) / low) * 100, volume: meta.regularMarketVolume || 0, closes };
+  return {
+    symbol: meta.symbol,
+    assetType: /-USD$/.test(meta.symbol || '') ? 'crypto' : 'stock',
+    name: meta.longName || meta.shortName || meta.symbol,
+    price,
+    change: price - prev,
+    changePct: ((price - prev) / prev) * 100,
+    rsi,
+    avg,
+    belowHigh: ((high - price) / high) * 100,
+    aboveLow: ((price - low) / low) * 100,
+    volume: meta.regularMarketVolume || 0,
+    closes
+  };
 }
 
 async function main() {
@@ -61,15 +80,15 @@ async function main() {
       console.warn(`Skipping ${symbol}: ${err.message}`);
     }
   }
-  const out = { updatedAt: new Date().toISOString(), scannerSize: SYMBOLS.length, records };
+  const out = { updatedAt: new Date().toISOString(), scannerSize: STOCK_SYMBOLS.length, cryptoSize: CRYPTO_SYMBOLS.length, records };
   const root = path.join(__dirname, '..');
   fs.writeFileSync(path.join(root, 'prices.json'), JSON.stringify(out, null, 2));
   fs.mkdirSync(path.join(root, 'data'), { recursive: true });
   fs.writeFileSync(path.join(root, 'data', 'market.json'), JSON.stringify(out, null, 2));
-  const csv = ['symbol,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n') + '\n';
+  const csv = ['symbol,assetType,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, r.assetType, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n') + '\n';
   fs.writeFileSync(path.join(root, 'prices.csv'), csv);
   fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
-  console.log(`Wrote ${records.length} stock records from ${SYMBOLS.length} scanner symbols`);
+  console.log(`Wrote ${records.length} records from ${STOCK_SYMBOLS.length} stock symbols and ${CRYPTO_SYMBOLS.length} crypto symbols`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
