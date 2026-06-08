@@ -15,6 +15,8 @@ const CRYPTO_SYMBOLS = [
 ];
 
 const SYMBOLS = [...STOCK_SYMBOLS, ...CRYPTO_SYMBOLS];
+const MAX_HISTORY_ROWS = 5000;
+const MAX_RUNS = 300;
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -68,6 +70,49 @@ function normalize(raw) {
   };
 }
 
+function readJson(file, fallback) {
+  try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (_) { return fallback; }
+}
+
+function top(records, sortFn, limit = 5) {
+  return [...records].sort(sortFn).slice(0, limit).map(r => ({
+    symbol: r.symbol,
+    assetType: r.assetType,
+    price: r.price,
+    changePct: r.changePct,
+    rsi: r.rsi
+  }));
+}
+
+function writeHistory(root, timestamp, records) {
+  const dataDir = path.join(root, 'data');
+  const csvPath = path.join(dataDir, 'history.csv');
+  const jsonPath = path.join(dataDir, 'history.json');
+  const csvHeader = 'timestamp,symbol,assetType,price,changePct,rsi,belowHigh,aboveLow,volume';
+  const oldRows = fs.existsSync(csvPath)
+    ? fs.readFileSync(csvPath, 'utf8').trim().split('\n').filter(Boolean).slice(1)
+    : [];
+  const newRows = records.map(r => [timestamp, r.symbol, r.assetType, r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','));
+  const rows = oldRows.concat(newRows).slice(-MAX_HISTORY_ROWS);
+  fs.writeFileSync(csvPath, [csvHeader, ...rows].join('\n') + '\n');
+
+  const old = readJson(jsonPath, { runs: [] });
+  const stockRecords = records.filter(r => r.assetType === 'stock');
+  const cryptoRecords = records.filter(r => r.assetType === 'crypto');
+  const run = {
+    timestamp,
+    totalRecords: records.length,
+    stockRecords: stockRecords.length,
+    cryptoRecords: cryptoRecords.length,
+    topGainers: top(records, (a, b) => b.changePct - a.changePct),
+    topLosers: top(records, (a, b) => a.changePct - b.changePct),
+    cryptoGainers: top(cryptoRecords, (a, b) => b.changePct - a.changePct),
+    cryptoLosers: top(cryptoRecords, (a, b) => a.changePct - b.changePct)
+  };
+  const out = { updatedAt: timestamp, maxHistoryRows: MAX_HISTORY_ROWS, runs: [run, ...(old.runs || [])].slice(0, MAX_RUNS) };
+  fs.writeFileSync(jsonPath, JSON.stringify(out, null, 2));
+}
+
 async function main() {
   const records = [];
   for (const symbol of SYMBOLS) {
@@ -80,7 +125,8 @@ async function main() {
       console.warn(`Skipping ${symbol}: ${err.message}`);
     }
   }
-  const out = { updatedAt: new Date().toISOString(), scannerSize: STOCK_SYMBOLS.length, cryptoSize: CRYPTO_SYMBOLS.length, records };
+  const timestamp = new Date().toISOString();
+  const out = { updatedAt: timestamp, scannerSize: STOCK_SYMBOLS.length, cryptoSize: CRYPTO_SYMBOLS.length, records };
   const root = path.join(__dirname, '..');
   fs.writeFileSync(path.join(root, 'prices.json'), JSON.stringify(out, null, 2));
   fs.mkdirSync(path.join(root, 'data'), { recursive: true });
@@ -88,7 +134,8 @@ async function main() {
   const csv = ['symbol,assetType,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, r.assetType, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n') + '\n';
   fs.writeFileSync(path.join(root, 'prices.csv'), csv);
   fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
-  console.log(`Wrote ${records.length} records from ${STOCK_SYMBOLS.length} stock symbols and ${CRYPTO_SYMBOLS.length} crypto symbols`);
+  writeHistory(root, timestamp, records);
+  console.log(`Wrote ${records.length} records and logged history snapshot at ${timestamp}`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
