@@ -40,19 +40,7 @@ function normalize(raw) {
   const al = losses.slice(-14).reduce((a, b) => a + b, 0) / 14;
   const rsi = al ? 100 - (100 / (1 + ag / al)) : 70;
   const avg = closes.reduce((a, b) => a + b, 0) / closes.length;
-  return {
-    symbol: meta.symbol,
-    name: meta.longName || meta.shortName || meta.symbol,
-    price,
-    change: price - prev,
-    changePct: ((price - prev) / prev) * 100,
-    rsi,
-    avg,
-    belowHigh: ((high - price) / high) * 100,
-    aboveLow: ((price - low) / low) * 100,
-    volume: meta.regularMarketVolume || 0,
-    closes
-  };
+  return { symbol: meta.symbol, name: meta.longName || meta.shortName || meta.symbol, price, change: price - prev, changePct: ((price - prev) / prev) * 100, rsi, avg, belowHigh: ((high - price) / high) * 100, aboveLow: ((price - low) / low) * 100, volume: meta.regularMarketVolume || 0, closes };
 }
 
 async function main() {
@@ -68,10 +56,13 @@ async function main() {
     }
   }
   const out = { updatedAt: new Date().toISOString(), records };
-  fs.mkdirSync(path.join(__dirname, '..', 'data'), { recursive: true });
-  fs.writeFileSync(path.join(__dirname, '..', 'data', 'market.json'), JSON.stringify(out, null, 2));
-  const csv = ['symbol,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n');
-  fs.writeFileSync(path.join(__dirname, '..', 'data', 'market.csv'), csv + '\n');
+  const root = path.join(__dirname, '..');
+  fs.writeFileSync(path.join(root, 'prices.json'), JSON.stringify(out, null, 2));
+  fs.mkdirSync(path.join(root, 'data'), { recursive: true });
+  fs.writeFileSync(path.join(root, 'data', 'market.json'), JSON.stringify(out, null, 2));
+  const csv = ['symbol,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n') + '\n';
+  fs.writeFileSync(path.join(root, 'prices.csv'), csv);
+  fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
   console.log(`Wrote ${records.length} stock records`);
 }
 
