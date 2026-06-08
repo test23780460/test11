@@ -2,7 +2,13 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 
-const SYMBOLS = ['AAPL','MSFT','NVDA','TSLA','AMZN','META','GOOGL','AMD','NFLX','JPM','V','XOM','SPY','QQQ','DIA','IWM','XLK','XLF'];
+const SYMBOLS = [
+  'AAPL','MSFT','NVDA','TSLA','AMZN','META','GOOGL','AMD','NFLX','JPM','V','XOM','SPY','QQQ','DIA','IWM','XLK','XLF',
+  'PLTR','SOFI','COIN','HOOD','RIVN','LCID','F','GM','BAC','WFC','GS','MS','PYPL','SQ','SHOP','CRM','ORCL','AVGO','MU','INTC',
+  'TSM','ASML','QCOM','ARM','SMCI','NOW','UBER','ABNB','DIS','WMT','COST','HD','LOW','NKE','SBUX','MCD','PEP','KO','TGT',
+  'CVX','OXY','SLB','UNH','LLY','NVO','PFE','MRK','JNJ','ABBV','BA','CAT','GE','LMT','RTX','NOC','DE','BABA','PDD','SNOW',
+  'DDOG','PANW','CRWD','NET','ROKU','PINS'
+];
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -50,12 +56,12 @@ async function main() {
       const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1d&interval=5m`;
       const row = normalize(await getJson(url));
       if (row) records.push(row);
-      await new Promise(r => setTimeout(r, 350));
+      await new Promise(r => setTimeout(r, 250));
     } catch (err) {
       console.warn(`Skipping ${symbol}: ${err.message}`);
     }
   }
-  const out = { updatedAt: new Date().toISOString(), records };
+  const out = { updatedAt: new Date().toISOString(), scannerSize: SYMBOLS.length, records };
   const root = path.join(__dirname, '..');
   fs.writeFileSync(path.join(root, 'prices.json'), JSON.stringify(out, null, 2));
   fs.mkdirSync(path.join(root, 'data'), { recursive: true });
@@ -63,7 +69,7 @@ async function main() {
   const csv = ['symbol,name,price,changePct,rsi,belowHigh,aboveLow,volume'].concat(records.map(r => [r.symbol, JSON.stringify(r.name || ''), r.price, r.changePct, r.rsi, r.belowHigh, r.aboveLow, r.volume].join(','))).join('\n') + '\n';
   fs.writeFileSync(path.join(root, 'prices.csv'), csv);
   fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
-  console.log(`Wrote ${records.length} stock records`);
+  console.log(`Wrote ${records.length} stock records from ${SYMBOLS.length} scanner symbols`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
