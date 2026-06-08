@@ -2,6 +2,11 @@ name: Update stock data
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-stock-data.js
+      - .github/workflows/update-stock-data.yml
   schedule:
     - cron: '*/5 * * * *'
 
