@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: stock-dashboard
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node server.js"
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
