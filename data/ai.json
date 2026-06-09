@@ -1,14 +1,13 @@
 {
-  "configured": false,
+  "configured": true,
   "realAi": false,
-  "updatedAt": "2026-06-09T00:00:00.000Z",
+  "updatedAt": "2026-06-09T16:25:41.065Z",
   "model": "gpt-4.1-mini",
-  "headline": "Real AI is ready, but OPENAI_API_KEY is not set yet.",
-  "marketRead": "Add a private GitHub Actions secret named OPENAI_API_KEY, then run the Update AI market brief workflow. The public website never sees the key.",
+  "headline": "AI update failed",
+  "marketRead": "OpenAI 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}",
   "watchPlans": [],
   "warnings": [
-    "Do not put API keys in public website code. Use GitHub Secrets only.",
-    "AI output is research support, not guaranteed financial advice."
+    "The scanner still works, but the real AI brief could not be generated. Check OpenAI billing/quota or replace the GitHub secret."
   ],
   "source": {}
 }
