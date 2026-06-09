@@ -32,5 +32,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update stock market data
-          file_pattern: prices.json prices.csv data/market.json data/market.csv data/history.json data/history.csv data/alerts.json data/news.json
+          file_pattern: prices.json prices.csv data/market.json data/market.csv data/history.json data/history.csv data/alerts.json data/news.json data/historical.json
 # trigger: discord-alert-verification
