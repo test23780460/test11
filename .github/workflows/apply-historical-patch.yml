@@ -23,3 +23,4 @@ jobs:
           git add index.html scripts/update-stock-data.js .github/workflows/update-stock-data.yml
           git commit -m "Add historical data for predictions" || exit 0
           git push
+# trigger: historical-patch
