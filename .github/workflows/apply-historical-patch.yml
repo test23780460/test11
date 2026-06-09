@@ -14,13 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Patch historical support
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Make sure historical support is patched
         run: python .github/scripts/add_historical.py
-      - name: Commit patch
+      - name: Refresh historical market data
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node scripts/update-stock-data.js
+      - name: Commit refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html scripts/update-stock-data.js
-          git commit -m "Add historical data for predictions" || exit 0
+          git add prices.json prices.csv data/market.json data/market.csv data/history.json data/history.csv data/alerts.json data/news.json data/historical.json
+          git commit -m "Update historical market data" || exit 0
           git push
-# trigger: historical-patch-2
+# trigger: historical-data-refresh
