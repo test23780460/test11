@@ -1,0 +1,66 @@
+name: Patch alert cooldown
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/patch-alert-cooldown.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch alert logic
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const file = 'scripts/update-stock-data.js';
+          let s = fs.readFileSync(file, 'utf8');
+          const oldBlock = `    fired.push({ symbol: r.symbol, timestamp, aiScore: aiScore(r), confidence: confidence(r), price: r.price, changePct: r.changePct, rsi: r.rsi });
+    state.sent[r.symbol] = timestamp;
+
+    if (webhook) {
+      for (let i = 1; i <= ALERT_REPEAT_COUNT; i++) {
+        await postJson(webhook, { content: \`${message} (${i}/${ALERT_REPEAT_COUNT})\` });
+        await new Promise(resolve => setTimeout(resolve, 1200));
+      }
+    } else {
+      console.log(\`Discord webhook not configured; would alert ${r.symbol}\`);
+    }`;
+          const newBlock = `    if (webhook) {
+      for (let i = 1; i <= ALERT_REPEAT_COUNT; i++) {
+        await postJson(webhook, { content: \`${message} (${i}/${ALERT_REPEAT_COUNT})\` });
+        await new Promise(resolve => setTimeout(resolve, 1200));
+      }
+      fired.push({ symbol: r.symbol, timestamp, aiScore: aiScore(r), confidence: confidence(r), price: r.price, changePct: r.changePct, rsi: r.rsi });
+      state.sent[r.symbol] = timestamp;
+    } else {
+      console.log(\`Discord webhook not configured; would alert ${r.symbol}\`);
+    }`;
+          if (s.includes(oldBlock)) {
+            s = s.replace(oldBlock, newBlock);
+            fs.writeFileSync(file, s);
+          } else if (!s.includes(newBlock)) {
+            throw new Error('alert patch target not found');
+          }
+          const alertsPath = 'data/alerts.json';
+          if (fs.existsSync(alertsPath)) {
+            const alerts = JSON.parse(fs.readFileSync(alertsPath, 'utf8'));
+            alerts.sent = {};
+            alerts.lastFired = [];
+            alerts.updatedAt = new Date().toISOString();
+            fs.writeFileSync(alertsPath, JSON.stringify(alerts, null, 2));
+          }
+          NODE
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/update-stock-data.js data/alerts.json
+          git commit -m "Fix Discord alert cooldown tracking" || exit 0
+          git push
