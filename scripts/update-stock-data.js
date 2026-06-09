@@ -326,14 +326,13 @@ async function sendDiscordAlerts(root, timestamp, records) {
     if (nowMs - last < cooldownMs) continue;
     const l = levels(r);
     const message = `SUPER DIP ALERT ${r.symbol}: AI ${aiScore(r)}/99, confidence ${confidence(r)}%, price ${fmt(r.price)}, move ${pct(r.changePct)}, RSI ${r.rsi.toFixed(0)}. Research trigger ${fmt(l.trigger)}, invalid below ${fmt(l.stop)}, target area ${fmt(l.target)}. Educational only, not financial advice.`;
-    fired.push({ symbol: r.symbol, timestamp, aiScore: aiScore(r), confidence: confidence(r), price: r.price, changePct: r.changePct, rsi: r.rsi });
-    state.sent[r.symbol] = timestamp;
-
     if (webhook) {
       for (let i = 1; i <= ALERT_REPEAT_COUNT; i++) {
         await postJson(webhook, { content: `${message} (${i}/${ALERT_REPEAT_COUNT})` });
         await new Promise(resolve => setTimeout(resolve, 1200));
       }
+    fired.push({ symbol: r.symbol, timestamp, aiScore: aiScore(r), confidence: confidence(r), price: r.price, changePct: r.changePct, rsi: r.rsi });
+    state.sent[r.symbol] = timestamp;
     } else {
       console.log(`Discord webhook not configured; would alert ${r.symbol}`);
     }
