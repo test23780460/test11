@@ -20,7 +20,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html scripts/update-stock-data.js .github/workflows/update-stock-data.yml
+          git add index.html scripts/update-stock-data.js
           git commit -m "Add historical data for predictions" || exit 0
           git push
-# trigger: historical-patch
+# trigger: historical-patch-2
