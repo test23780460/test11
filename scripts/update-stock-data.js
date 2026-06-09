@@ -24,6 +24,16 @@ const MAX_RUNS = 300;
 const ALERT_COOLDOWN_HOURS = 6;
 const ALERT_REPEAT_COUNT = 5;
 const ALERT_SCORE_MIN = 92;
+const NEWS_FETCH_LIMIT = 36;
+const NEWS_PER_SYMBOL = 4;
+const POSITIVE_NEWS_WORDS = [
+  'beat','beats','raise','raises','raised','upgrade','upgraded','outperform','buy','bullish','growth','record','surge','jumps','rally','profit','profits',
+  'revenue','strong','deal','partnership','approval','approved','launch','expands','winner','optimism','demand','guidance','breakthrough'
+];
+const NEGATIVE_NEWS_WORDS = [
+  'miss','misses','cut','cuts','downgrade','downgraded','sell','bearish','weak','fall','falls','plunge','drops','slump','lawsuit','probe','investigation',
+  'recall','risk','warning','warns','loss','losses','layoff','debt','delay','delayed','fraud','charges','pressure','concern','concerns'
+];
 
 function getJson(url) {
   return new Promise((resolve, reject) => {
@@ -38,6 +48,129 @@ function getJson(url) {
     req.setTimeout(15000, () => req.destroy(new Error('timeout')));
     req.on('error', reject);
   });
+}
+
+function stripTags(text) {
+  return String(text || '').replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function wordHits(text, words) {
+  const lower = String(text || '').toLowerCase();
+  return words.reduce((sum, word) => sum + (lower.includes(word) ? 1 : 0), 0);
+}
+
+function newsSentiment(title, summary) {
+  const text = `${title || ''} ${summary || ''}`;
+  const pos = wordHits(text, POSITIVE_NEWS_WORDS);
+  const neg = wordHits(text, NEGATIVE_NEWS_WORDS);
+  const score = clamp(50 + (pos - neg) * 13, 5, 95);
+  const label = score >= 64 ? 'bullish' : score <= 38 ? 'bearish' : 'mixed';
+  return { score: Math.round(score), label, positiveHits: pos, negativeHits: neg };
+}
+
+function newsPrediction(record, sentiment) {
+  const s = signal(record);
+  const score = aiScore(record);
+  const conf = confidence(record);
+  if (sentiment.label === 'bullish' && (s === 'momentum' || record.changePct > 0)) {
+    return `News tone is bullish and price action is already firm. Watch for continuation above ${fmt(levels(record).trigger)}.`;
+  }
+  if (sentiment.label === 'bullish' && s === 'dip') {
+    return `Bullish news is landing during a dip. This can become interesting if buyers reclaim ${fmt(levels(record).trigger)}.`;
+  }
+  if (sentiment.label === 'bearish' && s === 'peak') {
+    return `Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down.`;
+  }
+  if (sentiment.label === 'bearish' && s === 'dip') {
+    return `Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity.`;
+  }
+  if (score >= 75 && conf >= 70) {
+    return `The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first.`;
+  }
+  return `News impact looks mixed. Keep it on watch and wait for price confirmation.`;
+}
+
+function chooseNewsSymbols(records) {
+  const bySymbol = new Map(records.map(r => [r.symbol, r]));
+  const anchors = ['SPY','QQQ','DIA','IWM','AAPL','MSFT','NVDA','TSLA','AMZN','META','GOOGL','AMD','JPM','LLY','COIN','BTC-USD','ETH-USD','SOL-USD'];
+  const topSetups = [...records].sort((a, b) => aiScore(b) - aiScore(a)).slice(0, 18).map(r => r.symbol);
+  const movers = [...records].sort((a, b) => Math.abs(b.changePct) - Math.abs(a.changePct)).slice(0, 18).map(r => r.symbol);
+  return [...new Set([...anchors, ...topSetups, ...movers])].filter(s => bySymbol.has(s)).slice(0, NEWS_FETCH_LIMIT);
+}
+
+async function fetchNewsForSymbol(symbol, record) {
+  const q = isCrypto(symbol) ? symbol.replace('-USD', '') : symbol;
+  const url = `https://query2.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(q)}&quotesCount=0&newsCount=${NEWS_PER_SYMBOL}`;
+  const data = await getJson(url);
+  const news = Array.isArray(data.news) ? data.news : [];
+  return news.map(item => {
+    const title = stripTags(item.title);
+    const summary = stripTags(item.summary || item.publisher || '');
+    const sentiment = newsSentiment(title, summary);
+    return {
+      symbol,
+      assetType: record.assetType,
+      name: record.name,
+      title,
+      publisher: item.publisher || 'Yahoo Finance',
+      link: item.link || '',
+      publishedAt: item.providerPublishTime ? new Date(item.providerPublishTime * 1000).toISOString() : null,
+      sentiment,
+      aiScore: aiScore(record),
+      confidence: confidence(record),
+      price: record.price,
+      changePct: record.changePct,
+      signal: signal(record),
+      prediction: newsPrediction(record, sentiment)
+    };
+  }).filter(item => item.title);
+}
+
+function summarizeNews(items, timestamp) {
+  const bullish = items.filter(i => i.sentiment.label === 'bullish').length;
+  const bearish = items.filter(i => i.sentiment.label === 'bearish').length;
+  const mixed = items.length - bullish - bearish;
+  const avgSentiment = items.length ? Math.round(items.reduce((sum, i) => sum + i.sentiment.score, 0) / items.length) : 50;
+  const marketRead = avgSentiment >= 62 ? 'News is leaning bullish' : avgSentiment <= 40 ? 'News is leaning bearish' : 'News is mixed';
+  return { updatedAt: timestamp, totalHeadlines: items.length, bullish, bearish, mixed, avgSentiment, marketRead };
+}
+
+async function buildNews(root, timestamp, records) {
+  const dataDir = path.join(root, 'data');
+  const old = readJson(path.join(dataDir, 'news.json'), { headlines: [] });
+  const bySymbol = new Map(records.map(r => [r.symbol, r]));
+  const symbols = chooseNewsSymbols(records);
+  const seen = new Set();
+  const fresh = [];
+
+  for (const symbol of symbols) {
+    try {
+      const rows = await fetchNewsForSymbol(symbol, bySymbol.get(symbol));
+      for (const item of rows) {
+        const key = `${item.symbol}|${item.title}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          fresh.push(item);
+        }
+      }
+      await new Promise(resolve => setTimeout(resolve, 220));
+    } catch (err) {
+      console.warn(`Skipping news ${symbol}: ${err.message}`);
+    }
+  }
+
+  const seenCombined = new Set();
+  const combined = [...fresh, ...(old.headlines || [])]
+    .filter(item => item && item.title)
+    .filter(item => {
+      const key = `${item.symbol}|${item.title}`;
+      if (seenCombined.has(key)) return false;
+      seenCombined.add(key);
+      return true;
+    })
+    .slice(0, 160);
+  const out = { ...summarizeNews(combined, timestamp), symbolsTracked: symbols, headlines: combined };
+  fs.writeFileSync(path.join(dataDir, 'news.json'), JSON.stringify(out, null, 2));
 }
 
 function postJson(url, body) {
@@ -234,6 +367,7 @@ async function main() {
   fs.writeFileSync(path.join(root, 'prices.csv'), csv);
   fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
   writeHistory(root, timestamp, records);
+  await buildNews(root, timestamp, records);
   await sendDiscordAlerts(root, timestamp, records);
   console.log(`Wrote ${records.length} records, logged history, and checked Discord alerts at ${timestamp}`);
 }
