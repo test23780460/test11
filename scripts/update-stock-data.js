@@ -26,6 +26,9 @@ const ALERT_REPEAT_COUNT = 5;
 const ALERT_SCORE_MIN = 92;
 const NEWS_FETCH_LIMIT = 36;
 const NEWS_PER_SYMBOL = 4;
+const HISTORICAL_REFRESH_HOURS = 12;
+const HISTORICAL_RANGE = '1y';
+const HISTORICAL_INTERVAL = '1d';
 const POSITIVE_NEWS_WORDS = [
   'beat','beats','raise','raises','raised','upgrade','upgraded','outperform','buy','bullish','growth','record','surge','jumps','rally','profit','profits',
   'revenue','strong','deal','partnership','approval','approved','launch','expands','winner','optimism','demand','guidance','breakthrough'
@@ -296,6 +299,151 @@ function top(records, sortFn, limit = 5) {
   return [...records].sort(sortFn).slice(0, limit).map(r => ({ symbol: r.symbol, assetType: r.assetType, price: r.price, changePct: r.changePct, rsi: r.rsi }));
 }
 
+
+function mean(values) {
+  const nums = values.filter(Number.isFinite);
+  return nums.length ? nums.reduce((a, b) => a + b, 0) / nums.length : null;
+}
+
+function stdev(values) {
+  const m = mean(values);
+  if (!Number.isFinite(m)) return null;
+  const nums = values.filter(Number.isFinite);
+  return nums.length ? Math.sqrt(nums.reduce((sum, v) => sum + Math.pow(v - m, 2), 0) / nums.length) : null;
+}
+
+function lastMean(values, count) {
+  return mean(values.slice(-count));
+}
+
+function pctChange(values, sessions) {
+  if (values.length <= sessions) return null;
+  const now = values[values.length - 1];
+  const then = values[values.length - 1 - sessions];
+  return Number.isFinite(now) && Number.isFinite(then) && then !== 0 ? ((now - then) / then) * 100 : null;
+}
+
+function maxDrawdown(closes) {
+  let peak = closes[0] || 0;
+  let worst = 0;
+  for (const close of closes) {
+    if (close > peak) peak = close;
+    if (peak) worst = Math.min(worst, ((close - peak) / peak) * 100);
+  }
+  return Math.round(Math.abs(worst) * 10) / 10;
+}
+
+function dipRecoveryRate(closes) {
+  let dips = 0;
+  let recovered = 0;
+  for (let i = 1; i < closes.length - 5; i++) {
+    const prior = closes[i - 1];
+    const cur = closes[i];
+    if (!prior || ((cur - prior) / prior) * 100 > -3) continue;
+    dips++;
+    const next = closes.slice(i + 1, i + 6);
+    if (next.some(v => v >= prior)) recovered++;
+  }
+  return dips ? Math.round((recovered / dips) * 100) : null;
+}
+
+function windowWinRate(closes, sessions) {
+  let total = 0;
+  let wins = 0;
+  for (let i = 0; i + sessions < closes.length; i++) {
+    total++;
+    if (closes[i + sessions] > closes[i]) wins++;
+  }
+  return total ? Math.round((wins / total) * 100) : null;
+}
+
+function historicalTrend(price, sma50, sma200) {
+  if (![price, sma50, sma200].every(Number.isFinite)) return 'waiting';
+  if (price > sma50 && sma50 > sma200) return 'uptrend';
+  if (price < sma50 && sma50 < sma200) return 'downtrend';
+  if (price > sma50 && sma50 <= sma200) return 'recovering';
+  return 'mixed';
+}
+
+function normalizeHistorical(raw, current) {
+  const q = raw.chart && raw.chart.result && raw.chart.result[0];
+  if (!q) return null;
+  const quote = (q.indicators && q.indicators.quote && q.indicators.quote[0]) || {};
+  const times = q.timestamp || [];
+  const rows = (quote.close || []).map((close, i) => ({ close, time: times[i] })).filter(p => Number.isFinite(p.close));
+  const closes = rows.map(p => p.close);
+  if (closes.length < 20) return null;
+  const returns = [];
+  for (let i = 1; i < closes.length; i++) {
+    if (closes[i - 1]) returns.push((closes[i] - closes[i - 1]) / closes[i - 1]);
+  }
+  const price = current.price || closes[closes.length - 1];
+  const high52 = Math.max(...closes);
+  const low52 = Math.min(...closes);
+  const sma20 = lastMean(closes, 20);
+  const sma50 = lastMean(closes, 50);
+  const sma200 = lastMean(closes, 200);
+  const vol = stdev(returns);
+  const avgMove = mean(returns.map(v => Math.abs(v)));
+  return {
+    symbol: current.symbol,
+    assetType: current.assetType,
+    updatedAt: new Date().toISOString(),
+    days: closes.length,
+    price,
+    high52,
+    low52,
+    below52High: high52 ? ((high52 - price) / high52) * 100 : null,
+    above52Low: low52 ? ((price - low52) / low52) * 100 : null,
+    sma20,
+    sma50,
+    sma200,
+    trend: historicalTrend(price, sma50, sma200),
+    change1m: pctChange(closes, 21),
+    change3m: pctChange(closes, 63),
+    change6m: pctChange(closes, 126),
+    change1y: pctChange(closes, 252),
+    annualizedVolatility: Number.isFinite(vol) ? vol * Math.sqrt(252) * 100 : null,
+    avgDailyMove: Number.isFinite(avgMove) ? avgMove * 100 : null,
+    maxDrawdown: maxDrawdown(closes),
+    dipRecoveryRate: dipRecoveryRate(closes),
+    winRate20: windowWinRate(closes, 20),
+    lastClose: closes[closes.length - 1],
+    lastDate: rows[rows.length - 1].time ? new Date(rows[rows.length - 1].time * 1000).toISOString().slice(0, 10) : null
+  };
+}
+
+async function fetchHistoricalForSymbol(symbol, current) {
+  const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=${HISTORICAL_RANGE}&interval=${HISTORICAL_INTERVAL}`;
+  return normalizeHistorical(await getJson(url), current);
+}
+
+async function buildHistorical(root, timestamp, records) {
+  const dataDir = path.join(root, 'data');
+  fs.mkdirSync(dataDir, { recursive: true });
+  const file = path.join(dataDir, 'historical.json');
+  const old = readJson(file, { records: {}, updatedAt: null });
+  const lastMs = old.updatedAt ? new Date(old.updatedAt).getTime() : 0;
+  if (lastMs && Date.now() - lastMs < HISTORICAL_REFRESH_HOURS * 60 * 60 * 1000 && old.records && Object.keys(old.records).length) {
+    const merged = { ...old.records };
+    for (const r of records) if (merged[r.symbol]) merged[r.symbol].price = r.price;
+    fs.writeFileSync(file, JSON.stringify({ ...old, updatedAt: timestamp, records: merged }, null, 2));
+    return;
+  }
+
+  const out = { ...(old.records || {}) };
+  for (const record of records) {
+    try {
+      const row = await fetchHistoricalForSymbol(record.symbol, record);
+      if (row) out[record.symbol] = row;
+      await new Promise(resolve => setTimeout(resolve, 180));
+    } catch (err) {
+      console.warn(`Skipping historical ${record.symbol}: ${err.message}`);
+    }
+  }
+  fs.writeFileSync(file, JSON.stringify({ updatedAt: timestamp, range: HISTORICAL_RANGE, interval: HISTORICAL_INTERVAL, count: Object.keys(out).length, records: out }, null, 2));
+}
+
 function writeHistory(root, timestamp, records) {
   const dataDir = path.join(root, 'data');
   const csvPath = path.join(dataDir, 'history.csv');
@@ -366,9 +514,10 @@ async function main() {
   fs.writeFileSync(path.join(root, 'prices.csv'), csv);
   fs.writeFileSync(path.join(root, 'data', 'market.csv'), csv);
   writeHistory(root, timestamp, records);
+  await buildHistorical(root, timestamp, records);
   await buildNews(root, timestamp, records);
   await sendDiscordAlerts(root, timestamp, records);
-  console.log(`Wrote ${records.length} records, logged history, and checked Discord alerts at ${timestamp}`);
+  console.log(`Wrote ${records.length} records, logged history, refreshed historical data, and checked Discord alerts at ${timestamp}`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
