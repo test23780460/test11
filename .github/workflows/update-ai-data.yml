@@ -1,0 +1,32 @@
+name: Update AI market brief
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-ai-data.js
+      - .github/workflows/update-ai-data.yml
+  schedule:
+    - cron: '*/30 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-ai:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/update-ai-data.js
+      - name: Commit AI data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update AI market brief
+          file_pattern: data/ai.json
