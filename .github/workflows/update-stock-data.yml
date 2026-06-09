@@ -33,3 +33,4 @@ jobs:
         with:
           commit_message: Update stock market data
           file_pattern: prices.json prices.csv data/market.json data/market.csv data/history.json data/history.csv data/alerts.json data/news.json
+# trigger: news-data-refresh
