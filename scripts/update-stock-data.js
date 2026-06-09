@@ -7,14 +7,18 @@ const STOCK_SYMBOLS = [
   'PLTR','SOFI','COIN','HOOD','RIVN','LCID','F','GM','BAC','WFC','GS','MS','PYPL','SQ','SHOP','CRM','ORCL','AVGO','MU','INTC',
   'TSM','ASML','QCOM','ARM','SMCI','NOW','UBER','ABNB','DIS','WMT','COST','HD','LOW','NKE','SBUX','MCD','PEP','KO','TGT',
   'CVX','OXY','SLB','UNH','LLY','NVO','PFE','MRK','JNJ','ABBV','BA','CAT','GE','LMT','RTX','NOC','DE','BABA','PDD','SNOW',
-  'DDOG','PANW','CRWD','NET','ROKU','PINS'
+  'DDOG','PANW','CRWD','NET','ROKU','PINS','ADBE','AMAT','LRCX','KLAC','TXN','ADI','MRVL','CDNS','SNPS','WDAY','TEAM','ZS',
+  'OKTA','MDB','FSLR','ENPH','NEE','DUK','SO','T','VZ','CMCSA','TMUS','AXP','MA','BLK','SCHW','C','TFC','USB','CB','PGR',
+  'WFC','BK','AMGN','GILD','BMY','REGN','ISRG','TMO','DHR','ELV','CI','CVS','MDT','SYK','HON','UPS','FDX','DAL','UAL',
+  'AAL','LUV','CARR','ETN','EMR','MMM','WM','LIN','APD','FCX','NEM','EOG','COP','MPC','PSX','HAL','BKR','WMB','KMI',
+  'PG','CL','KMB','PM','MO','MDLZ','GIS','KR','DG','DLTR','TJX','ROST','BKNG','MAR','HLT','CMG','YUM','EL','LULU'
 ];
 
 const CRYPTO_SYMBOLS = [
   'BTC-USD','ETH-USD','SOL-USD','XRP-USD','BNB-USD','DOGE-USD','ADA-USD','AVAX-USD','LINK-USD','DOT-USD','LTC-USD','BCH-USD'
 ];
 
-const SYMBOLS = [...STOCK_SYMBOLS, ...CRYPTO_SYMBOLS];
+const SYMBOLS = [...new Set([...STOCK_SYMBOLS, ...CRYPTO_SYMBOLS])];
 const MAX_HISTORY_ROWS = 5000;
 const MAX_RUNS = 300;
 
@@ -38,7 +42,11 @@ function normalize(raw) {
   if (!q) return null;
   const meta = q.meta || {};
   const quote = (q.indicators && q.indicators.quote && q.indicators.quote[0]) || {};
-  const closes = (quote.close || []).filter(Number.isFinite);
+  const rawCloses = quote.close || [];
+  const rawTimes = q.timestamp || [];
+  const points = rawCloses.map((close, i) => ({ close, time: rawTimes[i] })).filter(p => Number.isFinite(p.close));
+  const closes = points.map(p => p.close);
+  const times = points.map(p => p.time ? new Date(p.time * 1000).toISOString() : null);
   if (!closes.length) return null;
   const price = meta.regularMarketPrice || closes[closes.length - 1];
   const prev = meta.chartPreviousClose || closes[0];
@@ -66,7 +74,8 @@ function normalize(raw) {
     belowHigh: ((high - price) / high) * 100,
     aboveLow: ((price - low) / low) * 100,
     volume: meta.regularMarketVolume || 0,
-    closes
+    closes,
+    times
   };
 }
 
@@ -82,6 +91,10 @@ function top(records, sortFn, limit = 5) {
     changePct: r.changePct,
     rsi: r.rsi
   }));
+}
+
+function avg(records, field) {
+  return records.length ? records.reduce((sum, r) => sum + (Number(r[field]) || 0), 0) / records.length : 0;
 }
 
 function writeHistory(root, timestamp, records) {
@@ -104,6 +117,10 @@ function writeHistory(root, timestamp, records) {
     totalRecords: records.length,
     stockRecords: stockRecords.length,
     cryptoRecords: cryptoRecords.length,
+    stockAverageMove: avg(stockRecords, 'changePct'),
+    cryptoAverageMove: avg(cryptoRecords, 'changePct'),
+    advancers: records.filter(r => r.changePct >= 0).length,
+    decliners: records.filter(r => r.changePct < 0).length,
     topGainers: top(records, (a, b) => b.changePct - a.changePct),
     topLosers: top(records, (a, b) => a.changePct - b.changePct),
     cryptoGainers: top(cryptoRecords, (a, b) => b.changePct - a.changePct),
@@ -120,7 +137,7 @@ async function main() {
       const url = `https://query2.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1d&interval=5m`;
       const row = normalize(await getJson(url));
       if (row) records.push(row);
-      await new Promise(r => setTimeout(r, 250));
+      await new Promise(r => setTimeout(r, 180));
     } catch (err) {
       console.warn(`Skipping ${symbol}: ${err.message}`);
     }
