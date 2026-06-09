@@ -10,6 +10,10 @@ on:
   schedule:
     - cron: '*/5 * * * *'
 
+concurrency:
+  group: stock-data-refresh
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
