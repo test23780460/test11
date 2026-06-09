@@ -1,8 +1,64 @@
 {
-  "updatedAt": "2026-06-09T13:58:23.713Z",
+  "updatedAt": "2026-06-09T16:30:39.917Z",
   "sent": {
-    "NVO": "2026-06-09T08:22:30.245Z"
+    "NVO": "2026-06-09T08:22:30.245Z",
+    "AAPL": "2026-06-09T16:30:39.917Z",
+    "SOL-USD": "2026-06-09T16:30:39.917Z",
+    "ADA-USD": "2026-06-09T16:30:39.917Z"
   },
-  "lastCandidates": [],
-  "lastFired": []
+  "lastCandidates": [
+    {
+      "symbol": "AAPL",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 289.528,
+      "changePct": -3.9835511043311005,
+      "rsi": 21.592055683185023
+    },
+    {
+      "symbol": "SOL-USD",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 64.01,
+      "changePct": -4.167501015254076,
+      "rsi": 18.461624235595153
+    },
+    {
+      "symbol": "ADA-USD",
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 0.1625,
+      "changePct": -4.599003191677039,
+      "rsi": 25.490058582051404
+    }
+  ],
+  "lastFired": [
+    {
+      "symbol": "AAPL",
+      "timestamp": "2026-06-09T16:30:39.917Z",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 289.528,
+      "changePct": -3.9835511043311005,
+      "rsi": 21.592055683185023
+    },
+    {
+      "symbol": "SOL-USD",
+      "timestamp": "2026-06-09T16:30:39.917Z",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 64.01,
+      "changePct": -4.167501015254076,
+      "rsi": 18.461624235595153
+    },
+    {
+      "symbol": "ADA-USD",
+      "timestamp": "2026-06-09T16:30:39.917Z",
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 0.1625,
+      "changePct": -4.599003191677039,
+      "rsi": 25.490058582051404
+    }
+  ]
 }
