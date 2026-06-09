@@ -169,9 +169,8 @@ main().catch(err => {
     headline: 'AI update failed',
     marketRead: err.message,
     watchPlans: [],
-    warnings: ['The scanner still works, but the real AI brief could not be generated.'],
+    warnings: ['The scanner still works, but the real AI brief could not be generated. Check OpenAI billing/quota or replace the GitHub secret.'],
     source: {}
   });
-  console.error(err);
-  process.exitCode = 1;
+  console.error(err.message);
 });
