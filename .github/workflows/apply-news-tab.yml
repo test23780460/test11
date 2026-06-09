@@ -1,0 +1,52 @@
+name: Apply news tab
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/apply-news-tab.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch index html
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const file = 'index.html';
+          let html = fs.readFileSync(file, 'utf8');
+          function replaceOnce(find, replace, label) {
+            if (!html.includes(find)) {
+              if (html.includes(replace)) {
+                console.log(`${label} already applied`);
+                return;
+              }
+              throw new Error(`Missing patch target: ${label}`);
+            }
+            html = html.replace(find, replace);
+          }
+          const newsCss = `.newsGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.newsCard{border:1px solid var(--line);background:linear-gradient(180deg,var(--panel2),var(--panel));border-radius:8px;padding:13px;display:flex;flex-direction:column;gap:9px;min-height:250px;box-shadow:var(--shadow)}.newsCard h4{margin:0;font-size:16px;line-height:1.25}.newsCard a{color:var(--ink);text-decoration:none}.newsCard a:hover{color:var(--green)}.newsMeta{display:flex;gap:7px;flex-wrap:wrap;align-items:center}.newsCard p{margin:0;color:var(--muted);line-height:1.42}.newsImpact{margin-top:auto;border-top:1px solid var(--line);padding-top:9px}.sentimentBull{color:var(--green)}.sentimentBear{color:var(--red)}.sentimentMixed{color:var(--gold)}@media(max-width:1100px){.newsGrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.newsGrid{grid-template-columns:1fr}}\n`;
+          replaceOnce('</style></head>', newsCss + '</style></head>', 'news css');
+          replaceOnce(`<button class="btn tab" onclick="showPage('ideas',this)">Ideas</button><button class="btn tab" onclick="showPage('backend',this)">Backend</button>`, `<button class="btn tab" onclick="showPage('ideas',this)">Ideas</button><button class="btn tab" onclick="showPage('news',this)">News</button><button class="btn tab" onclick="showPage('backend',this)">Backend</button>`, 'news nav');
+          const newsPage = `<section id="newsPage" class="grid page"><section class="panel span12"><div class="section"><h3>News Prediction Desk</h3><span class="muted" id="newsUpdated">Waiting for backend news</span></div><div id="newsKpis" class="kpis"></div></section><section class="panel span12"><div class="section"><h3>Headlines The Scanner Is Watching</h3><span class="muted">News tone plus chart confirmation, not financial advice</span></div><div id="newsCards" class="newsGrid"></div></section><section class="panel span12"><div class="section"><h3>News Impact Table</h3><span class="muted">Ranked by sentiment, AI score, and confidence</span></div><div class="tableWrap"><table><thead><tr><th>Asset</th><th>News Tone</th><th>AI</th><th>Confidence</th><th>Price Move</th><th>Prediction</th><th>Headline</th></tr></thead><tbody id="newsRows"></tbody></table></div></section></section>\n`;
+          replaceOnce('<section id="backendPage" class="grid page">', newsPage + '<section id="backendPage" class="grid page">', 'news page');
+          replaceOnce('alerts=null,scannerSize=0', 'alerts=null,news=null,scannerSize=0', 'news state');
+          replaceOnce("try{const a=await fetch('data/alerts.json?x='+Date.now());if(a.ok)alerts=await a.json()}catch(e){}render();await refreshMissing()", "try{const a=await fetch('data/alerts.json?x='+Date.now());if(a.ok)alerts=await a.json()}catch(e){}try{const n=await fetch('data/news.json?x='+Date.now());if(n.ok)news=await n.json()}catch(e){}render();await refreshMissing()", 'news fetch');
+          replaceOnce('renderIdeas(all);renderBackend()', 'renderIdeas(all);renderNews();renderBackend()', 'news render call');
+          const newsFunctions = `function newsClass(label){return label==='bullish'?'sentimentBull':label==='bearish'?'sentimentBear':'sentimentMixed'}function newsRank(item){const tone=Math.abs((item.sentiment?.score||50)-50)*1.2,score=item.aiScore||50,conf=item.confidence||50,move=Math.min(18,Math.abs(item.changePct||0)*3);return tone+score*.55+conf*.35+move}function newsTime(v){if(!v)return'New';try{return new Date(v).toLocaleString([], {month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})}catch(e){return'New'}}function renderNews(){const items=(news?.headlines||[]).filter(Boolean).sort((a,b)=>newsRank(b)-newsRank(a));const updated=news?.updatedAt?new Date(news.updatedAt).toLocaleString():'Waiting for the next backend run';if($('newsUpdated'))$('newsUpdated').textContent=updated;if(!items.length){$('newsKpis').innerHTML=[metric('Headlines','Waiting','gold'),metric('News mood','No data yet','muted'),metric('Bullish',0,'up'),metric('Bearish',0,'down'),metric('Mixed',0,'gold')].join('');$('newsCards').innerHTML='<div class="newsCard muted">News predictions will appear after the next backend update creates data/news.json.</div>';$('newsRows').innerHTML='';return}const mood=news?.marketRead||'News is mixed';$('newsKpis').innerHTML=[metric('Headlines',news?.totalHeadlines||items.length,'cyan'),metric('News mood',mood,(news?.avgSentiment||50)>=62?'up':(news?.avgSentiment||50)<=40?'down':'gold'),metric('Bullish',news?.bullish||0,'up'),metric('Bearish',news?.bearish||0,'down'),metric('Avg tone',(news?.avgSentiment||50)+'/95','violet')].join('');$('newsCards').innerHTML=items.slice(0,18).map(item=>\`<article class="newsCard"><div class="newsMeta"><span class="tag ${newsClass(item.sentiment?.label)}">${item.sentiment?.label||'mixed'} ${item.sentiment?.score||50}</span><span class="tag ${isCrypto(item.symbol)?'cryptoTag':(bySym.has(item.symbol)?signal(bySym.get(item.symbol)).cls:'neutral')}">${clean(item.symbol)}</span></div><h4><a href="${esc(item.link||'#')}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h4><p>${esc(item.publisher||'Yahoo Finance')} | ${newsTime(item.publishedAt)}</p><div class="stats"><div class="stat"><small>AI</small><b>${item.aiScore||'--'}</b></div><div class="stat"><small>Conf.</small><b>${item.confidence||'--'}%</b></div><div class="stat"><small>Move</small><b class="${(item.changePct||0)>=0?'up':'down'}">${pct(item.changePct)}</b></div><div class="stat"><small>Price</small><b>${fmt(item.price)}</b></div></div><p class="newsImpact"><b>Prediction:</b> ${esc(item.prediction||'Watch for price confirmation before acting on the news.')}</p></article>\`).join('');$('newsRows').innerHTML=items.map(item=>\`<tr onclick="openAsset('${item.symbol}')"><td><b>${clean(item.symbol)}</b><div class="muted">${esc(item.name||'')}</div></td><td><span class="tag ${newsClass(item.sentiment?.label)}">${item.sentiment?.label||'mixed'} ${item.sentiment?.score||50}</span></td><td>${item.aiScore||'--'}</td><td>${item.confidence||'--'}%</td><td class="${(item.changePct||0)>=0?'up':'down'}">${pct(item.changePct)}</td><td>${esc(item.prediction||'Wait for price confirmation.')}</td><td><a href="${esc(item.link||'#')}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a><div class="muted">${esc(item.publisher||'Yahoo Finance')} | ${newsTime(item.publishedAt)}</div></td></tr>\`).join('')}\n`;
+          replaceOnce('function renderBackend(){', newsFunctions + 'function renderBackend(){', 'news functions');
+          fs.writeFileSync(file, html);
+          NODE
+      - name: Commit patch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Add news prediction tab" || exit 0
+          git push
