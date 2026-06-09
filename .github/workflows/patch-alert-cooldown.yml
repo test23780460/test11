@@ -64,3 +64,4 @@ jobs:
           git add scripts/update-stock-data.js data/alerts.json
           git commit -m "Fix Discord alert cooldown tracking" || exit 0
           git push
+# trigger: now
