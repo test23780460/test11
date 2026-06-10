@@ -1,0 +1,33 @@
+name: Apply Mobile Friendly CSS
+on:
+  push:
+    paths:
+      - .github/workflows/apply-mobile-css.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch mobile CSS
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('index.html')
+          html = path.read_text(encoding='utf-8')
+          css = r'''.mobileOnly{display:none}@media(max-width:760px){html,body{max-width:100%;overflow-x:hidden}.shell{padding:8px}.top{align-items:stretch;gap:10px;margin:-8px -8px 10px;border-left:0;border-right:0;border-radius:0;padding:10px}.brand{width:100%;min-width:0}.brand h1{font-size:16px}.brand small{display:block;max-width:72vw;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tabs{width:100%;display:flex;flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px;-webkit-overflow-scrolling:touch;scrollbar-width:none}.tabs::-webkit-scrollbar{display:none}.tabs .btn{flex:0 0 auto;padding:9px 10px;white-space:nowrap}.hero{gap:10px;margin:10px 0}.heroMain{padding:14px;min-height:auto}.hero h2{font-size:27px;line-height:1.1}.hero p{font-size:14px}.actions{display:grid;grid-template-columns:1fr 1fr;gap:7px}.actions .input{grid-column:1/-1;width:100%;min-width:0}.actions .btn{width:100%;padding:10px 8px}.tools,.pillRow{gap:6px}.score{height:100px}.scoreIn{width:76px;height:76px}.score b{font-size:24px}.grid{gap:10px}.panel{padding:11px}.section{gap:8px;margin-bottom:10px;align-items:flex-start}.section h3{font-size:16px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr))!important}.metric{padding:10px}.metric b{font-size:18px;overflow-wrap:anywhere}.cards,.watch,.newsGrid,.detailGrid,.predictionHero,.paperGrid,.battleGrid,.accountGrid,.rangeGrid,.logGrid{grid-template-columns:1fr!important}.heat{grid-template-columns:repeat(2,minmax(0,1fr))!important}.heatWall{grid-template-columns:repeat(2,minmax(0,1fr))!important}.heatTile{min-height:82px;padding:9px}.heatTile b{font-size:16px}.asset{min-height:auto;padding:12px}.ideaCard{min-height:auto}.topline,.line{align-items:flex-start}.sym{font-size:21px}.price{font-size:20px;text-align:left}.name{min-height:auto}.stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}.stat{padding:7px}.stat b{font-size:12px;overflow-wrap:anywhere}.cardActions{display:grid;grid-template-columns:1fr 1fr}.cardActions .btn{width:100%}canvas{height:110px}.mini canvas{height:38px}.bigChart{height:210px}.tableWrap{margin:0 -2px;overflow-x:auto;-webkit-overflow-scrolling:touch}table{min-width:760px}th,td{padding:8px;font-size:13px}.predictForm,.predictForm[style]{grid-template-columns:1fr!important}.modal{padding:8px}.modalBox{padding:12px;max-height:94vh}.moneyBig{font-size:28px}.scoreBadge{width:48px;height:48px}.rowItem{display:grid;grid-template-columns:1fr;gap:6px}.foot{padding-bottom:20px}.mobileOnly{display:block}}@media(max-width:390px){.kpis,.stats{grid-template-columns:1fr!important}.heat,.heatWall{grid-template-columns:1fr!important}.hero h2{font-size:24px}.tabs .btn,.btn,.input,.select{font-size:14px}.brand small{max-width:84vw}}
+'''
+          if '.mobileOnly{display:none}@media(max-width:760px)' not in html:
+              html = html.replace('</style></head>', css + '</style></head>')
+              path.write_text(html, encoding='utf-8')
+          PY
+      - name: Commit mobile CSS
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/apply-mobile-css.yml
+          git add index.html
+          git commit -m "Improve mobile layout" || exit 0
+          git push
