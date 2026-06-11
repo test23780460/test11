@@ -1,0 +1,50 @@
+name: Apply history table cleanup
+on:
+  push:
+    paths:
+      - '.github/workflows/apply-history-table-cleanup.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch index
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          repl = {
+            "<header class=\"top\"><div class=\"brand\"><div class=\"mark\">M</div><div><h1>Market Signal Deck</h1><small id=\"updated\">Loading backend...</small></div></div><nav class=\"tabs\"><button class=\"btn tab active\" onclick=\"showPage('stocks',this)\">Stocks</button><button class=\"btn tab\" onclick=\"showPage('deck',this)\">Command Deck</button><button class=\"btn tab\" onclick=\"showPage('crypto',this)\">Crypto</button><button class=\"btn tab\" onclick=\"showPage('ideas',this)\">Ideas</button><button class=\"btn tab\" onclick=\"showPage('news',this)\">News</button><button class=\"btn tab\" onclick=\"showPage('ai',this)\">Real AI</button><button class=\"btn tab\" onclick=\"showPage('predict',this)\">Predictions</button><button class=\"btn tab\" onclick=\"showPage('backend',this)\">Backend</button><button id=\"accountBtn\" class=\"btn\" onclick=\"openAccount()\">Guest</button><button id=\"themeBtn\" class=\"btn\" onclick=\"toggleTheme()\">Light</button></nav></header>":
+            "<header class=\"top\"><div class=\"brand\"><div class=\"mark\">M</div><div><h1>Market Signal Deck</h1><small id=\"updated\">Loading backend...</small></div></div><nav class=\"tabs\"><button class=\"btn tab active\" onclick=\"showPage('stocks',this)\">Stocks</button><button class=\"btn tab\" onclick=\"showPage('crypto',this)\">Crypto</button><button class=\"btn tab\" onclick=\"showPage('ideas',this)\">Ideas</button><button class=\"btn tab\" onclick=\"showPage('news',this)\">News</button><button class=\"btn tab\" onclick=\"showPage('predict',this)\">Predictions</button><button id=\"accountBtn\" class=\"btn\" onclick=\"openAccount()\">Guest</button><button id=\"themeBtn\" class=\"btn\" onclick=\"toggleTheme()\">Light</button></nav></header>",
+            "<button class=\"btn\" onclick=\"showPage('deck')\">Run Demo Scan</button>": "<button class=\"btn\" onclick=\"showPage('ideas')\">View Suggestions</button>",
+            "table{width:100%;border-collapse:collapse;min-width:980px;background:var(--panel)}": "table{width:100%;border-collapse:collapse;min-width:1520px;background:var(--panel)}",
+            "table{min-width:760px}": "table{min-width:1120px}",
+            "<h3>All Stock Scanner Data</h3><span class=\"muted\">A bigger major-stock universe. Add any ticker above for one-off lookup.</span></div><div class=\"tableWrap\"><table><thead><tr><th>Stock</th><th>Setup</th><th>AI</th><th>Confidence</th><th>Risk</th><th>Price</th><th>Trigger</th><th>Invalid</th><th>Move</th><th>RSI</th></tr></thead><tbody id=\"stockRows\"></tbody></table>":
+            "<h3>All Stock Scanner Data</h3><span class=\"muted\">Now includes saved one-year history: trend, 52-week range, volatility, dip recovery, win rate, and moving averages.</span></div><div class=\"tableWrap\"><table><thead><tr><th>Stock</th><th>Setup</th><th>AI</th><th>Confidence</th><th>Risk</th><th>Price</th><th>Trigger</th><th>Invalid</th><th>Move</th><th>RSI</th><th>History</th><th>Trend</th><th>52W Range</th><th>Vol.</th><th>Dip Recovery</th><th>20D Win</th><th>50D Avg</th><th>200D Avg</th></tr></thead><tbody id=\"stockRows\"></tbody></table>",
+            "<h3>All Crypto Data</h3><span class=\"muted\">Click a row for the full plan</span></div><div class=\"tableWrap\"><table><thead><tr><th>Crypto</th><th>Setup</th><th>AI</th><th>Confidence</th><th>Risk</th><th>Price</th><th>Trigger</th><th>Invalid</th><th>Move</th><th>RSI</th></tr></thead><tbody id=\"cryptoRows\"></tbody></table>":
+            "<h3>All Crypto Data</h3><span class=\"muted\">Click a row for the full plan. History appears when the backend has it saved.</span></div><div class=\"tableWrap\"><table><thead><tr><th>Crypto</th><th>Setup</th><th>AI</th><th>Confidence</th><th>Risk</th><th>Price</th><th>Trigger</th><th>Invalid</th><th>Move</th><th>RSI</th><th>History</th><th>Trend</th><th>52W Range</th><th>Vol.</th><th>Dip Recovery</th><th>20D Win</th><th>50D Avg</th><th>200D Avg</th></tr></thead><tbody id=\"cryptoRows\"></tbody></table>",
+            "function renderRows(all,id){$(id).innerHTML=[...all].sort((a,b)=>aiScore(b)-aiScore(a)).map(r=>{const s=signal(r),p=levels(r);return`<tr onclick=\"openAsset('${r.symbol}')\"><td><b>${clean(r.symbol)}</b><div class=\"muted\">${esc(r.name||'')}</div></td><td><span class=\"tag ${s.cls}\">${s.label}</span></td><td>${aiScore(r)}</td><td>${confidence(r)}%</td><td>${riskScore(r)}</td><td>${fmt(r.price)}</td><td>${fmt(p.trigger)}</td><td>${fmt(p.stop)}</td><td class=\"${r.changePct>=0?'up':'down'}\">${pct(r.changePct)}</td><td>${r.rsi.toFixed(0)}</td></tr>`}).join('')}":
+            "function renderRows(all,id){$(id).innerHTML=[...all].sort((a,b)=>aiScore(b)-aiScore(a)).map(r=>{const s=signal(r),p=levels(r),h=histFor(r);return`<tr onclick=\"openAsset('${r.symbol}')\"><td><b>${clean(r.symbol)}</b><div class=\"muted\">${esc(r.name||'')}</div></td><td><span class=\"tag ${s.cls}\">${s.label}</span></td><td>${aiScore(r)}</td><td>${confidence(r)}%</td><td>${riskScore(r)}</td><td>${fmt(r.price)}</td><td>${fmt(p.trigger)}</td><td>${fmt(p.stop)}</td><td class=\"${r.changePct>=0?'up':'down'}\">${pct(r.changePct)}</td><td>${r.rsi.toFixed(0)}</td><td>${histQuality(h)}</td><td>${trendTag(h)}</td><td>${histRange(h)}</td><td>${histPct(h?.annualizedVolatility)}</td><td>${histPct(h?.dipRecoveryRate)}</td><td>${histPct(h?.winRate20)}</td><td>${fmt(h?.sma50)}</td><td>${fmt(h?.sma200)}</td></tr>`}).join('')}",
+            "function histFor(r){return historical?.records?.[r.symbol]||null}function histQuality(h){return h?.days>=200?'1 year':h?.days>=120?'6 months':h?.days>=50?'recent history':'intraday only'}function histSafetyBoost":
+            "function histFor(r){return historical?.records?.[r.symbol]||null}function histQuality(h){return h?.days>=200?'1 year':h?.days>=120?'6 months':h?.days>=50?'recent history':'intraday only'}function histPct(v){return Number.isFinite(v)?Math.round(v)+'%':'--'}function histRange(h){return h&&Number.isFinite(h.low52)&&Number.isFinite(h.high52)?`${fmt(h.low52)}-${fmt(h.high52)}`:'--'}function trendTag(h){const t=h?.trend||'waiting';const cls=t==='uptrend'?'dip':t==='downtrend'?'peak':t==='recovering'?'momentum':'neutral';return`<span class=\"tag ${cls}\">${esc(t)}</span>`}function histSafetyBoost"
+          }
+          missing = []
+          for old, new in repl.items():
+            if old not in s:
+              missing.append(old[:90])
+            s = s.replace(old, new)
+          if missing:
+            raise SystemExit('Missing replacements: ' + repr(missing))
+          p.write_text(s, encoding='utf-8')
+      - name: Commit changes and remove workflow
+        run: |
+          rm .github/workflows/apply-history-table-cleanup.yml
+          git config user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git add index.html .github/workflows/apply-history-table-cleanup.yml
+          git commit -m "Clean tabs and add history-rich tables"
+          git push
