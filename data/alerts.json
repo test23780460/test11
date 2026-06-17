@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T16:25:44.317Z",
+  "updatedAt": "2026-06-17T18:39:15.896Z",
   "sent": {
     "NVO": "2026-06-09T08:22:30.245Z",
     "AAPL": "2026-06-09T16:30:39.917Z",
@@ -21,8 +21,64 @@
     "COP": "2026-06-16T07:37:53.561Z",
     "AVGO": "2026-06-17T08:17:52.656Z",
     "ASML": "2026-06-17T08:17:52.656Z",
-    "SMCI": "2026-06-17T08:17:52.656Z"
+    "SMCI": "2026-06-17T08:17:52.656Z",
+    "TGT": "2026-06-17T18:39:15.896Z",
+    "META": "2026-06-17T18:39:15.896Z",
+    "UPS": "2026-06-17T18:39:15.896Z"
   },
-  "lastCandidates": [],
-  "lastFired": []
+  "lastCandidates": [
+    {
+      "symbol": "TGT",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 128.825,
+      "changePct": -3.4295352323838206,
+      "rsi": 23.792438157674553
+    },
+    {
+      "symbol": "META",
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 574.62,
+      "changePct": -4.2635077722797075,
+      "rsi": 32.3208020478545
+    },
+    {
+      "symbol": "UPS",
+      "aiScore": 92,
+      "confidence": 72,
+      "price": 106.27,
+      "changePct": -3.408471187056899,
+      "rsi": 33.62061934866051
+    }
+  ],
+  "lastFired": [
+    {
+      "symbol": "TGT",
+      "timestamp": "2026-06-17T18:39:15.896Z",
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 128.825,
+      "changePct": -3.4295352323838206,
+      "rsi": 23.792438157674553
+    },
+    {
+      "symbol": "META",
+      "timestamp": "2026-06-17T18:39:15.896Z",
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 574.62,
+      "changePct": -4.2635077722797075,
+      "rsi": 32.3208020478545
+    },
+    {
+      "symbol": "UPS",
+      "timestamp": "2026-06-17T18:39:15.896Z",
+      "aiScore": 92,
+      "confidence": 72,
+      "price": 106.27,
+      "changePct": -3.408471187056899,
+      "rsi": 33.62061934866051
+    }
+  ]
 }
