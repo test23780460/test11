@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-05T17:49:11.634Z",
+  "updatedAt": "2026-07-05T18:50:14.766Z",
   "totalHeadlines": 160,
-  "bullish": 9,
-  "bearish": 10,
-  "mixed": 141,
+  "bullish": 10,
+  "bearish": 12,
+  "mixed": 138,
   "avgSentiment": 55,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -45,6 +45,27 @@
     "AMAT"
   ],
   "headlines": [
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "Goldman Says AI Is Driving a 22% Earnings Surge. For a 68-Year-Old, the Rally Swelling His 401(k) Is Inflating the RMD Tax Hit Waiting at 73.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/dc8d4d23-2cb6-38a4-9931-d95fffcd0c55/goldman-says-ai-is-driving-a.html",
+      "publishedAt": "2026-07-05T18:03:27.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 48,
+      "confidence": 82,
+      "price": 744.78,
+      "changePct": -0.13140956876207066,
+      "signal": "momentum",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $746.71."
+    },
     {
       "symbol": "SPY",
       "assetType": "stock",
@@ -99,27 +120,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 48,
-      "confidence": 82,
-      "price": 744.78,
-      "changePct": -0.13140956876207066,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SPY",
-      "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "What Actually Drove IWD Over The Past Year",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/237c7d98-97e3-362d-8968-719f8aac5be7/what-actually-drove-iwd-over.html",
-      "publishedAt": "2026-07-03T12:55:34.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 48,
@@ -553,10 +553,10 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Why e.l.f. Beauty Stock Jumped 32% in June",
+      "title": "Nvidia Stock Is Down 13% Over the Last Month. Here's Why That Could Be Good News.",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/16d32bea-a3cc-3978-acf5-50c5904c8020/why-e.l.f.-beauty-stock.html",
-      "publishedAt": "2026-07-05T17:44:27.000Z",
+      "link": "https://finance.yahoo.com/m/efe327ec-c0bf-311d-be4d-f8d4f5e83fe4/nvidia-stock-is-down-13%25-over.html",
+      "publishedAt": "2026-07-05T18:35:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -574,10 +574,10 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Prediction: This Stock Will Be One of the Biggest Winners of the Second Half of 2026",
+      "title": "Coca-Cola Is Crushing the Nasdaq and S&P 500 in 2026, but This Higher-Yield Dividend King Could Be an Even Better Stock to Buy for the Second Half of 2026",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/cc77496b-487b-3c40-8e63-e8c30d6f5674/prediction%3A-this-stock-will.html",
-      "publishedAt": "2026-07-05T17:35:00.000Z",
+      "link": "https://finance.yahoo.com/m/ae0c9ddd-4d06-369a-9c48-b7889aad066a/coca-cola-is-crushing-the.html",
+      "publishedAt": "2026-07-05T18:25:00.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
@@ -595,35 +595,35 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Prediction: This Artificial Intelligence (AI) Stock Could Double Before 2026 Ends",
+      "title": "The 1 Big Risk Every ServiceNow Investor Should Understand",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/4e0db2d1-5574-352d-a22e-aca2ae64eda2/prediction%3A-this-artificial.html",
-      "publishedAt": "2026-07-05T17:20:00.000Z",
+      "link": "https://finance.yahoo.com/m/5414aecf-4403-3383-8eff-d61f518c74d5/the-1-big-risk-every.html",
+      "publishedAt": "2026-07-05T18:20:00.000Z",
       "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
       "aiScore": 39,
       "confidence": 82,
       "price": 194.83,
       "changePct": -1.3918412794817288,
       "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
     },
     {
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Prediction: Energy Transfer (ET) Will Crush the S&P 500 in the Second-Half of 2026.",
+      "title": "Alphabet Stock Has Doubled in a Year. Is It Too Late to Buy?",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b3986694-6455-336b-a710-7d954185d18d/prediction%3A-energy-transfer.html",
-      "publishedAt": "2026-07-05T16:51:55.000Z",
+      "link": "https://finance.yahoo.com/m/fdf59187-4e78-3497-99e1-e8a36e682e27/alphabet-stock-has-doubled-in.html",
+      "publishedAt": "2026-07-05T18:14:00.000Z",
       "sentiment": {
-        "score": 50,
+        "score": 63,
         "label": "mixed",
-        "positiveHits": 0,
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 39,
@@ -889,6 +889,27 @@
       "symbol": "GOOGL",
       "assetType": "stock",
       "name": "Alphabet Inc.",
+      "title": "Alphabet Stock Has Doubled in a Year. Is It Too Late to Buy?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/fdf59187-4e78-3497-99e1-e8a36e682e27/alphabet-stock-has-doubled-in.html",
+      "publishedAt": "2026-07-05T18:14:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 72,
+      "price": 359.91,
+      "changePct": -0.3599014423742296,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
       "title": "Alphabet (GOOGL) Faces Final €4.1b Android Antitrust Ruling In Europe",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/technology/articles/alphabet-googl-faces-final-4-161156028.html",
@@ -949,24 +970,24 @@
       "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
     },
     {
-      "symbol": "GOOGL",
+      "symbol": "AMD",
       "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "This Is the One AI Stock I Can’t Stop Buying",
+      "name": "Advanced Micro Devices, Inc.",
+      "title": "AMD vs Palantir: Which AI Giant Is a Better Buy?",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/85e23893-6c35-3831-81bc-b5a86c64df25/this-is-the-one-ai-stock-i.html",
-      "publishedAt": "2026-07-05T14:20:41.000Z",
+      "link": "https://finance.yahoo.com/m/312b3374-64c3-37e3-b272-99cbeb4153d7/amd-vs-palantir%3A-which-ai.html",
+      "publishedAt": "2026-07-05T17:50:21.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 29,
-      "confidence": 72,
-      "price": 359.91,
-      "changePct": -0.3599014423742296,
-      "signal": "peak",
+      "aiScore": 75,
+      "confidence": 64,
+      "price": 517.82,
+      "changePct": -4.263422570625637,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1023,27 +1044,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 75,
-      "confidence": 64,
-      "price": 517.82,
-      "changePct": -4.263422570625637,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMD",
-      "assetType": "stock",
-      "name": "Advanced Micro Devices, Inc.",
-      "title": "Is AMD Stock a Buy Before July 22?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e5498b98-5dbc-3c39-9f1e-d46ce5487fec/is-amd-stock-a-buy-before.html",
-      "publishedAt": "2026-07-05T05:50:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 75,
@@ -1319,11 +1319,11 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 25,
       "confidence": 72,
-      "price": 62602.94,
-      "changePct": -0.7684567312616706,
-      "signal": "watch",
+      "price": 62730.35,
+      "changePct": -0.5664999073829585,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,12 +1340,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 43,
+      "aiScore": 25,
       "confidence": 72,
-      "price": 62602.94,
-      "changePct": -0.7684567312616706,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 62730.35,
+      "changePct": -0.5664999073829585,
+      "signal": "peak",
+      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
     },
     {
       "symbol": "BTC-USD",
@@ -1361,11 +1361,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 25,
       "confidence": 72,
-      "price": 62602.94,
-      "changePct": -0.7684567312616706,
-      "signal": "watch",
+      "price": 62730.35,
+      "changePct": -0.5664999073829585,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1382,11 +1382,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 25,
       "confidence": 72,
-      "price": 62602.94,
-      "changePct": -0.7684567312616706,
-      "signal": "watch",
+      "price": 62730.35,
+      "changePct": -0.5664999073829585,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1403,10 +1403,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 81.05,
-      "changePct": -0.7328791712521779,
+      "price": 81.08,
+      "changePct": -0.6961362517597344,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1424,10 +1424,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 81.05,
-      "changePct": -0.7328791712521779,
+      "price": 81.08,
+      "changePct": -0.6961362517597344,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1445,10 +1445,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 81.05,
-      "changePct": -0.7328791712521779,
+      "price": 81.08,
+      "changePct": -0.6961362517597344,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1466,10 +1466,10 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 53,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 81.05,
-      "changePct": -0.7328791712521779,
+      "price": 81.08,
+      "changePct": -0.6961362517597344,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1645,6 +1645,27 @@
       "symbol": "MU",
       "assetType": "stock",
       "name": "Micron Technology, Inc.",
+      "title": "Micron (MU) Stock Faces Michael Burry Short As Legal Risks Linger",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-faces-michael-180834141.html",
+      "publishedAt": "2026-07-05T18:08:34.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 97,
+      "confidence": 74,
+      "price": 975.56,
+      "changePct": -5.494633239043673,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "MU",
+      "assetType": "stock",
+      "name": "Micron Technology, Inc.",
       "title": "Forget Micron? This New AI Memory Stock Could Be the Best Buy of the Decade",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/e5f505c9-6a5d-35c7-905c-fa1123da3d96/forget-micron%3F-this-new-ai.html",
@@ -1695,27 +1716,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 97,
-      "confidence": 74,
-      "price": 975.56,
-      "changePct": -5.494633239043673,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "MU",
-      "assetType": "stock",
-      "name": "Micron Technology, Inc.",
-      "title": "Why Micron Technology, Inc.’s (MU) Memory Tightness Is Turning AI Demand Into Cleaner Earnings Momentum",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-inc-mu-131421652.html",
-      "publishedAt": "2026-07-05T13:14:21.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 97,
@@ -2986,6 +2986,174 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "What Actually Drove IWD Over The Past Year",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/237c7d98-97e3-362d-8968-719f8aac5be7/what-actually-drove-iwd-over.html",
+      "publishedAt": "2026-07-03T12:55:34.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 48,
+      "confidence": 82,
+      "price": 744.78,
+      "changePct": -0.13140956876207066,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Why e.l.f. Beauty Stock Jumped 32% in June",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/16d32bea-a3cc-3978-acf5-50c5904c8020/why-e.l.f.-beauty-stock.html",
+      "publishedAt": "2026-07-05T17:44:27.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 194.83,
+      "changePct": -1.3918412794817288,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Prediction: This Stock Will Be One of the Biggest Winners of the Second Half of 2026",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/cc77496b-487b-3c40-8e63-e8c30d6f5674/prediction%3A-this-stock-will.html",
+      "publishedAt": "2026-07-05T17:35:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 194.83,
+      "changePct": -1.3918412794817288,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Prediction: This Artificial Intelligence (AI) Stock Could Double Before 2026 Ends",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/4e0db2d1-5574-352d-a22e-aca2ae64eda2/prediction%3A-this-artificial.html",
+      "publishedAt": "2026-07-05T17:20:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 194.83,
+      "changePct": -1.3918412794817288,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Prediction: Energy Transfer (ET) Will Crush the S&P 500 in the Second-Half of 2026.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b3986694-6455-336b-a710-7d954185d18d/prediction%3A-energy-transfer.html",
+      "publishedAt": "2026-07-05T16:51:55.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 194.83,
+      "changePct": -1.3918412794817288,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
+      "title": "This Is the One AI Stock I Can’t Stop Buying",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/85e23893-6c35-3831-81bc-b5a86c64df25/this-is-the-one-ai-stock-i.html",
+      "publishedAt": "2026-07-05T14:20:41.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 72,
+      "price": 359.91,
+      "changePct": -0.3599014423742296,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMD",
+      "assetType": "stock",
+      "name": "Advanced Micro Devices, Inc.",
+      "title": "Is AMD Stock a Buy Before July 22?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e5498b98-5dbc-3c39-9f1e-d46ce5487fec/is-amd-stock-a-buy-before.html",
+      "publishedAt": "2026-07-05T05:50:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 75,
+      "confidence": 64,
+      "price": 517.82,
+      "changePct": -4.263422570625637,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MU",
+      "assetType": "stock",
+      "name": "Micron Technology, Inc.",
+      "title": "Why Micron Technology, Inc.’s (MU) Memory Tightness Is Turning AI Demand Into Cleaner Earnings Momentum",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-micron-technology-inc-mu-131421652.html",
+      "publishedAt": "2026-07-05T13:14:21.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 97,
+      "confidence": 74,
+      "price": 975.56,
+      "changePct": -5.494633239043673,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
@@ -3234,174 +3402,6 @@
       "confidence": 82,
       "price": 308.63,
       "changePct": 4.840682111556491,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in July?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/592320b3-874c-3210-b23d-7d5f50ac95d1/down-35%25%2C-is-mercadolibre.html",
-      "publishedAt": "2026-07-05T11:20:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 82,
-      "price": 390.49,
-      "changePct": 1.6160091599875186,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/766be423-5b42-3ab0-855c-dc5890465ef3/prediction%3A-this-energy-stock.html",
-      "publishedAt": "2026-07-05T15:35:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 39,
-      "confidence": 82,
-      "price": 194.83,
-      "changePct": -1.3918412794817288,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "What the Buffett Market Valuation Indicator at Record Highs Means for Investors",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/33085a75-80ed-3cfb-8768-1e66550cb52e/what-the-buffett-market.html",
-      "publishedAt": "2026-07-05T15:31:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 39,
-      "confidence": 82,
-      "price": 194.83,
-      "changePct": -1.3918412794817288,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "VOO vs. QQQ: Which Is the Better Buy for Long-Term Investors?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/f8b605d3-7641-3acf-a9f3-0bc4ebc54e58/voo-vs.-qqq%3A-which-is-the.html",
-      "publishedAt": "2026-07-05T15:20:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 39,
-      "confidence": 82,
-      "price": 194.83,
-      "changePct": -1.3918412794817288,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Tesla vs BYD: Two Paths to EV Leadership, One Winner",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/4e15c531-0608-3580-9444-e2ed21da7948/tesla-vs-byd%3A-two-paths-to-ev.html",
-      "publishedAt": "2026-07-05T15:18:39.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 39,
-      "confidence": 82,
-      "price": 194.83,
-      "changePct": -1.3918412794817288,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spending",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/ai-bubble-fears-the-endless-k-shaped-economy-and-insane-hyperscaler-capex-spending-123000856.html",
-      "publishedAt": "2026-07-05T12:30:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 74,
-      "price": 393.45,
-      "changePct": -7.488831413120156,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Seven\" Stocks in July?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/592320b3-874c-3210-b23d-7d5f50ac95d1/down-35%25%2C-is-mercadolibre.html",
-      "publishedAt": "2026-07-05T11:20:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 82,
-      "confidence": 72,
-      "price": 582.9,
-      "changePct": -4.896314303894535,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should Be Looking at This Stock Instead.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5321d8de-038a-3631-96b8-e5d1419f8430/wall-street-is-buzzing-about.html",
-      "publishedAt": "2026-07-05T14:05:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 29,
-      "confidence": 72,
-      "price": 359.91,
-      "changePct": -0.3599014423742296,
       "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
