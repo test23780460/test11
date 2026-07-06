@@ -1,10 +1,10 @@
 {
   "configured": true,
   "realAi": false,
-  "updatedAt": "2026-07-06T06:06:11.042Z",
+  "updatedAt": "2026-07-06T11:14:08.848Z",
   "model": "gpt-4.1-mini",
   "headline": "AI update failed",
-  "marketRead": "OpenAI 500: {\n  \"error\": {\n    \"message\": \"An error occurred while processing your request. You can retry your request, or contact us through our help center at help.openai.com if the error persists. Please include the request ID 25fc4855-7700-4c40-8f4d-658222fd3b2a in your message.\",\n    \"type\": \"server_error\",\n    \"param\": null,\n    \"code\": \"server_error\"\n  }\n}",
+  "marketRead": "OpenAI 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}",
   "watchPlans": [],
   "warnings": [
     "The scanner still works, but the real AI brief could not be generated. Check OpenAI billing/quota or replace the GitHub secret."
