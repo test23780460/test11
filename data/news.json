@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-19T14:43:18.003Z",
+  "updatedAt": "2026-07-19T15:37:26.592Z",
   "totalHeadlines": 160,
-  "bullish": 9,
-  "bearish": 12,
-  "mixed": 139,
+  "bullish": 10,
+  "bearish": 15,
+  "mixed": 135,
   "avgSentiment": 53,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -37,12 +37,12 @@
     "YUM",
     "NOC",
     "GILD",
+    "BCH-USD",
     "HD",
     "UNH",
     "LMT",
     "PDD",
-    "GS",
-    "AMAT"
+    "GS"
   ],
   "headlines": [
     {
@@ -385,6 +385,27 @@
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
+      "title": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It’s Winning)",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/7b5199d7-14a2-36f8-8e2e-16da2c163195/think-qqq-is-concentrated%3F.html",
+      "publishedAt": "2026-07-19T14:32:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 58,
+      "confidence": 82,
+      "price": 333.74,
+      "changePct": 0.1440316869711391,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
       "title": "Why Worried Investors Should Buy Apple Over Amazon for the Rest of 2026",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/60e9eba8-760e-3ef7-822a-81b553e7e3ff/why-worried-investors-should.html",
@@ -445,23 +466,23 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "AAPL",
+      "symbol": "MSFT",
       "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/682d4480-3e15-3dfa-8da1-565ca7883ed7/alphabet-vs.-apple%3A-which.html",
-      "publishedAt": "2026-07-19T10:25:00.000Z",
+      "name": "Microsoft Corporation",
+      "title": "Take a $15,000 Income Cut Today. Gain a $55,000 Raise Tomorrow.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/68d06fd9-5d6d-3fd4-bcbd-8182998c36cc/take-a-%2415%2C000-income-cut.html",
+      "publishedAt": "2026-07-19T15:07:53.000Z",
       "sentiment": {
-        "score": 63,
+        "score": 50,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
+        "negativeHits": 1
       },
-      "aiScore": 58,
+      "aiScore": 65,
       "confidence": 82,
-      "price": 333.74,
-      "changePct": 0.1440316869711391,
+      "price": 393.82,
+      "changePct": -1.8150087260034975,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -529,40 +550,82 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "MSFT",
+      "symbol": "NVDA",
       "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "3 High-Growth Dividend Stocks to Buy in July",
+      "name": "NVIDIA Corporation",
+      "title": "Why Warren Buffett Warns That the Market Is Headed for Trouble",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/17f8925c-4c13-382b-9de2-b826b6cc3030/why-warren-buffett-warns-that.html",
+      "publishedAt": "2026-07-19T15:20:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "The 12% Yield Trap: Why BIZD’s Soaring Payout Ratio Signals Trouble Ahead",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/f868cd6d-1ec2-398c-94dd-dd50e1383c05/3-high-growth-dividend-stocks.html",
-      "publishedAt": "2026-07-19T12:00:53.000Z",
+      "link": "https://finance.yahoo.com/m/13246f30-2e29-3383-afe3-d9b1b08f5148/the-12%25-yield-trap%3A-why.html",
+      "publishedAt": "2026-07-19T15:13:51.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Hedge Fund Star Ken Griffin Thought AI Was \"Garbage.\" Now He's Changing His Tune.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/533d51ce-d48e-333b-984b-952d604a09f8/hedge-fund-star-ken-griffin.html",
+      "publishedAt": "2026-07-19T15:05:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Constellation Invests in Blue Energy as Nuclear Demand From AI Data Centers Surges. Here's What CEG Investors Need to Know.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/bca4ae55-939b-3274-a382-c3d53ff9f45e/constellation-invests-in-blue.html",
+      "publishedAt": "2026-07-19T15:04:08.000Z",
       "sentiment": {
         "score": 76,
         "label": "bullish",
         "positiveHits": 2,
         "negativeHits": 0
       },
-      "aiScore": 65,
-      "confidence": 82,
-      "price": 393.82,
-      "changePct": -1.8150087260034975,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It’s Winning)",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/7b5199d7-14a2-36f8-8e2e-16da2c163195/think-qqq-is-concentrated%3F.html",
-      "publishedAt": "2026-07-19T14:32:37.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
       "aiScore": 67,
       "confidence": 74,
       "price": 202.81,
@@ -571,65 +634,23 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "NVDA",
+      "symbol": "TSLA",
       "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Price Prediction: Netflix Has 140% Upside Despite the Post-Earnings Dip",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/d079f57a-42d8-3f39-b0ad-67cdf9d32df9/price-prediction%3A-netflix-has.html",
-      "publishedAt": "2026-07-19T14:30:50.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Energy Transfer Looks Poised to Outperform the S&P 500 in the Back Half of 2026",
+      "name": "Tesla, Inc.",
+      "title": "Tesla Heads Into Its July 22 Earnings Down 22%, and One Firm Sees a 67% Plunge From Here. Who's Right?",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/22b35f24-e955-3078-905f-8b4a310de53f/energy-transfer-looks-poised.html",
-      "publishedAt": "2026-07-19T14:20:00.000Z",
+      "link": "https://finance.yahoo.com/m/0c86700a-7661-35a9-9fa6-2bfc77eab1fa/tesla-heads-into-its-july-22.html",
+      "publishedAt": "2026-07-19T15:03:00.000Z",
       "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a8af03a4-4baa-3166-a589-19d295afe77f/meta-platforms%3A-is-this-the.html",
-      "publishedAt": "2026-07-19T13:55:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
+      "aiScore": 63,
+      "confidence": 72,
+      "price": 380.84,
+      "changePct": -2.613409706950347,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -688,27 +709,6 @@
         "label": "mixed",
         "positiveHits": 1,
         "negativeHits": 1
-      },
-      "aiScore": 63,
-      "confidence": 72,
-      "price": 380.84,
-      "changePct": -2.613409706950347,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Big Tech earnings test tech's big rotation: What to watch this week",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/big-tech-earnings-test-techs-big-rotation-what-to-watch-this-week-122359843.html",
-      "publishedAt": "2026-07-19T12:23:59.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
       },
       "aiScore": 63,
       "confidence": 72,
@@ -889,6 +889,27 @@
       "symbol": "GOOGL",
       "assetType": "stock",
       "name": "Alphabet Inc.",
+      "title": "Google Already Proved This AI Fear False So I Keep Loading Up",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4f96c69e-545a-3260-a69c-c66f9caf4fb1/google-already-proved-this-ai.html",
+      "publishedAt": "2026-07-19T15:27:14.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 31,
+      "confidence": 72,
+      "price": 346.77,
+      "changePct": -2.169497263442983,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
       "title": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It’s Winning)",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/7b5199d7-14a2-36f8-8e2e-16da2c163195/think-qqq-is-concentrated%3F.html",
@@ -940,27 +961,6 @@
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
-      },
-      "aiScore": 31,
-      "confidence": 72,
-      "price": 346.77,
-      "changePct": -2.169497263442983,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/4b873602-726d-362b-9521-3bfe218356fa/5-%22magnificent-seven%22-stocks.html",
-      "publishedAt": "2026-07-19T12:25:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
       },
       "aiScore": 31,
       "confidence": 72,
@@ -1319,10 +1319,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 38,
+      "aiScore": 39,
       "confidence": 72,
-      "price": 64444.06,
-      "changePct": -0.5404646245615967,
+      "price": 64505.48,
+      "changePct": -0.44567226258502385,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1340,10 +1340,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 38,
+      "aiScore": 39,
       "confidence": 72,
-      "price": 64444.06,
-      "changePct": -0.5404646245615967,
+      "price": 64505.48,
+      "changePct": -0.44567226258502385,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1361,10 +1361,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 38,
+      "aiScore": 39,
       "confidence": 72,
-      "price": 64444.06,
-      "changePct": -0.5404646245615967,
+      "price": 64505.48,
+      "changePct": -0.44567226258502385,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1382,10 +1382,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 38,
+      "aiScore": 39,
       "confidence": 72,
-      "price": 64444.06,
-      "changePct": -0.5404646245615967,
+      "price": 64505.48,
+      "changePct": -0.44567226258502385,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1403,11 +1403,11 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 37,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 76.3,
-      "changePct": 1.1126365616932723,
-      "signal": "momentum",
+      "price": 76.18,
+      "changePct": 0.9536127558295473,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1424,11 +1424,32 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 37,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 76.3,
-      "changePct": 1.1126365616932723,
-      "signal": "momentum",
+      "price": 76.18,
+      "changePct": 0.9536127558295473,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Will Skyworks (SWKS) Beat Estimates Again in Its Next Earnings Report?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-beat-estimates-again-161003183.html",
+      "publishedAt": "2026-07-17T16:10:03.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 51,
+      "confidence": 72,
+      "price": 76.18,
+      "changePct": 0.9536127558295473,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1445,32 +1466,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 37,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 76.3,
-      "changePct": 1.1126365616932723,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "2 Cash-Heavy Stocks on Our Buy List and 1 We Turn Down",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-buy-142522104.html",
-      "publishedAt": "2026-07-16T14:25:22.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 37,
-      "confidence": 72,
-      "price": 76.3,
-      "changePct": 1.1126365616932723,
-      "signal": "momentum",
+      "price": 76.18,
+      "changePct": 0.9536127558295473,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1897,6 +1897,27 @@
       "symbol": "LOW",
       "assetType": "stock",
       "name": "Lowe's Companies, Inc.",
+      "title": "Take a $15,000 Income Cut Today. Gain a $55,000 Raise Tomorrow.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/68d06fd9-5d6d-3fd4-bcbd-8182998c36cc/take-a-%2415%2C000-income-cut.html",
+      "publishedAt": "2026-07-19T15:07:53.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 99,
+      "confidence": 64,
+      "price": 208.73,
+      "changePct": -3.4372686898593665,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LOW",
+      "assetType": "stock",
+      "name": "Lowe's Companies, Inc.",
       "title": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/a9527575-ad70-3a9e-8e41-4b172413c955/from-a-%2438%2C000-income-to.html",
@@ -1943,27 +1964,6 @@
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/why-lowes-low-dipped-more-214501193.html",
       "publishedAt": "2026-07-17T21:45:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 208.73,
-      "changePct": -3.4372686898593665,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LOW",
-      "assetType": "stock",
-      "name": "Lowe's Companies, Inc.",
-      "title": "Growing an Income Tree: From $27,000 to $66,000",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/9556ddf5-59ba-34ec-841e-dea84f9ca310/growing-an-income-tree%3A-from.html",
-      "publishedAt": "2026-07-17T11:00:34.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -2482,6 +2482,90 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "BCH-USD",
+      "assetType": "crypto",
+      "name": "Bitcoin Cash USD",
+      "title": "Is the Options Market Predicting a Spike in Banco De Chile Stock?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/options/articles/options-market-predicting-spike-banco-142600789.html",
+      "publishedAt": "2026-06-17T14:26:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 214.41,
+      "changePct": -2.5846131758161275,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "BCH-USD",
+      "assetType": "crypto",
+      "name": "Bitcoin Cash USD",
+      "title": "Banco De Chile (BCH) Surges 6.1%: Is This an Indication of Further Gains?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/banco-chile-bch-surges-6-135200994.html",
+      "publishedAt": "2026-06-10T13:52:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 214.41,
+      "changePct": -2.5846131758161275,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "BCH-USD",
+      "assetType": "crypto",
+      "name": "Bitcoin Cash USD",
+      "title": "UBS Adjusts Price Target on Banco de Chile to $39 From $48, Maintains Neutral Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-adjusts-price-target-banco-112935024.html",
+      "publishedAt": "2026-05-22T11:29:35.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 214.41,
+      "changePct": -2.5846131758161275,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "BCH-USD",
+      "assetType": "crypto",
+      "name": "Bitcoin Cash USD",
+      "title": "Prediction. The Warsh Fed Trade Is Just Getting Started and These 3 Bank Stocks Under $55 Have the Most to Gain",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/98ea7b7d-b5ae-375d-8b49-7b36515cd4cb/prediction.-the-warsh-fed.html",
+      "publishedAt": "2026-05-15T12:59:02.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 214.41,
+      "changePct": -2.5846131758161275,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
       "symbol": "HD",
       "assetType": "stock",
       "name": "The Home Depot, Inc.",
@@ -2569,6 +2653,27 @@
       "symbol": "UNH",
       "assetType": "stock",
       "name": "UnitedHealth Group Incorporated",
+      "title": "UnitedHealth CFO sends stark warning after earnings",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/884f2178-1bbb-3c59-9055-9a64dd5a17dc/unitedhealth-cfo-sends-stark.html",
+      "publishedAt": "2026-07-19T14:37:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 426.09,
+      "changePct": 0.6400869195521706,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "UNH",
+      "assetType": "stock",
+      "name": "UnitedHealth Group Incorporated",
       "title": "UnitedHealth Group (UNH) Stock Still Looks Cheap Following Raised 2026 Outlook",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/markets/stocks/articles/unitedhealth-group-unh-stock-still-010858405.html",
@@ -2619,27 +2724,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 426.09,
-      "changePct": 0.6400869195521706,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "UNH",
-      "assetType": "stock",
-      "name": "UnitedHealth Group Incorporated",
-      "title": "What's A Strong Quarter Worth When Elevance Health Is Ditching Its Own Markets?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/f34e38b7-4459-3a1b-9ca8-b158fea0b3bb/what%27s-a-strong-quarter-worth.html",
-      "publishedAt": "2026-07-17T22:02:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 95,
@@ -2821,6 +2905,27 @@
       "symbol": "GS",
       "assetType": "stock",
       "name": "The Goldman Sachs Group, Inc.",
+      "title": "Goldman Sachs Warns on AI’s Debt Tsunami — Is the AI Boom?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/f3cbd1eb-7606-353b-b560-b8c3787061c7/goldman-sachs-warns-on-ai%E2%80%99s.html",
+      "publishedAt": "2026-07-19T15:07:48.000Z",
+      "sentiment": {
+        "score": 24,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 2
+      },
+      "aiScore": 93,
+      "confidence": 72,
+      "price": 1065.22,
+      "changePct": -2.7604841801617592,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "GS",
+      "assetType": "stock",
+      "name": "The Goldman Sachs Group, Inc.",
       "title": "Best CD rates today, Sunday, July 19, 2026: Lock in up to 4.10% APY",
       "publisher": "Yahoo Personal Finance",
       "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-sunday-july-19-2026-lock-in-up-to-410-apy-100000814.html",
@@ -2877,6 +2982,237 @@
       "confidence": 72,
       "price": 1065.22,
       "changePct": -2.7604841801617592,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
+      "title": "Alphabet vs. Apple: Which Warren Buffett Favorite Is the Better Stock to Buy Today?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/682d4480-3e15-3dfa-8da1-565ca7883ed7/alphabet-vs.-apple%3A-which.html",
+      "publishedAt": "2026-07-19T10:25:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 58,
+      "confidence": 82,
+      "price": 333.74,
+      "changePct": 0.1440316869711391,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "3 High-Growth Dividend Stocks to Buy in July",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/f868cd6d-1ec2-398c-94dd-dd50e1383c05/3-high-growth-dividend-stocks.html",
+      "publishedAt": "2026-07-19T12:00:53.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 65,
+      "confidence": 82,
+      "price": 393.82,
+      "changePct": -1.8150087260034975,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Think QQQ Is Concentrated? This Nasdaq ETF Bets Even Harder on Big Tech (And It’s Winning)",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/7b5199d7-14a2-36f8-8e2e-16da2c163195/think-qqq-is-concentrated%3F.html",
+      "publishedAt": "2026-07-19T14:32:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Price Prediction: Netflix Has 140% Upside Despite the Post-Earnings Dip",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/d079f57a-42d8-3f39-b0ad-67cdf9d32df9/price-prediction%3A-netflix-has.html",
+      "publishedAt": "2026-07-19T14:30:50.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Energy Transfer Looks Poised to Outperform the S&P 500 in the Back Half of 2026",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/22b35f24-e955-3078-905f-8b4a310de53f/energy-transfer-looks-poised.html",
+      "publishedAt": "2026-07-19T14:20:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Meta Platforms: Is This the Most Undervalued Stock in Big Tech? (NASDAQ: META)",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a8af03a4-4baa-3166-a589-19d295afe77f/meta-platforms%3A-is-this-the.html",
+      "publishedAt": "2026-07-19T13:55:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 67,
+      "confidence": 74,
+      "price": 202.81,
+      "changePct": -2.2131147540983624,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "Big Tech earnings test tech's big rotation: What to watch this week",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/big-tech-earnings-test-techs-big-rotation-what-to-watch-this-week-122359843.html",
+      "publishedAt": "2026-07-19T12:23:59.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 63,
+      "confidence": 72,
+      "price": 380.84,
+      "changePct": -2.613409706950347,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
+      "title": "5 \"Magnificent Seven\" Stocks I'm Buying and 2 That I'm Selling",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/4b873602-726d-362b-9521-3bfe218356fa/5-%22magnificent-seven%22-stocks.html",
+      "publishedAt": "2026-07-19T12:25:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 31,
+      "confidence": 72,
+      "price": 346.77,
+      "changePct": -2.169497263442983,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "2 Cash-Heavy Stocks on Our Buy List and 1 We Turn Down",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-buy-142522104.html",
+      "publishedAt": "2026-07-16T14:25:22.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 37,
+      "confidence": 72,
+      "price": 76.3,
+      "changePct": 1.1126365616932723,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LOW",
+      "assetType": "stock",
+      "name": "Lowe's Companies, Inc.",
+      "title": "Growing an Income Tree: From $27,000 to $66,000",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9556ddf5-59ba-34ec-841e-dea84f9ca310/growing-an-income-tree%3A-from.html",
+      "publishedAt": "2026-07-17T11:00:34.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 64,
+      "price": 208.73,
+      "changePct": -3.4372686898593665,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "UNH",
+      "assetType": "stock",
+      "name": "UnitedHealth Group Incorporated",
+      "title": "What's A Strong Quarter Worth When Elevance Health Is Ditching Its Own Markets?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/f34e38b7-4459-3a1b-9ca8-b158fea0b3bb/what%27s-a-strong-quarter-worth.html",
+      "publishedAt": "2026-07-17T22:02:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 426.09,
+      "changePct": 0.6400869195521706,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
@@ -3066,342 +3402,6 @@
       "confidence": 74,
       "price": 202.81,
       "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Fed Chair Kevin Warsh Just Hammered Home the 2 Words That'll Define His Tenure as Head of the Central Bank -- and They're Worrisome for Wall Street",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e22d0b76-f19a-3304-a06f-77d0d5f2edfe/fed-chair-kevin-warsh-just.html",
-      "publishedAt": "2026-07-19T13:26:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Forget the 600% Tanker Fund. This Shipping ETF Rode the Same Boom, Pays Dividends, and Won’t Implode",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/53073515-b6d4-35bc-9a57-98229041fed5/forget-the-600%25-tanker-fund..html",
-      "publishedAt": "2026-07-19T13:24:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "AMD Just Passed Nvidia at the Top of a $45 Billion Semiconductor ETF. Micron Is Closing In.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b3938568-2116-3d93-bfa2-1820527d2967/amd-just-passed-nvidia-at-the.html",
-      "publishedAt": "2026-07-19T13:01:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 67,
-      "confidence": 74,
-      "price": 202.81,
-      "changePct": -2.2131147540983624,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "What to Expect in Markets This Week: Alphabet, Tesla and Intel Headline Big Tech Earnings Reports",
-      "publisher": "Investopedia",
-      "link": "https://finance.yahoo.com/m/71ba61f8-0a3a-3d2b-a20e-c525ea246d3c/what-to-expect-in-markets.html",
-      "publishedAt": "2026-07-19T11:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 63,
-      "confidence": 72,
-      "price": 380.84,
-      "changePct": -2.613409706950347,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Elon Musk Admits He Underestimated Anthropic's AI, and Amazon and Alphabet Investors Should Take Notice",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/c8e90586-7f84-3891-b401-91cd35b69f43/elon-musk-admits-he.html",
-      "publishedAt": "2026-07-19T08:54:06.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 65,
-      "confidence": 82,
-      "price": 247.23,
-      "changePct": -1.0644683660810743,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Andrew and Tristan Tate arrested in Miami on UK extradition request",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/m/373cc21d-c541-346f-bf97-99c4067651be/andrew-and-tristan-tate.html",
-      "publishedAt": "2026-07-19T04:26:41.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 55,
-      "confidence": 72,
-      "price": 646.01,
-      "changePct": -2.788394979986152,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Big Tech earnings test tech's big rotation: What to watch this week",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/big-tech-earnings-test-techs-big-rotation-what-to-watch-this-week-122359843.html",
-      "publishedAt": "2026-07-19T12:23:59.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 31,
-      "confidence": 72,
-      "price": 346.77,
-      "changePct": -2.169497263442983,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LLY",
-      "assetType": "stock",
-      "name": "Eli Lilly and Company",
-      "title": "The Most Overlooked Reason Eli Lilly Stock Keeps Surging -- and It Has Nothing to Do With Weight Loss",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6f7bee27-7c25-3b26-8e88-d85edc08f737/the-most-overlooked-reason.html",
-      "publishedAt": "2026-07-18T01:35:00.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 40,
-      "confidence": 72,
-      "price": 1179.11,
-      "changePct": 0.8501757657141242,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Will Skyworks (SWKS) Beat Estimates Again in Its Next Earnings Report?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-swks-beat-estimates-again-161003183.html",
-      "publishedAt": "2026-07-17T16:10:03.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 45,
-      "confidence": 72,
-      "price": 75.99,
-      "changePct": 0.7018250632119466,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "HOOD",
-      "assetType": "stock",
-      "name": "Robinhood Markets, Inc.",
-      "title": "Robinhood Targets 27.6M Customers as Chain Moves Beyond Memecoin Rush",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/abb03c3e-ad29-3382-9897-b80da24b5a91/robinhood-targets-27.6m.html",
-      "publishedAt": "2026-07-18T03:24:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 99.96,
-      "changePct": -5.715902659875498,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "HOOD",
-      "assetType": "stock",
-      "name": "Robinhood Markets, Inc.",
-      "title": "Robinhood Markets Insider Sold Shares Worth $456,775, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-insider-sold-shares-204737150.html",
-      "publishedAt": "2026-07-17T20:47:37.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 99.96,
-      "changePct": -5.715902659875498,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "HD",
-      "assetType": "stock",
-      "name": "The Home Depot, Inc.",
-      "title": "The Argus Min Vol Model Portfolio",
-      "publisher": "Argus Research",
-      "link": "https://finance.yahoo.com/m/48abbfcd-bb0b-3c70-a7bb-143f90d6f1dd/the-argus-min-vol-model.html",
-      "publishedAt": "2026-07-17T14:06:57.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 64,
-      "price": 338.87,
-      "changePct": -2.629159243721619,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LMT",
-      "assetType": "stock",
-      "name": "Lockheed Martin Corporation",
-      "title": "Lockheed Martin (LMT) Lands $10.5 Billion SOCOM Deal And Opens London Venture Office",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-lmt-lands-10-161133816.html",
-      "publishedAt": "2026-07-17T16:11:33.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 508.77,
-      "changePct": -0.924988315937062,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "The 3 Biggest Bargain \"Magnificent Seven\" Stocks to Buy Today",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/24eccd80-9a05-3c86-8d59-bb28b6d4da84/the-3-biggest-bargain.html",
-      "publishedAt": "2026-07-19T09:20:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 58,
-      "confidence": 82,
-      "price": 333.74,
-      "changePct": 0.1440316869711391,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/a9527575-ad70-3a9e-8e41-4b172413c955/from-a-%2438%2C000-income-to.html",
-      "publishedAt": "2026-07-19T11:00:43.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 65,
-      "confidence": 82,
-      "price": 393.82,
-      "changePct": -1.8150087260034975,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Mira Murati Unveils Open-Weight AI Model as Alex Karp, Satya Nadella Warn Companies Are Giving Away Their IP",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/m/c114d997-4457-3f81-95c8-636423d9045c/mira-murati-unveils.html",
-      "publishedAt": "2026-07-19T10:45:31.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 65,
-      "confidence": 82,
-      "price": 393.82,
-      "changePct": -1.8150087260034975,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
