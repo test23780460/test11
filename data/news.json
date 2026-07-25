@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-25T19:24:27.194Z",
+  "updatedAt": "2026-07-25T20:25:16.541Z",
   "totalHeadlines": 160,
-  "bullish": 9,
-  "bearish": 18,
+  "bullish": 10,
+  "bearish": 17,
   "mixed": 133,
   "avgSentiment": 52,
   "marketRead": "News is mixed",
@@ -40,11 +40,32 @@
     "SBUX",
     "BABA",
     "GILD",
-    "DOT-USD",
+    "NFLX",
     "SLB",
     "TEAM"
   ],
   "headlines": [
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "A Roulette Wheel Has Taken Over S&P 500 Stocks. Here’s How Not to Lose Your House.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/8178f6e2-5796-3cd0-a4d2-92e5cef2458a/a-roulette-wheel-has-taken.html",
+      "publishedAt": "2026-07-25T14:00:02.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 738.93,
+      "changePct": 0.10160123547102333,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
     {
       "symbol": "SPY",
       "assetType": "stock",
@@ -109,23 +130,23 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "SPY",
+      "symbol": "QQQ",
       "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "What Are You Really Paying For Inside IJH?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/f68f619e-d617-30ea-ae7a-083eb11d3f8d/what-are-you-really-paying.html",
-      "publishedAt": "2026-07-24T21:19:36.000Z",
+      "name": "Invesco QQQ Trust",
+      "title": "After Comparing Every Covered Call Nasdaq-100 ETF These 3 Pay Up to 14 Percent Without Capping Your AI Upside",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/877ee34e-aec9-388b-a7c9-f67c40d83165/after-comparing-every-covered.html",
+      "publishedAt": "2026-07-25T19:34:14.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 39,
+      "aiScore": 53,
       "confidence": 82,
-      "price": 738.93,
-      "changePct": 0.10160123547102333,
+      "price": 684.23,
+      "changePct": -1.117116596335051,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -179,27 +200,6 @@
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/f68f619e-d617-30ea-ae7a-083eb11d3f8d/what-are-you-really-paying.html",
       "publishedAt": "2026-07-24T21:19:36.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 53,
-      "confidence": 82,
-      "price": 684.23,
-      "changePct": -1.117116596335051,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "QQQ",
-      "assetType": "stock",
-      "name": "Invesco QQQ Trust",
-      "title": "How QQA Delivers 10% Yields From Tech Stocks That Pay Almost Nothing",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/a8bc9fef-74b4-3cc5-b8c6-7e7b52f22140/how-qqa-delivers-10%25-yields.html",
-      "publishedAt": "2026-07-24T19:32:29.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -406,6 +406,27 @@
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
+      "title": "Apple (AAPL) Readies Foldable iPhone As Samsung Launches New Rival Phones",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-readies-foldable-iphone-190820707.html",
+      "publishedAt": "2026-07-25T19:08:20.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 82,
+      "price": 333.02,
+      "changePct": 3.5316794130448166,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
       "title": "Ford Just Put Apple Maps in the Dashboard of a $30,000 EV. Apple Didn't Have to Build a Car.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/ed8e9f85-e4cf-31a5-aa1a-da8b93abf6c7/ford-just-put-apple-maps-in.html",
@@ -431,27 +452,6 @@
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/b24b2c59-f044-3937-83dc-1493c8c735e6/inside-dgrw%3A-how-a-32%25-payout.html",
       "publishedAt": "2026-07-25T15:52:27.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 82,
-      "price": 333.02,
-      "changePct": 3.5316794130448166,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Elon Musk’s Self-Proclaimed ‘Starter Wife’ Says When He Became Rich, His Judgment Overruled Hers — ‘I Am Your Wife, Not Your Employee’",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/m/9bfb5d91-0c4b-3faf-a0fb-5df56a087ff7/elon-musk%E2%80%99s-self-proclaimed.html",
-      "publishedAt": "2026-07-25T14:30:12.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -553,10 +553,31 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Is NVIDIA Corporation (NVDA) A Good Stock To Buy Now?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corporation-nvda-good-stock-190442460.html",
-      "publishedAt": "2026-07-25T19:04:42.000Z",
+      "title": "The Simplest Way to Invest in the AI Revolution Is Hiding in Plain Sight",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/38ff9ee4-628c-3c0a-9f4d-3b9686b3f51f/the-simplest-way-to-invest-in.html",
+      "publishedAt": "2026-07-25T20:03:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/620ff363-078e-3043-be0e-cde5932f7df9/ranking-the-best-%22magnificent.html",
+      "publishedAt": "2026-07-25T19:50:00.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
@@ -574,10 +595,10 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Ford Just Put Apple Maps in the Dashboard of a $30,000 EV. Apple Didn't Have to Build a Car.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/ed8e9f85-e4cf-31a5-aa1a-da8b93abf6c7/ford-just-put-apple-maps-in.html",
-      "publishedAt": "2026-07-25T18:46:00.000Z",
+      "title": "UCOP: A 2X Bet on the Metal the World Can’t Electrify Without",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/d86207c8-00f9-3fb2-84f1-bd8e21d3f3f7/ucop%3A-a-2x-bet-on-the-metal.html",
+      "publishedAt": "2026-07-25T19:48:04.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -595,10 +616,10 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "The Smartest Way to Invest $5,000 in a Trillion-Dollar Stock Over Private Space Rivals",
+      "title": "PayPal's Board Reportedly Called $60.50 a Share Inadequate. The Stock Trades at $56.",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/45ba0c50-4ba8-3237-b781-1151cc9f2139/the-smartest-way-to-invest.html",
-      "publishedAt": "2026-07-25T18:41:00.000Z",
+      "link": "https://finance.yahoo.com/m/62dd4fe5-bfb8-3ed0-8c73-549315bd3e7d/paypal%27s-board-reportedly.html",
+      "publishedAt": "2026-07-25T19:43:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -613,24 +634,24 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "NVDA",
+      "symbol": "TSLA",
       "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Micron, Nvidia, or SpaceX: Which Is the Best AI Stock to Put $1,000 in Right Now?",
+      "name": "Tesla, Inc.",
+      "title": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/3c2f6ca0-54ba-3f65-8a0c-46392862a705/micron%2C-nvidia%2C-or-spacex%3A.html",
-      "publishedAt": "2026-07-25T18:20:00.000Z",
+      "link": "https://finance.yahoo.com/m/620ff363-078e-3043-be0e-cde5932f7df9/ranking-the-best-%22magnificent.html",
+      "publishedAt": "2026-07-25T19:50:00.000Z",
       "sentiment": {
-        "score": 50,
+        "score": 63,
         "label": "mixed",
-        "positiveHits": 0,
+        "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
+      "aiScore": 42,
+      "confidence": 74,
+      "price": 313.03,
+      "changePct": -2.083268166035855,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -658,6 +679,27 @@
       "symbol": "TSLA",
       "assetType": "stock",
       "name": "Tesla, Inc.",
+      "title": "Investors Are Debating Which Stocks They'd Never Buy, No Matter How Bullish Everyone Else Is. 'Money Is Money, But…'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-debating-stocks-theyd-never-190025632.html",
+      "publishedAt": "2026-07-25T19:00:25.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 42,
+      "confidence": 74,
+      "price": 313.03,
+      "changePct": -2.083268166035855,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
       "title": "Tesla Sank 15% on Its Q2 Miss. Wall Street's Average Price Target Now Implies 29% Upside.",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/7fbb8892-947e-3810-afc7-a656b8e7659d/tesla-sank-15%25-on-its-q2.html",
@@ -674,48 +716,6 @@
       "changePct": -2.083268166035855,
       "signal": "peak",
       "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Elon Musk Says ‘Only Way’ the U.S. Deficit Will Actually Get Paid Is by ‘Taxing the Living Daylights Out of Everyone’",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-only-way-163026414.html",
-      "publishedAt": "2026-07-25T16:30:26.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 74,
-      "price": 313.03,
-      "changePct": -2.083268166035855,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Elon Musk's Starship Tries Again Today After Engine Abort, Weather Scrub: What Prediction Markets Say About Flight 13",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-starship-tries-again-163024910.html",
-      "publishedAt": "2026-07-25T16:30:24.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 74,
-      "price": 313.03,
-      "changePct": -2.083268166035855,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "AMZN",
@@ -1036,10 +1036,10 @@
       "symbol": "AMD",
       "assetType": "stock",
       "name": "Advanced Micro Devices, Inc.",
-      "title": "Is Riot Platforms (RIOT) Too Pricey For Its AI Data Center Push?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-riot-too-pricey-011108545.html",
-      "publishedAt": "2026-07-25T01:11:08.000Z",
+      "title": "Arm Just Scored a Major Server Market Share Win. What That Means for ARM Stock Here.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/59d66447-138e-3dc9-9723-b012ba31ab52/arm-just-scored-a-major.html",
+      "publishedAt": "2026-07-25T14:00:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 64361.04,
-      "changePct": 0.4198342506610841,
-      "signal": "momentum",
+      "price": 64311.65,
+      "changePct": 0.3427731028977774,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 64361.04,
-      "changePct": 0.4198342506610841,
-      "signal": "momentum",
+      "price": 64311.65,
+      "changePct": 0.3427731028977774,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,11 +1361,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 64361.04,
-      "changePct": 0.4198342506610841,
-      "signal": "momentum",
+      "price": 64311.65,
+      "changePct": 0.3427731028977774,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1382,11 +1382,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 64361.04,
-      "changePct": 0.4198342506610841,
-      "signal": "momentum",
+      "price": 64311.65,
+      "changePct": 0.3427731028977774,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1403,12 +1403,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 80,
       "confidence": 72,
-      "price": 74.6,
-      "changePct": 0.971587596845074,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 74.41,
+      "changePct": 0.7144213549764368,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1424,12 +1424,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 43,
+      "aiScore": 80,
       "confidence": 72,
-      "price": 74.6,
-      "changePct": 0.971587596845074,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 74.41,
+      "changePct": 0.7144213549764368,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "SOL-USD",
@@ -1445,12 +1445,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 80,
       "confidence": 72,
-      "price": 74.6,
-      "changePct": 0.971587596845074,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 74.41,
+      "changePct": 0.7144213549764368,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1466,12 +1466,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 43,
+      "aiScore": 80,
       "confidence": 72,
-      "price": 74.6,
-      "changePct": 0.971587596845074,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 74.41,
+      "changePct": 0.7144213549764368,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "ORCL",
@@ -1561,10 +1561,52 @@
       "symbol": "INTC",
       "assetType": "stock",
       "name": "Intel Corporation",
+      "title": "Goldman delivers a candid response after Intel's stunning quarter",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/7cc08c23-8324-358e-bc88-0a432461d65a/goldman-delivers-a-candid.html",
+      "publishedAt": "2026-07-25T19:37:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 74,
+      "price": 92.32,
+      "changePct": -7.891848747879887,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "INTC",
+      "assetType": "stock",
+      "name": "Intel Corporation",
       "title": "Intel's CEO Just Made a Bold AI Prediction. Here's Why NVDA Investors Should Pay Attention",
       "publisher": "Benzinga",
       "link": "https://finance.yahoo.com/technology/ai/articles/intels-ceo-just-made-bold-173023048.html",
       "publishedAt": "2026-07-25T17:30:23.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 74,
+      "price": 92.32,
+      "changePct": -7.891848747879887,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "INTC",
+      "assetType": "stock",
+      "name": "Intel Corporation",
+      "title": "Arm Just Scored a Major Server Market Share Win. What That Means for ARM Stock Here.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/59d66447-138e-3dc9-9723-b012ba31ab52/arm-just-scored-a-major.html",
+      "publishedAt": "2026-07-25T14:00:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1600,34 +1642,13 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "INTC",
+      "symbol": "ARM",
       "assetType": "stock",
-      "name": "Intel Corporation",
-      "title": "Intel vs. IonQ: Comparing Revenue Trends Between Artificial Intelligence and Quantum Computing Chipmakers",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/b6a429cb-01a3-3abb-981d-96da0174fd89/intel-vs.-ionq%3A-comparing.html",
-      "publishedAt": "2026-07-25T12:16:01.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 74,
-      "price": 92.32,
-      "changePct": -7.891848747879887,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "INTC",
-      "assetType": "stock",
-      "name": "Intel Corporation",
-      "title": "Can ASML Holding (NasdaqGS:ASML) Stay Reasonably Priced After Its 150% Run?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-nasdaqgs-asml-stay-110923713.html",
-      "publishedAt": "2026-07-25T11:09:23.000Z",
+      "name": "Arm Holdings plc",
+      "title": "Arm Just Scored a Major Server Market Share Win. What That Means for ARM Stock Here.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/59d66447-138e-3dc9-9723-b012ba31ab52/arm-just-scored-a-major.html",
+      "publishedAt": "2026-07-25T14:00:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1635,11 +1656,11 @@
         "negativeHits": 0
       },
       "aiScore": 99,
-      "confidence": 74,
-      "price": 92.32,
-      "changePct": -7.891848747879887,
+      "confidence": 57,
+      "price": 260.01,
+      "changePct": -8.136659129451678,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ARM",
@@ -1695,27 +1716,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 57,
-      "price": 260.01,
-      "changePct": -8.136659129451678,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ARM",
-      "assetType": "stock",
-      "name": "Arm Holdings plc",
-      "title": "Technical Assessment: Bullish in the Intermediate-Term",
-      "publisher": "Argus Research",
-      "link": "https://finance.yahoo.com/m/13fa00e3-b540-3349-81e1-2bc1d07e09be/technical-assessment%3A-bullish.html",
-      "publishedAt": "2026-07-24T11:23:55.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 99,
@@ -2149,6 +2149,27 @@
       "symbol": "PLTR",
       "assetType": "stock",
       "name": "Palantir Technologies Inc.",
+      "title": "Investors Are Debating Which Stocks They'd Never Buy, No Matter How Bullish Everyone Else Is. 'Money Is Money, But…'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/investors-debating-stocks-theyd-never-190025632.html",
+      "publishedAt": "2026-07-25T19:00:25.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 122.92,
+      "changePct": -0.3647564237659097,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $123.23."
+    },
+    {
+      "symbol": "PLTR",
+      "assetType": "stock",
+      "name": "Palantir Technologies Inc.",
       "title": "Why Nvidia CEO Jensen Huang Is Defending Chinese AI Models",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/ae22dc7a-e688-3361-91b9-acdbe80645c5/why-nvidia-ceo-jensen-huang.html",
@@ -2195,27 +2216,6 @@
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/8a064b83-6922-389e-8377-21c1948154b3/this-artificial-intelligence.html",
       "publishedAt": "2026-07-25T08:32:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 122.92,
-      "changePct": -0.3647564237659097,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "PLTR",
-      "assetType": "stock",
-      "name": "Palantir Technologies Inc.",
-      "title": "Palantir Technologies (NasdaqGS:PLTR) Joins Nvidia To Defend Open Weight AI Models",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-nasdaqgs-pltr-joins-060929813.html",
-      "publishedAt": "2026-07-25T06:09:29.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -2734,88 +2734,88 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Here's Why Green Dot Stock Is an Excellent Pick for You Right Now",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-green-dot-stock-144000008.html",
-      "publishedAt": "2026-07-10T14:40:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 0.815,
-      "changePct": 0.828488514150567,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Global Technology Virtual Investor Presentations Now Available for On-Demand Viewing",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/global-technology-virtual-investor-presentations-123500248.html",
-      "publishedAt": "2026-07-10T12:35:00.000Z",
+      "symbol": "NFLX",
+      "assetType": "stock",
+      "name": "Netflix, Inc.",
+      "title": "Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/media-advertising/articles/kalshi-demands-netflix-down-trailer-164646833.html",
+      "publishedAt": "2026-07-25T16:46:46.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 0.815,
-      "changePct": 0.828488514150567,
+      "aiScore": 88,
+      "confidence": 82,
+      "price": 70.09,
+      "changePct": 1.7419073885905108,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "3 Affordable Business Services Stocks Now Rated Strong Buys",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-affordable-business-services-stocks-203300401.html",
-      "publishedAt": "2026-07-09T20:33:00.000Z",
+      "symbol": "NFLX",
+      "assetType": "stock",
+      "name": "Netflix, Inc.",
+      "title": "Tech Hits a Wall & Netflix Plunges",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/3d90eb47-2c6f-3ae5-a83c-dcfce9c7e660/tech-hits-a-wall-%26-netflix.html",
+      "publishedAt": "2026-07-25T02:17:37.000Z",
       "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
       },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 0.815,
-      "changePct": 0.828488514150567,
+      "aiScore": 88,
+      "confidence": 82,
+      "price": 70.09,
+      "changePct": 1.7419073885905108,
       "signal": "dip",
-      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $0.818."
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Marsh Raises Dividend: Is Its Capital Return Story Getting Stronger?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/marsh-raises-dividend-capital-return-122700003.html",
-      "publishedAt": "2026-07-09T12:27:00.000Z",
+      "symbol": "NFLX",
+      "assetType": "stock",
+      "name": "Netflix, Inc.",
+      "title": "Netflix (NFLX) Eyes Letterboxd To Bring 30 Million Movie Fans Into Its Orbit",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/media-advertising/articles/netflix-nflx-eyes-letterboxd-bring-011057825.html",
+      "publishedAt": "2026-07-25T01:10:57.000Z",
       "sentiment": {
-        "score": 89,
-        "label": "bullish",
-        "positiveHits": 3,
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 0.815,
-      "changePct": 0.828488514150567,
+      "aiScore": 88,
+      "confidence": 82,
+      "price": 70.09,
+      "changePct": 1.7419073885905108,
       "signal": "dip",
-      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $0.818."
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NFLX",
+      "assetType": "stock",
+      "name": "Netflix, Inc.",
+      "title": "ETFs in Spotlight Following Netflix's Q2 Earnings Beat & Weak '26 View",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-spotlight-following-netflixs-q2-152500819.html",
+      "publishedAt": "2026-07-24T15:25:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 88,
+      "confidence": 82,
+      "price": 70.09,
+      "changePct": 1.7419073885905108,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SLB",
@@ -2986,6 +2986,384 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "What Are You Really Paying For Inside IJH?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/f68f619e-d617-30ea-ae7a-083eb11d3f8d/what-are-you-really-paying.html",
+      "publishedAt": "2026-07-24T21:19:36.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 738.93,
+      "changePct": 0.10160123547102333,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "QQQ",
+      "assetType": "stock",
+      "name": "Invesco QQQ Trust",
+      "title": "How QQA Delivers 10% Yields From Tech Stocks That Pay Almost Nothing",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/a8bc9fef-74b4-3cc5-b8c6-7e7b52f22140/how-qqa-delivers-10%25-yields.html",
+      "publishedAt": "2026-07-24T19:32:29.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 53,
+      "confidence": 82,
+      "price": 684.23,
+      "changePct": -1.117116596335051,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
+      "title": "Elon Musk’s Self-Proclaimed ‘Starter Wife’ Says When He Became Rich, His Judgment Overruled Hers — ‘I Am Your Wife, Not Your Employee’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/m/9bfb5d91-0c4b-3faf-a0fb-5df56a087ff7/elon-musk%E2%80%99s-self-proclaimed.html",
+      "publishedAt": "2026-07-25T14:30:12.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 82,
+      "price": 333.02,
+      "changePct": 3.5316794130448166,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Is NVIDIA Corporation (NVDA) A Good Stock To Buy Now?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-corporation-nvda-good-stock-190442460.html",
+      "publishedAt": "2026-07-25T19:04:42.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Ford Just Put Apple Maps in the Dashboard of a $30,000 EV. Apple Didn't Have to Build a Car.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/ed8e9f85-e4cf-31a5-aa1a-da8b93abf6c7/ford-just-put-apple-maps-in.html",
+      "publishedAt": "2026-07-25T18:46:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "The Smartest Way to Invest $5,000 in a Trillion-Dollar Stock Over Private Space Rivals",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/45ba0c50-4ba8-3237-b781-1151cc9f2139/the-smartest-way-to-invest.html",
+      "publishedAt": "2026-07-25T18:41:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Micron, Nvidia, or SpaceX: Which Is the Best AI Stock to Put $1,000 in Right Now?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/3c2f6ca0-54ba-3f65-8a0c-46392862a705/micron%2C-nvidia%2C-or-spacex%3A.html",
+      "publishedAt": "2026-07-25T18:20:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "Elon Musk Says ‘Only Way’ the U.S. Deficit Will Actually Get Paid Is by ‘Taxing the Living Daylights Out of Everyone’",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/economy/policy/articles/elon-musk-says-only-way-163026414.html",
+      "publishedAt": "2026-07-25T16:30:26.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 42,
+      "confidence": 74,
+      "price": 313.03,
+      "changePct": -2.083268166035855,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "Elon Musk's Starship Tries Again Today After Engine Abort, Weather Scrub: What Prediction Markets Say About Flight 13",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-starship-tries-again-163024910.html",
+      "publishedAt": "2026-07-25T16:30:24.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 42,
+      "confidence": 74,
+      "price": 313.03,
+      "changePct": -2.083268166035855,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMD",
+      "assetType": "stock",
+      "name": "Advanced Micro Devices, Inc.",
+      "title": "Is Riot Platforms (RIOT) Too Pricey For Its AI Data Center Push?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/riot-platforms-riot-too-pricey-011108545.html",
+      "publishedAt": "2026-07-25T01:11:08.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 73,
+      "confidence": 64,
+      "price": 521.95,
+      "changePct": -3.287072208119477,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "INTC",
+      "assetType": "stock",
+      "name": "Intel Corporation",
+      "title": "Intel vs. IonQ: Comparing Revenue Trends Between Artificial Intelligence and Quantum Computing Chipmakers",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b6a429cb-01a3-3abb-981d-96da0174fd89/intel-vs.-ionq%3A-comparing.html",
+      "publishedAt": "2026-07-25T12:16:01.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 74,
+      "price": 92.32,
+      "changePct": -7.891848747879887,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "INTC",
+      "assetType": "stock",
+      "name": "Intel Corporation",
+      "title": "Can ASML Holding (NasdaqGS:ASML) Stay Reasonably Priced After Its 150% Run?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-nasdaqgs-asml-stay-110923713.html",
+      "publishedAt": "2026-07-25T11:09:23.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 74,
+      "price": 92.32,
+      "changePct": -7.891848747879887,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "ARM",
+      "assetType": "stock",
+      "name": "Arm Holdings plc",
+      "title": "Technical Assessment: Bullish in the Intermediate-Term",
+      "publisher": "Argus Research",
+      "link": "https://finance.yahoo.com/m/13fa00e3-b540-3349-81e1-2bc1d07e09be/technical-assessment%3A-bullish.html",
+      "publishedAt": "2026-07-24T11:23:55.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 57,
+      "price": 260.01,
+      "changePct": -8.136659129451678,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "PLTR",
+      "assetType": "stock",
+      "name": "Palantir Technologies Inc.",
+      "title": "Palantir Technologies (NasdaqGS:PLTR) Joins Nvidia To Defend Open Weight AI Models",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-nasdaqgs-pltr-joins-060929813.html",
+      "publishedAt": "2026-07-25T06:09:29.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 122.92,
+      "changePct": -0.3647564237659097,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Here's Why Green Dot Stock Is an Excellent Pick for You Right Now",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-green-dot-stock-144000008.html",
+      "publishedAt": "2026-07-10T14:40:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 0.815,
+      "changePct": 0.828488514150567,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Global Technology Virtual Investor Presentations Now Available for On-Demand Viewing",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/global-technology-virtual-investor-presentations-123500248.html",
+      "publishedAt": "2026-07-10T12:35:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 0.815,
+      "changePct": 0.828488514150567,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "3 Affordable Business Services Stocks Now Rated Strong Buys",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-affordable-business-services-stocks-203300401.html",
+      "publishedAt": "2026-07-09T20:33:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 0.815,
+      "changePct": 0.828488514150567,
+      "signal": "dip",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $0.818."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Marsh Raises Dividend: Is Its Capital Return Story Getting Stronger?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/marsh-raises-dividend-capital-return-122700003.html",
+      "publishedAt": "2026-07-09T12:27:00.000Z",
+      "sentiment": {
+        "score": 89,
+        "label": "bullish",
+        "positiveHits": 3,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 0.815,
+      "changePct": 0.828488514150567,
+      "signal": "dip",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $0.818."
+    },
+    {
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
@@ -3025,384 +3403,6 @@
       "price": 206.84,
       "changePct": -0.9197164207702566,
       "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Nvidia stock is doing something it hasn't done in years",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/29fe2136-13a9-38dd-b91d-f15b39f7e553/nvidia-stock-is-doing.html",
-      "publishedAt": "2026-07-25T17:47:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Got $100? 1 Artificial Intelligence (AI) Memory ETF to Buy Right Now.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5529e56b-4cf4-3240-a8d1-f2279a55a6a7/got-%24100%3F-1-artificial.html",
-      "publishedAt": "2026-07-25T17:31:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "The Crowd Is Dumping Oklo. Here's Why I'd Be Buying It Down 44%.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/2768382f-060c-3ba5-98b5-fcc034913662/the-crowd-is-dumping-oklo..html",
-      "publishedAt": "2026-07-25T17:25:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Mark Cuban sees a problem with the AI spending spree",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/0c899706-c450-3c3b-8b5c-2bc67cace7ac/mark-cuban-sees-a-problem.html",
-      "publishedAt": "2026-07-25T15:17:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 82,
-      "price": 232.11,
-      "changePct": -0.6633570144654554,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "INTC",
-      "assetType": "stock",
-      "name": "Intel Corporation",
-      "title": "Review & Preview: An Earnings Week to Forget",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/4b7b8b1b-61d9-340d-b235-70d532518486/review-%26-preview%3A-an-earnings.html",
-      "publishedAt": "2026-07-24T23:55:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 74,
-      "price": 92.32,
-      "changePct": -7.891848747879887,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NFLX",
-      "assetType": "stock",
-      "name": "Netflix, Inc.",
-      "title": "Kalshi demands Netflix take down trailer for ‘Prediction Games’ documentary",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/media-advertising/articles/kalshi-demands-netflix-down-trailer-164646833.html",
-      "publishedAt": "2026-07-25T16:46:46.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 82,
-      "price": 70.09,
-      "changePct": 1.7419073885905108,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NFLX",
-      "assetType": "stock",
-      "name": "Netflix, Inc.",
-      "title": "Tech Hits a Wall & Netflix Plunges",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/3d90eb47-2c6f-3ae5-a83c-dcfce9c7e660/tech-hits-a-wall-%26-netflix.html",
-      "publishedAt": "2026-07-25T02:17:37.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 88,
-      "confidence": 82,
-      "price": 70.09,
-      "changePct": 1.7419073885905108,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "NFLX",
-      "assetType": "stock",
-      "name": "Netflix, Inc.",
-      "title": "Netflix (NFLX) Eyes Letterboxd To Bring 30 Million Movie Fans Into Its Orbit",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/media-advertising/articles/netflix-nflx-eyes-letterboxd-bring-011057825.html",
-      "publishedAt": "2026-07-25T01:10:57.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 82,
-      "price": 70.09,
-      "changePct": 1.7419073885905108,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NFLX",
-      "assetType": "stock",
-      "name": "Netflix, Inc.",
-      "title": "ETFs in Spotlight Following Netflix's Q2 Earnings Beat & Weak '26 View",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-spotlight-following-netflixs-q2-152500819.html",
-      "publishedAt": "2026-07-24T15:25:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 88,
-      "confidence": 82,
-      "price": 70.09,
-      "changePct": 1.7419073885905108,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Tesla Sank 15% on Its Q2 Miss. Wall Street's Average Price Target Now Implies 29% Upside.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7fbb8892-947e-3810-afc7-a656b8e7659d/tesla-sank-15%25-on-its-q2.html",
-      "publishedAt": "2026-07-25T16:57:00.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Where Is the Floor for SpaceX Stock Right Now?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/87a3709c-c030-3624-9a0c-3ba278a90a4e/where-is-the-floor-for-spacex.html",
-      "publishedAt": "2026-07-25T16:50:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "3 Major Reasons to Buy Microsoft Before July 29 Q4 Earnings",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/09012b9c-296e-3d9f-ae1d-6bdd28a8e76f/3-major-reasons-to-buy.html",
-      "publishedAt": "2026-07-25T16:41:03.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Meta Stock Is Down Nearly 10% in 2026. Should You Buy Before July 29 Q2 Earnings?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/6c644ce2-d912-377b-b42e-8c6bbf05f8a3/meta-stock-is-down-nearly-10%25.html",
-      "publishedAt": "2026-07-25T16:35:49.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "BYD Already Surpassed Ford, and It's Only Now Revving Up Ambitions. Here's How It Can Win.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a30090ab-b6b3-377e-8138-67a154d2ffb5/byd-already-surpassed-ford%2C.html",
-      "publishedAt": "2026-07-25T16:20:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 74,
-      "price": 313.03,
-      "changePct": -2.083268166035855,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Tesla's Revenue Beat Hid The Number That Actually Sank The Stock",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/a7d6a922-9b3e-38f9-8e7b-32c8a6811ada/tesla%27s-revenue-beat-hid-the.html",
-      "publishedAt": "2026-07-25T14:43:56.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 74,
-      "price": 313.03,
-      "changePct": -2.083268166035855,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Mark Cuban sees a problem with the AI spending spree",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/0c899706-c450-3c3b-8b5c-2bc67cace7ac/mark-cuban-sees-a-problem.html",
-      "publishedAt": "2026-07-25T15:17:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 595.19,
-      "changePct": -1.800032997855134,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "AMD",
-      "assetType": "stock",
-      "name": "Advanced Micro Devices, Inc.",
-      "title": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/8bef0cfc-f9ec-3ae3-bd7b-daa0e9ba5151/texas-instruments-vs..html",
-      "publishedAt": "2026-07-24T23:00:02.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 73,
-      "confidence": 64,
-      "price": 521.95,
-      "changePct": -3.287072208119477,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "JPM",
-      "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
-      "title": "Blackstone, Brookfield, KKR Ink $16 Billion Kuwait Pipeline Deal",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/energy/articles/blackstone-brookfield-kkr-ink-16-050551257.html",
-      "publishedAt": "2026-07-25T05:05:51.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 24,
-      "confidence": 72,
-      "price": 353.21,
-      "changePct": 0.945984567019149,
-      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
