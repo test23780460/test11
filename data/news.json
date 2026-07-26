@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-26T22:35:53.501Z",
+  "updatedAt": "2026-07-26T23:34:41.402Z",
   "totalHeadlines": 160,
   "bullish": 9,
-  "bearish": 6,
-  "mixed": 145,
+  "bearish": 10,
+  "mixed": 141,
   "avgSentiment": 53,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -45,6 +45,27 @@
     "TEAM"
   ],
   "headlines": [
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "Why This Leveraged S&P 500 ETF Can Lose Money Even When Stocks Rise",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/3f2b859a-a0f3-337a-a7c1-4026bcebde1f/why-this-leveraged-s%26p-500.html",
+      "publishedAt": "2026-07-26T22:55:23.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 738.93,
+      "changePct": 0.10160123547102333,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
     {
       "symbol": "SPY",
       "assetType": "stock",
@@ -95,27 +116,6 @@
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/479dd690-44bb-3d0f-94b7-f6bf29601cdf/s%26p-500%2C-dow%2C-nasdaq-end.html",
       "publishedAt": "2026-07-24T22:54:48.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 39,
-      "confidence": 82,
-      "price": 738.93,
-      "changePct": 0.10160123547102333,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SPY",
-      "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "You’re 58 and Your $350K Is Just Sitting There. These 3 ETFs Turn It Into a Retirement Engine",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/177538fc-9ad9-3e86-a90d-707ec525b7d0/you%E2%80%99re-58-and-your-%24350k-is.html",
-      "publishedAt": "2026-07-24T22:40:07.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -388,7 +388,7 @@
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -448,22 +448,22 @@
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
-      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
-      "publishedAt": "2026-07-26T15:24:30.000Z",
+      "title": "Fed Decision, Tech Earnings and Other Can't Miss Items this Week",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/ecda1496-0e29-3d98-b15c-200b4daef1a6/fed-decision%2C-tech-earnings.html",
+      "publishedAt": "2026-07-26T17:00:02.000Z",
       "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
       "aiScore": 43,
       "confidence": 82,
       "price": 333.02,
       "changePct": 3.5316794130448166,
       "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
     },
     {
       "symbol": "MSFT",
@@ -472,11 +472,32 @@
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 381.7,
+      "changePct": 0.03144294609555244,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "Microsoft and Meta Platforms Are Negative in 2026. Here's My Favorite One to Buy Now.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/9eeafabc-5c1a-3d9b-84f5-f6f24b2822a8/microsoft-and-meta-platforms.html",
+      "publishedAt": "2026-07-26T22:50:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 94,
@@ -529,25 +550,46 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "MSFT",
+      "symbol": "NVDA",
       "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Fed Meeting, Inflation, Boeing, Meta, Apple, Exxon, and More to Watch This Week",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/41a0c34d-a0bc-3696-a49f-efb3f43985a2/fed-meeting%2C-inflation%2C.html",
-      "publishedAt": "2026-07-26T18:00:00.000Z",
+      "name": "NVIDIA Corporation",
+      "title": "Nvidia to acquire $1 billion of new shares of South Korea's Naver",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/articles/nvidia-acquire-1-billion-shares-230439371.html",
+      "publishedAt": "2026-07-26T23:04:39.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 94,
-      "confidence": 72,
-      "price": 381.7,
-      "changePct": 0.03144294609555244,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Microsoft and Meta Platforms Are Negative in 2026. Here's My Favorite One to Buy Now.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/9eeafabc-5c1a-3d9b-84f5-f6f24b2822a8/microsoft-and-meta-platforms.html",
+      "publishedAt": "2026-07-26T22:50:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "NVDA",
@@ -592,55 +634,13 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Microsoft's Next Earnings Report on July 29 Could Send the Stock Soaring. Here's Why.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/a664fb8f-dc9a-3264-8023-bf45dad64360/microsoft%27s-next-earnings.html",
-      "publishedAt": "2026-07-26T22:10:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e44e8f4e-5d54-355f-9af7-0d40c5012219/forget-ionq%2C-rigetti.html",
-      "publishedAt": "2026-07-26T21:43:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 82,
-      "price": 206.84,
-      "changePct": -0.9197164207702566,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
       "symbol": "TSLA",
       "assetType": "stock",
       "name": "Tesla, Inc.",
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -724,7 +724,7 @@
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -763,15 +763,15 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
-      "title": "Neocloud Stocks vs. the Hyperscalers -- Who Actually Wins AI Capex Boom?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/53eee934-c8ee-3ad1-88cb-3b16272f2ff2/neocloud-stocks-vs.-the.html",
-      "publishedAt": "2026-07-26T16:35:00.000Z",
+      "title": "Fed Decision, Tech Earnings and Other Can't Miss Items this Week",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/ecda1496-0e29-3d98-b15c-200b4daef1a6/fed-decision%2C-tech-earnings.html",
+      "publishedAt": "2026-07-26T17:00:02.000Z",
       "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
       "aiScore": 43,
       "confidence": 82,
@@ -784,10 +784,10 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
-      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
-      "publishedAt": "2026-07-26T15:24:30.000Z",
+      "title": "Neocloud Stocks vs. the Hyperscalers -- Who Actually Wins AI Capex Boom?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/53eee934-c8ee-3ad1-88cb-3b16272f2ff2/neocloud-stocks-vs.-the.html",
+      "publishedAt": "2026-07-26T16:35:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -808,11 +808,32 @@
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 595.19,
+      "changePct": -1.800032997855134,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "META",
+      "assetType": "stock",
+      "name": "Meta Platforms, Inc.",
+      "title": "Microsoft and Meta Platforms Are Negative in 2026. Here's My Favorite One to Buy Now.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/9eeafabc-5c1a-3d9b-84f5-f6f24b2822a8/microsoft-and-meta-platforms.html",
+      "publishedAt": "2026-07-26T22:50:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 96,
@@ -847,43 +868,22 @@
       "symbol": "META",
       "assetType": "stock",
       "name": "Meta Platforms, Inc.",
-      "title": "Neocloud Stocks vs. the Hyperscalers -- Who Actually Wins AI Capex Boom?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/53eee934-c8ee-3ad1-88cb-3b16272f2ff2/neocloud-stocks-vs.-the.html",
-      "publishedAt": "2026-07-26T16:35:00.000Z",
+      "title": "Fed Decision, Tech Earnings and Other Can't Miss Items this Week",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/ecda1496-0e29-3d98-b15c-200b4daef1a6/fed-decision%2C-tech-earnings.html",
+      "publishedAt": "2026-07-26T17:00:02.000Z",
       "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
       "aiScore": 96,
       "confidence": 72,
       "price": 595.19,
       "changePct": -1.800032997855134,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
-      "publishedAt": "2026-07-26T15:24:30.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 595.19,
-      "changePct": -1.800032997855134,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "GOOGL",
@@ -892,7 +892,7 @@
       "title": "Dow Jones Futures Rise, Oil Prices Dive On Iran Hopes; Apple Leads Earnings Wave, Fed Meeting Ahead",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-rise%2C-oil.html",
-      "publishedAt": "2026-07-26T22:18:05.000Z",
+      "publishedAt": "2026-07-26T23:16:24.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1057,6 +1057,27 @@
       "symbol": "JPM",
       "assetType": "stock",
       "name": "JPMorgan Chase & Co.",
+      "title": "Jamie Dimon Said Markets Are Underestimating Risks Shifting \"Like Tectonic Plates.\" He Made the Warning Right After JPMorgan Posted Its Best Quarter Ever.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e0c54eb0-d12b-3f59-8130-a3328763a6bf/jamie-dimon-said-markets-are.html",
+      "publishedAt": "2026-07-26T22:35:00.000Z",
+      "sentiment": {
+        "score": 24,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 2
+      },
+      "aiScore": 24,
+      "confidence": 72,
+      "price": 353.21,
+      "changePct": 0.945984567019149,
+      "signal": "peak",
+      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
+    },
+    {
+      "symbol": "JPM",
+      "assetType": "stock",
+      "name": "JPMorgan Chase & Co.",
       "title": "South Korea’s Biggest Bank Taps JPMorgan Blockchain for Trade Payments",
       "publisher": "BeInCrypto",
       "link": "https://finance.yahoo.com/m/c5c987a3-aa4e-308b-beff-8ad89188ad84/south-korea%E2%80%99s-biggest-bank.html",
@@ -1103,27 +1124,6 @@
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/1bbf9f7a-a4b4-3327-8698-9f01433f4df8/what-big-bank-earnings-just.html",
       "publishedAt": "2026-07-26T02:35:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 24,
-      "confidence": 72,
-      "price": 353.21,
-      "changePct": 0.945984567019149,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "JPM",
-      "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
-      "title": "JPMorgan Chase (JPM) Faces Fresh Questions Over Jes Staley And Jeffrey Epstein Ties",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-faces-fresh-170937865.html",
-      "publishedAt": "2026-07-25T17:09:37.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 22,
+      "aiScore": 44,
       "confidence": 72,
-      "price": 65361.4,
-      "changePct": 1.6337556164819804,
-      "signal": "peak",
+      "price": 65310,
+      "changePct": 1.5538311497678752,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 22,
+      "aiScore": 44,
       "confidence": 72,
-      "price": 65361.4,
-      "changePct": 1.6337556164819804,
-      "signal": "peak",
+      "price": 65310,
+      "changePct": 1.5538311497678752,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,11 +1361,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 22,
+      "aiScore": 44,
       "confidence": 72,
-      "price": 65361.4,
-      "changePct": 1.6337556164819804,
-      "signal": "peak",
+      "price": 65310,
+      "changePct": 1.5538311497678752,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1382,11 +1382,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 22,
+      "aiScore": 44,
       "confidence": 72,
-      "price": 65361.4,
-      "changePct": 1.6337556164819804,
-      "signal": "peak",
+      "price": 65310,
+      "changePct": 1.5538311497678752,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1403,11 +1403,11 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 21,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 76.47,
-      "changePct": 2.7399137538259852,
-      "signal": "peak",
+      "price": 76.61,
+      "changePct": 2.928008273579296,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1424,11 +1424,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 21,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 76.47,
-      "changePct": 2.7399137538259852,
-      "signal": "peak",
+      "price": 76.61,
+      "changePct": 2.928008273579296,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1445,12 +1445,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 21,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 76.47,
-      "changePct": 2.7399137538259852,
-      "signal": "peak",
-      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
+      "price": 76.61,
+      "changePct": 2.928008273579296,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
@@ -1466,11 +1466,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 21,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 76.47,
-      "changePct": 2.7399137538259852,
-      "signal": "peak",
+      "price": 76.61,
+      "changePct": 2.928008273579296,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -2233,27 +2233,6 @@
       "symbol": "MPC",
       "assetType": "stock",
       "name": "Marathon Petroleum Corporation",
-      "title": "Analyst Report: MPLX LP",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/76a5a4a5-afa1-3f93-94a0-752b807a5f47/analyst-report%3A-mplx-lp.html",
-      "publishedAt": "2026-07-24T22:44:37.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 309.24,
-      "changePct": -0.9703141512152859,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "MPC",
-      "assetType": "stock",
-      "name": "Marathon Petroleum Corporation",
       "title": "Will UK interest rates fall in 2026?",
       "publisher": "Moneyweek",
       "link": "https://finance.yahoo.com/m/fa09cc50-12d2-35d1-ada8-e901779f91b4/will-uk-interest-rates-fall.html",
@@ -2304,6 +2283,27 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 309.24,
+      "changePct": -0.9703141512152859,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "MPC",
+      "assetType": "stock",
+      "name": "Marathon Petroleum Corporation",
+      "title": "Goldman Sachs Adjusts Price Target on Marathon Petroleum to $376 From $291, Maintains Buy Rating",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-adjusts-price-target-122953709.html",
+      "publishedAt": "2026-07-22T12:29:53.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 95,
@@ -2986,6 +2986,216 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "You’re 58 and Your $350K Is Just Sitting There. These 3 ETFs Turn It Into a Retirement Engine",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/177538fc-9ad9-3e86-a90d-707ec525b7d0/you%E2%80%99re-58-and-your-%24350k-is.html",
+      "publishedAt": "2026-07-24T22:40:07.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 39,
+      "confidence": 82,
+      "price": 738.93,
+      "changePct": 0.10160123547102333,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
+      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
+      "publishedAt": "2026-07-26T15:24:30.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 82,
+      "price": 333.02,
+      "changePct": 3.5316794130448166,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "Fed Meeting, Inflation, Boeing, Meta, Apple, Exxon, and More to Watch This Week",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/41a0c34d-a0bc-3696-a49f-efb3f43985a2/fed-meeting%2C-inflation%2C.html",
+      "publishedAt": "2026-07-26T18:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 381.7,
+      "changePct": 0.03144294609555244,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Microsoft's Next Earnings Report on July 29 Could Send the Stock Soaring. Here's Why.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a664fb8f-dc9a-3264-8023-bf45dad64360/microsoft%27s-next-earnings.html",
+      "publishedAt": "2026-07-26T22:10:01.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Forget IonQ, Rigetti Computing, and D-Wave Quantum. This Trillion-Dollar Artificial Intelligence (AI) Stock Is the Best Quantum Computing Opportunity, and It's Currently Trading at a 7-Year Valuation Low.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e44e8f4e-5d54-355f-9af7-0d40c5012219/forget-ionq%2C-rigetti.html",
+      "publishedAt": "2026-07-26T21:43:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 82,
+      "price": 206.84,
+      "changePct": -0.9197164207702566,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
+      "publishedAt": "2026-07-26T15:24:30.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 82,
+      "price": 232.11,
+      "changePct": -0.6633570144654554,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "META",
+      "assetType": "stock",
+      "name": "Meta Platforms, Inc.",
+      "title": "Neocloud Stocks vs. the Hyperscalers -- Who Actually Wins AI Capex Boom?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/53eee934-c8ee-3ad1-88cb-3b16272f2ff2/neocloud-stocks-vs.-the.html",
+      "publishedAt": "2026-07-26T16:35:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 595.19,
+      "changePct": -1.800032997855134,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "META",
+      "assetType": "stock",
+      "name": "Meta Platforms, Inc.",
+      "title": "Magnificent 7 Trade Is Broken — Here’s Where Smart Investors Should Look Next",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/4e3127c8-8a76-36f7-9499-351446d08adb/magnificent-7-trade-is-broken.html",
+      "publishedAt": "2026-07-26T15:24:30.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 595.19,
+      "changePct": -1.800032997855134,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "JPM",
+      "assetType": "stock",
+      "name": "JPMorgan Chase & Co.",
+      "title": "JPMorgan Chase (JPM) Faces Fresh Questions Over Jes Staley And Jeffrey Epstein Ties",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-jpm-faces-fresh-170937865.html",
+      "publishedAt": "2026-07-25T17:09:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 24,
+      "confidence": 72,
+      "price": 353.21,
+      "changePct": 0.945984567019149,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MPC",
+      "assetType": "stock",
+      "name": "Marathon Petroleum Corporation",
+      "title": "Analyst Report: MPLX LP",
+      "publisher": "Morningstar Research",
+      "link": "https://finance.yahoo.com/m/76a5a4a5-afa1-3f93-94a0-752b807a5f47/analyst-report%3A-mplx-lp.html",
+      "publishedAt": "2026-07-24T22:44:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 309.24,
+      "changePct": -0.9703141512152859,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
@@ -3194,216 +3404,6 @@
       "changePct": -2.083268166035855,
       "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Dow Jones Futures Due, Iran News In focus; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-due%2C-iran.html",
-      "publishedAt": "2026-07-26T21:17:18.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 82,
-      "price": 232.11,
-      "changePct": -0.6633570144654554,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Dow Jones Futures Due, Iran News In focus; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-due%2C-iran.html",
-      "publishedAt": "2026-07-26T21:17:18.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 595.19,
-      "changePct": -1.800032997855134,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Dow Jones Futures Due, Iran News In focus; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures-due%2C-iran.html",
-      "publishedAt": "2026-07-26T21:17:18.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 38,
-      "confidence": 82,
-      "price": 319.74,
-      "changePct": 0.6452831376499139,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "BTCS Inc (BTCS) Appoints Chris Janis to Board of Directors",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/btcs-inc-btcs-appoints-chris-092923894.html",
-      "publishedAt": "2026-07-09T09:29:23.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 23,
-      "confidence": 72,
-      "price": 64765.99,
-      "changePct": 0.707922411691234,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Skyworks to Report Q3 Earnings: What's in Store for the Stock?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-report-q3-earnings-whats-180600078.html",
-      "publishedAt": "2026-07-24T18:06:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 23,
-      "confidence": 72,
-      "price": 75.57,
-      "changePct": 1.5307346982689827,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "INTC",
-      "assetType": "stock",
-      "name": "Intel Corporation",
-      "title": "Mobileye Stock Is Down Despite Strong Results as Its Founder Steps Down. View the CEO Switch as a Reset, Not a Red Flag.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/2cc2b899-8f5d-3d31-a47c-8e715f2ccd9e/mobileye-stock-is-down.html",
-      "publishedAt": "2026-07-26T14:00:02.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 74,
-      "price": 92.32,
-      "changePct": -7.891845072008191,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "SLB",
-      "assetType": "stock",
-      "name": "SLB N.V.",
-      "title": "Analyst Report: SLB N.V.",
-      "publisher": "Morningstar Research",
-      "link": "https://finance.yahoo.com/m/d7b388e9-8e94-311b-ad24-4f2d0e0fe196/analyst-report%3A-slb-n.v..html",
-      "publishedAt": "2026-07-24T22:21:16.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 19,
-      "confidence": 57,
-      "price": 52.42,
-      "changePct": 11.012282930961463,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures%3A-u.s.%2C-iran.html",
-      "publishedAt": "2026-07-26T19:54:02.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 82,
-      "price": 333.02,
-      "changePct": 3.5316794130448166,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Stock Market Week Ahead: Mag 7 And The Fed — But It's All About The Cash",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/e58d294d-295a-3542-8fc9-19d41d2fc7fa/stock-market-week-ahead%3A-mag.html",
-      "publishedAt": "2026-07-26T15:06:23.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 82,
-      "price": 333.02,
-      "changePct": 3.5316794130448166,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Dow Jones Futures: U.S., Iran Seek Deal; Apple Leads Earnings Wave, Fed Meeting Ahead",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/56d0a8cb-a014-3c28-a929-8720c9c346e7/dow-jones-futures%3A-u.s.%2C-iran.html",
-      "publishedAt": "2026-07-26T19:54:02.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 94,
-      "confidence": 72,
-      "price": 381.7,
-      "changePct": 0.03144294609555244,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     }
   ]
 }
