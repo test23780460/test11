@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-08T05:23:26.710Z",
+  "updatedAt": "2026-08-08T06:01:25.616Z",
   "totalHeadlines": 160,
   "bullish": 13,
-  "bearish": 16,
-  "mixed": 131,
-  "avgSentiment": 52,
+  "bearish": 17,
+  "mixed": 130,
+  "avgSentiment": 53,
   "marketRead": "News is mixed",
   "symbolsTracked": [
     "SPY",
@@ -34,7 +34,6 @@
     "BLK",
     "TFC",
     "DE",
-    "XRP-USD",
     "FSLR",
     "DDOG",
     "CMG",
@@ -42,7 +41,8 @@
     "HAL",
     "MAR",
     "CAT",
-    "OXY"
+    "OXY",
+    "GE"
   ],
   "headlines": [
     {
@@ -553,6 +553,27 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
+      "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/cc598d3a-20a6-3c76-a4b5-89d6722026ad/alphabet-just-posted-a.html",
+      "publishedAt": "2026-08-08T05:20:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 82,
+      "price": 223.96,
+      "changePct": 2.269510023288734,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
       "title": "NVDL’s 2x Promise Delivered Only 17.21% While NVIDIA Soared 22.21% in One Year",
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/8124b151-1897-38b9-a8d7-abdcf3d6ec50/nvdl%E2%80%99s-2x-promise-delivered.html",
@@ -611,27 +632,6 @@
       "changePct": 2.269510023288734,
       "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Osisko Metals (TSX:OM) Is Up 20.8% After Reporting Deepening 2026 Losses Has The Bull Case Changed?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/osisko-metals-tsx-om-20-001723721.html",
-      "publishedAt": "2026-08-08T00:17:23.000Z",
-      "sentiment": {
-        "score": 24,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 2
-      },
-      "aiScore": 29,
-      "confidence": 82,
-      "price": 223.96,
-      "changePct": 2.269510023288734,
-      "signal": "peak",
-      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
     },
     {
       "symbol": "TSLA",
@@ -889,6 +889,27 @@
       "symbol": "GOOGL",
       "assetType": "stock",
       "name": "Alphabet Inc.",
+      "title": "Alphabet Just Posted a Jaw-Dropping $112 Billion Profit. Here's the Catch.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/cc598d3a-20a6-3c76-a4b5-89d6722026ad/alphabet-just-posted-a.html",
+      "publishedAt": "2026-08-08T05:20:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 354.3,
+      "changePct": -0.9643605870020934,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
       "title": "Banks Lead a Bonus Boom",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/21db85d0-dc39-3ca0-9331-40f1ecb69685/banks-lead-a-bonus-boom.html",
@@ -939,27 +960,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 72,
-      "price": 354.3,
-      "changePct": -0.9643605870020934,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Oracle Surges: What's Driving the Sudden Rally",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/18343e72-9308-3328-b2a4-c3c048c6ebdf/oracle-surges%3A-what%27s-driving.html",
-      "publishedAt": "2026-08-07T21:30:00.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
         "negativeHits": 0
       },
       "aiScore": 47,
@@ -1321,9 +1321,9 @@
       },
       "aiScore": 48,
       "confidence": 72,
-      "price": 64970.92,
-      "changePct": 0.1337152241779731,
-      "signal": "momentum",
+      "price": 64961.37,
+      "changePct": 0.11899668578586689,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1342,30 +1342,9 @@
       },
       "aiScore": 48,
       "confidence": 72,
-      "price": 64970.92,
-      "changePct": 0.1337152241779731,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "BTCS Inc (BTCS) Appoints Chris Janis to Board of Directors",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/btcs-inc-btcs-appoints-chris-092923894.html",
-      "publishedAt": "2026-07-09T09:29:23.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 64970.92,
-      "changePct": 0.1337152241779731,
-      "signal": "momentum",
+      "price": 64961.37,
+      "changePct": 0.11899668578586689,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1384,50 +1363,50 @@
       },
       "aiScore": 48,
       "confidence": 72,
-      "price": 64970.92,
-      "changePct": 0.1337152241779731,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ETH-USD",
-      "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "The Worst Performing ETFs of 2026 So Far",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
-      "publishedAt": "2026-07-10T22:33:46.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 72,
-      "price": 1915.95,
-      "changePct": 0.13943578213396554,
+      "price": 64961.37,
+      "changePct": 0.11899668578586689,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "ETH-USD",
+      "symbol": "BTC-USD",
       "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "What 15,000 ETF Investors Were Searching for This Month",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
-      "publishedAt": "2026-05-28T00:05:25.000Z",
+      "name": "Bitcoin USD",
+      "title": "Trump discloses over $1.4 billion in crypto income in 2025 filing",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/trump-discloses-over-1-4-123202479.html",
+      "publishedAt": "2026-07-01T12:32:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 50,
+      "aiScore": 48,
       "confidence": 72,
-      "price": 1915.95,
-      "changePct": 0.13943578213396554,
+      "price": 64961.37,
+      "changePct": 0.11899668578586689,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Solar stocks pop on Trump tariffs: AlphaSpace heat map breakdown",
+      "publisher": "Yahoo Finance Video",
+      "link": "https://finance.yahoo.com/video/solar-stocks-pop-trump-tariffs-200323630.html",
+      "publishedAt": "2026-08-07T20:03:23.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 41,
+      "confidence": 72,
+      "price": 74.62,
+      "changePct": 1.327103975092712,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1445,10 +1424,10 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 48,
+      "aiScore": 41,
       "confidence": 72,
-      "price": 74.56,
-      "changePct": 1.2456294878439074,
+      "price": 74.62,
+      "changePct": 1.327103975092712,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1456,20 +1435,20 @@
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "Update: Solar Stocks Rise After Trump Imposes 15% Tariff, Minimum Prices on Polysilicon Imports",
+      "title": "Jefferies Adjusts Price Target on First Solar to $228 From $196",
       "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/energy/articles/solar-stocks-rise-trump-imposes-122254440.html",
-      "publishedAt": "2026-08-07T12:22:54.000Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-first-160134920.html",
+      "publishedAt": "2026-08-07T16:01:34.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 48,
+      "aiScore": 41,
       "confidence": 72,
-      "price": 74.56,
-      "changePct": 1.2456294878439074,
+      "price": 74.62,
+      "changePct": 1.327103975092712,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1477,41 +1456,20 @@
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "ProFrac Holding Corp. (ACDC) Reports Q2 Loss, Tops Revenue Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/profrac-holding-corp-acdc-reports-023502893.html",
-      "publishedAt": "2026-08-07T02:35:02.000Z",
+      "title": "Mizuho Adjusts Price Target on First Solar to $324 From $300",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/mizuho-adjusts-price-target-first-155955541.html",
+      "publishedAt": "2026-08-07T15:59:55.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 74.56,
-      "changePct": 1.2456294878439074,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "SolarEdge Beat Q2 Earnings Estimates. SEDG Stock Plummeted Anyway.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/2f0a6c10-3bed-31af-a2af-47fc7dd68d35/solaredge-beat-q2-earnings.html",
-      "publishedAt": "2026-08-06T14:34:14.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
+        "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 48,
+      "aiScore": 41,
       "confidence": 72,
-      "price": 74.56,
-      "changePct": 1.2456294878439074,
+      "price": 74.62,
+      "changePct": 1.327103975092712,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -2272,90 +2230,6 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "XRP-USD",
-      "assetType": "crypto",
-      "name": "XRP USD",
-      "title": "Crypto Fear & Greed Index Is Muted With Bitcoin Rangebound",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/6259cf43-b0a0-3a22-862f-bc42a1916278/crypto-fear-%26-greed-index-is.html",
-      "publishedAt": "2026-08-07T19:46:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 80,
-      "confidence": 72,
-      "price": 1.0341,
-      "changePct": 1.2717483062615869,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "XRP-USD",
-      "assetType": "crypto",
-      "name": "XRP USD",
-      "title": "Crypto XRP Forms Bullish ‘Triangle Breakout’",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/ded8e9f7-7915-3240-8092-456ab16c1600/crypto-xrp-forms-bullish.html",
-      "publishedAt": "2026-07-21T14:05:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 80,
-      "confidence": 72,
-      "price": 1.0341,
-      "changePct": 1.2717483062615869,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "XRP-USD",
-      "assetType": "crypto",
-      "name": "XRP USD",
-      "title": "Bitcoin Rises Above $65,000 As Inflation Worries Ease",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/532d3ed7-3857-3a7e-a1e2-93079e19da26/bitcoin-rises-above-%2465%2C000.html",
-      "publishedAt": "2026-07-15T21:51:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 80,
-      "confidence": 72,
-      "price": 1.0341,
-      "changePct": 1.2717483062615869,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "XRP-USD",
-      "assetType": "crypto",
-      "name": "XRP USD",
-      "title": "Ripple Drops 6%, Bitcoin Falls 5% in Crypto Pullback Defying Stock Rally",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/f8733c20-9edd-3af7-9715-ede362a244c7/ripple-drops-6%25%2C-bitcoin.html",
-      "publishedAt": "2026-06-18T18:20:37.000Z",
-      "sentiment": {
-        "score": 24,
-        "label": "bearish",
-        "positiveHits": 1,
-        "negativeHits": 3
-      },
-      "aiScore": 80,
-      "confidence": 72,
-      "price": 1.0341,
-      "changePct": 1.2717483062615869,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
       "symbol": "FSLR",
       "assetType": "stock",
       "name": "First Solar, Inc.",
@@ -3028,6 +2902,342 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "GE",
+      "assetType": "stock",
+      "name": "GE Aerospace",
+      "title": "General Electric (GE) Sits 21% Above Fair Value Following Its Recent Pullback",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/general-electric-ge-sits-21-221200770.html",
+      "publishedAt": "2026-08-07T22:12:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 61,
+      "confidence": 72,
+      "price": 370.08,
+      "changePct": -1.193432118542258,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GE",
+      "assetType": "stock",
+      "name": "GE Aerospace",
+      "title": "GE Vernova Holds an $176 Billion Backlog, Yet Wall Street Is Selling: What Investors Should Know.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/da5723bf-eade-3a56-87e9-2720e6e9ca7f/ge-vernova-holds-an-%24176.html",
+      "publishedAt": "2026-08-07T20:30:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 61,
+      "confidence": 72,
+      "price": 370.08,
+      "changePct": -1.193432118542258,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GE",
+      "assetType": "stock",
+      "name": "GE Aerospace",
+      "title": "Honeywell Aerospace Needs to Resolve Supply Chain Issues for Upside, Morgan Stanley Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/honeywell-aerospace-needs-resolve-supply-150840001.html",
+      "publishedAt": "2026-08-07T15:08:40.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 61,
+      "confidence": 72,
+      "price": 370.08,
+      "changePct": -1.193432118542258,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "GE",
+      "assetType": "stock",
+      "name": "GE Aerospace",
+      "title": "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/7e310c90-76c1-3769-96ef-87693459878e/apple-among-three-stocks-in.html",
+      "publishedAt": "2026-08-07T11:00:05.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 61,
+      "confidence": 72,
+      "price": 370.08,
+      "changePct": -1.193432118542258,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Osisko Metals (TSX:OM) Is Up 20.8% After Reporting Deepening 2026 Losses Has The Bull Case Changed?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/osisko-metals-tsx-om-20-001723721.html",
+      "publishedAt": "2026-08-08T00:17:23.000Z",
+      "sentiment": {
+        "score": 24,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 2
+      },
+      "aiScore": 29,
+      "confidence": 82,
+      "price": 223.96,
+      "changePct": 2.269510023288734,
+      "signal": "peak",
+      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
+      "title": "Oracle Surges: What's Driving the Sudden Rally",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/18343e72-9308-3328-b2a4-c3c048c6ebdf/oracle-surges%3A-what%27s-driving.html",
+      "publishedAt": "2026-08-07T21:30:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 354.3,
+      "changePct": -0.9643605870020934,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "BTC-USD",
+      "assetType": "crypto",
+      "name": "Bitcoin USD",
+      "title": "BTCS Inc (BTCS) Appoints Chris Janis to Board of Directors",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/btcs-inc-btcs-appoints-chris-092923894.html",
+      "publishedAt": "2026-07-09T09:29:23.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 48,
+      "confidence": 72,
+      "price": 64970.92,
+      "changePct": 0.1337152241779731,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "The Worst Performing ETFs of 2026 So Far",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
+      "publishedAt": "2026-07-10T22:33:46.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 50,
+      "confidence": 72,
+      "price": 1915.95,
+      "changePct": 0.13943578213396554,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "What 15,000 ETF Investors Were Searching for This Month",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
+      "publishedAt": "2026-05-28T00:05:25.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 50,
+      "confidence": 72,
+      "price": 1915.95,
+      "changePct": 0.13943578213396554,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Update: Solar Stocks Rise After Trump Imposes 15% Tariff, Minimum Prices on Polysilicon Imports",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/energy/articles/solar-stocks-rise-trump-imposes-122254440.html",
+      "publishedAt": "2026-08-07T12:22:54.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 48,
+      "confidence": 72,
+      "price": 74.56,
+      "changePct": 1.2456294878439074,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "ProFrac Holding Corp. (ACDC) Reports Q2 Loss, Tops Revenue Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/profrac-holding-corp-acdc-reports-023502893.html",
+      "publishedAt": "2026-08-07T02:35:02.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 48,
+      "confidence": 72,
+      "price": 74.56,
+      "changePct": 1.2456294878439074,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "SolarEdge Beat Q2 Earnings Estimates. SEDG Stock Plummeted Anyway.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/2f0a6c10-3bed-31af-a2af-47fc7dd68d35/solaredge-beat-q2-earnings.html",
+      "publishedAt": "2026-08-06T14:34:14.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 48,
+      "confidence": 72,
+      "price": 74.56,
+      "changePct": 1.2456294878439074,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "XRP-USD",
+      "assetType": "crypto",
+      "name": "XRP USD",
+      "title": "Crypto Fear & Greed Index Is Muted With Bitcoin Rangebound",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/m/6259cf43-b0a0-3a22-862f-bc42a1916278/crypto-fear-%26-greed-index-is.html",
+      "publishedAt": "2026-08-07T19:46:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 1.0341,
+      "changePct": 1.2717483062615869,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "XRP-USD",
+      "assetType": "crypto",
+      "name": "XRP USD",
+      "title": "Crypto XRP Forms Bullish ‘Triangle Breakout’",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/m/ded8e9f7-7915-3240-8092-456ab16c1600/crypto-xrp-forms-bullish.html",
+      "publishedAt": "2026-07-21T14:05:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 1.0341,
+      "changePct": 1.2717483062615869,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "XRP-USD",
+      "assetType": "crypto",
+      "name": "XRP USD",
+      "title": "Bitcoin Rises Above $65,000 As Inflation Worries Ease",
+      "publisher": "CryptoProwl",
+      "link": "https://finance.yahoo.com/m/532d3ed7-3857-3a7e-a1e2-93079e19da26/bitcoin-rises-above-%2465%2C000.html",
+      "publishedAt": "2026-07-15T21:51:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 1.0341,
+      "changePct": 1.2717483062615869,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "XRP-USD",
+      "assetType": "crypto",
+      "name": "XRP USD",
+      "title": "Ripple Drops 6%, Bitcoin Falls 5% in Crypto Pullback Defying Stock Rally",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/f8733c20-9edd-3af7-9715-ede362a244c7/ripple-drops-6%25%2C-bitcoin.html",
+      "publishedAt": "2026-06-18T18:20:37.000Z",
+      "sentiment": {
+        "score": 24,
+        "label": "bearish",
+        "positiveHits": 1,
+        "negativeHits": 3
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 1.0341,
+      "changePct": 1.2717483062615869,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
@@ -3067,90 +3277,6 @@
       "price": 483.36,
       "changePct": -1.2099411379986835,
       "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "Trump discloses over $1.4 billion in crypto income in 2025 filing",
-      "publisher": "Investing.com",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/trump-discloses-over-1-4-123202479.html",
-      "publishedAt": "2026-07-01T12:32:02.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 72,
-      "price": 64982.27,
-      "changePct": 0.15120793734556062,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Solar stocks pop on Trump tariffs: AlphaSpace heat map breakdown",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/solar-stocks-pop-trump-tariffs-200323630.html",
-      "publishedAt": "2026-08-07T20:03:23.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 72,
-      "price": 74.6,
-      "changePct": 1.299945812676431,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Jefferies Adjusts Price Target on First Solar to $228 From $196",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-adjusts-price-target-first-160134920.html",
-      "publishedAt": "2026-08-07T16:01:34.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 72,
-      "price": 74.6,
-      "changePct": 1.299945812676431,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Mizuho Adjusts Price Target on First Solar to $324 From $300",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/mizuho-adjusts-price-target-first-155955541.html",
-      "publishedAt": "2026-08-07T15:59:55.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 72,
-      "price": 74.6,
-      "changePct": 1.299945812676431,
-      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -3278,132 +3404,6 @@
       "changePct": 0.49528596644108064,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot Named a Leader in Earned Wage Access by Everest Group",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/small-business/articles/green-dot-named-leader-earned-120000234.html",
-      "publishedAt": "2026-07-27T12:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 77,
-      "confidence": 72,
-      "price": 0.8218,
-      "changePct": 0.49528596644108064,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Here's Why Green Dot Stock Is an Excellent Pick for You Right Now",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-green-dot-stock-144000008.html",
-      "publishedAt": "2026-07-10T14:40:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 77,
-      "confidence": 72,
-      "price": 0.8218,
-      "changePct": 0.49528596644108064,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DDOG",
-      "assetType": "stock",
-      "name": "Datadog, Inc.",
-      "title": "Datadog Insider Sold Shares Worth $36,452,136, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/datadog-insider-sold-shares-worth-204027570.html",
-      "publishedAt": "2026-08-07T20:40:27.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 70,
-      "confidence": 64,
-      "price": 233.93,
-      "changePct": 2.023638187448216,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Why Genius Sports Popped by Almost 10% This Week",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/5afcd449-cff6-35f6-a68d-0b88ae649798/why-genius-sports-popped-by.html",
-      "publishedAt": "2026-08-08T00:14:58.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 29,
-      "confidence": 82,
-      "price": 223.96,
-      "changePct": 2.269510023288734,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMD",
-      "assetType": "stock",
-      "name": "Advanced Micro Devices, Inc.",
-      "title": "Jim Cramer Shares Reasons Behind Why NVIDIA Corporation (NASDAQ:NVDA)’s Shares Are Finally Rising",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-reasons-behind-182404118.html",
-      "publishedAt": "2026-08-07T18:24:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 32,
-      "confidence": 72,
-      "price": 483.36,
-      "changePct": -1.2099411379986835,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LLY",
-      "assetType": "stock",
-      "name": "Eli Lilly and Company",
-      "title": "The Two Divergent Paths Priced Into Eli Lilly Stock",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/be869dcb-64a1-35f3-bd65-1f294f200a2f/the-two-divergent-paths.html",
-      "publishedAt": "2026-08-07T18:38:16.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 72,
-      "price": 1185.71,
-      "changePct": -0.522677315972282,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
 }
