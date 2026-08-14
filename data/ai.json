@@ -1,10 +1,10 @@
 {
   "configured": true,
   "realAi": false,
-  "updatedAt": "2026-08-14T02:33:02.960Z",
+  "updatedAt": "2026-08-14T04:55:17.993Z",
   "model": "gpt-4.1-mini",
   "headline": "AI update failed",
-  "marketRead": "OpenAI 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}",
+  "marketRead": "OpenAI 429: {\n  \"error\": {\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"insufficient_quota\"\n  }\n}",
   "watchPlans": [],
   "warnings": [
     "The scanner still works, but the real AI brief could not be generated. Check OpenAI billing/quota or replace the GitHub secret."
