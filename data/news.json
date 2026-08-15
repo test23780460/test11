@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-15T22:45:46.287Z",
+  "updatedAt": "2026-08-15T22:59:26.225Z",
   "totalHeadlines": 160,
   "bullish": 18,
-  "bearish": 18,
-  "mixed": 124,
+  "bearish": 20,
+  "mixed": 122,
   "avgSentiment": 54,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -45,6 +45,27 @@
     "MMM"
   ],
   "headlines": [
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/77dafc00-2125-3695-a878-7545d0ea7a86/jepq-vs.-spyi%3A-nearly.html",
+      "publishedAt": "2026-08-15T22:45:07.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 776.34,
+      "changePct": -0.19797398056254997,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
     {
       "symbol": "SPY",
       "assetType": "stock",
@@ -95,27 +116,6 @@
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/da53b8ef-d619-3b5f-8ef8-09f12ec94333/social-security-pays-the.html",
       "publishedAt": "2026-08-15T17:32:41.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 72,
-      "price": 776.34,
-      "changePct": -0.19797398056254997,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SPY",
-      "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "Ray Dalio's Top Q2 2026 Move: State Street SPDR S&P 500 ETF Trust at a 2.93% Portfolio Impact",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ray-dalios-top-q2-2026-020555830.html",
-      "publishedAt": "2026-08-15T02:05:55.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1319,12 +1319,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 40,
+      "aiScore": 75,
       "confidence": 72,
-      "price": 63085.41,
-      "changePct": 0.17116717332555292,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 63061.69,
+      "changePct": 0.1335029957391443,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "BTC-USD",
@@ -1340,12 +1340,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 40,
+      "aiScore": 75,
       "confidence": 72,
-      "price": 63085.41,
-      "changePct": 0.17116717332555292,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 63061.69,
+      "changePct": 0.1335029957391443,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "BTC-USD",
@@ -1361,12 +1361,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 40,
+      "aiScore": 75,
       "confidence": 72,
-      "price": 63085.41,
-      "changePct": 0.17116717332555292,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 63061.69,
+      "changePct": 0.1335029957391443,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "BTC-USD",
@@ -1382,12 +1382,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 40,
+      "aiScore": 75,
       "confidence": 72,
-      "price": 63085.41,
-      "changePct": 0.17116717332555292,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 63061.69,
+      "changePct": 0.1335029957391443,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "ETH-USD",
@@ -1403,10 +1403,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 50,
       "confidence": 72,
-      "price": 1882.74,
-      "changePct": 0.12580473335523426,
+      "price": 1882.73,
+      "changePct": 0.1252729243708112,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1424,10 +1424,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 46,
+      "aiScore": 50,
       "confidence": 72,
-      "price": 1882.74,
-      "changePct": 0.12580473335523426,
+      "price": 1882.73,
+      "changePct": 0.1252729243708112,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1445,12 +1445,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 52,
+      "aiScore": 75,
       "confidence": 72,
       "price": 75.53,
       "changePct": 0.27155496581832245,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1466,12 +1466,12 @@
         "positiveHits": 1,
         "negativeHits": 1
       },
-      "aiScore": 52,
+      "aiScore": 75,
       "confidence": 72,
       "price": 75.53,
       "changePct": 0.27155496581832245,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1487,12 +1487,12 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 52,
+      "aiScore": 75,
       "confidence": 72,
       "price": 75.53,
       "changePct": 0.27155496581832245,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1508,12 +1508,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 52,
+      "aiScore": 75,
       "confidence": 72,
       "price": 75.53,
       "changePct": 0.27155496581832245,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "PLTR",
@@ -1855,10 +1855,10 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "Willmar Council to hold 2026 assessment hearing Monday, Aug. 17",
-      "publisher": "West Central Tribune, Willmar, Minn.",
-      "link": "https://finance.yahoo.com/m/d194971f-9217-307c-93aa-0619526ba8d1/willmar-council-to-hold-2026.html",
-      "publishedAt": "2026-08-15T22:36:00.000Z",
+      "title": "Which Is the Better Dividend ETF: Schwab's Defensive SCHD or Fidelity's Tech-Tilted FDVV?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d30f9bf7-dc78-3e2e-86fc-a44c8910f083/which-is-the-better-dividend.html",
+      "publishedAt": "2026-08-15T22:57:10.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1867,8 +1867,8 @@
       },
       "aiScore": 99,
       "confidence": 72,
-      "price": 6.409,
-      "changePct": -0.9287316942296832,
+      "price": 6.388,
+      "changePct": -1.2533527949351235,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
@@ -1876,10 +1876,31 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "No.1 Scheffler leads by two at PGA St. Jude playoff event",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/m/8f2ed5d7-1497-3dbc-aae2-83ce11524eb3/no.1-scheffler-leads-by-two.html",
-      "publishedAt": "2026-08-15T22:32:45.000Z",
+      "title": "Elon Musk's Tesla Is Ending Sweden's Longest Strike by Buying Out Every Worker Still on It",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/25791265-129e-3ccc-9aca-68ee1b85b4ec/elon-musk%27s-tesla-is-ending.html",
+      "publishedAt": "2026-08-15T22:46:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 6.388,
+      "changePct": -1.2533527949351235,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "JEPQ vs. SPYI: Nearly Identical Yields, and One ETF Charges You Twice the Fee",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/77dafc00-2125-3695-a878-7545d0ea7a86/jepq-vs.-spyi%3A-nearly.html",
+      "publishedAt": "2026-08-15T22:45:07.000Z",
       "sentiment": {
         "score": 37,
         "label": "bearish",
@@ -1888,8 +1909,8 @@
       },
       "aiScore": 99,
       "confidence": 72,
-      "price": 6.409,
-      "changePct": -0.9287316942296832,
+      "price": 6.388,
+      "changePct": -1.2533527949351235,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
@@ -1897,31 +1918,10 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "Royal Gold’s (RGLD) Profits Doubled, So Why Add A Buyback Now?",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-rgld-profits-doubled-223104992.html",
-      "publishedAt": "2026-08-15T22:31:04.000Z",
-      "sentiment": {
-        "score": 89,
-        "label": "bullish",
-        "positiveHits": 3,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 72,
-      "price": 6.409,
-      "changePct": -0.9287316942296832,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $6.464."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "2 Mid-Cap Stocks Worth Your Attention and 1 We Question",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/2-mid-cap-stocks-worth-222900922.html",
-      "publishedAt": "2026-08-15T22:29:00.000Z",
+      "title": "Make Sure You Do This Before 65: The 401(k) Conversion Move That Saves Six Figures in Taxes",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/42490187-46c0-3177-91ce-edc0c34ce73d/make-sure-you-do-this-before.html",
+      "publishedAt": "2026-08-15T22:45:01.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1930,8 +1930,8 @@
       },
       "aiScore": 99,
       "confidence": 72,
-      "price": 6.409,
-      "changePct": -0.9287316942296832,
+      "price": 6.388,
+      "changePct": -1.2533527949351235,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
@@ -3028,6 +3028,111 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "Ray Dalio's Top Q2 2026 Move: State Street SPDR S&P 500 ETF Trust at a 2.93% Portfolio Impact",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ray-dalios-top-q2-2026-020555830.html",
+      "publishedAt": "2026-08-15T02:05:55.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 776.34,
+      "changePct": -0.19797398056254997,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "Willmar Council to hold 2026 assessment hearing Monday, Aug. 17",
+      "publisher": "West Central Tribune, Willmar, Minn.",
+      "link": "https://finance.yahoo.com/m/d194971f-9217-307c-93aa-0619526ba8d1/willmar-council-to-hold-2026.html",
+      "publishedAt": "2026-08-15T22:36:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 6.409,
+      "changePct": -0.9287316942296832,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "No.1 Scheffler leads by two at PGA St. Jude playoff event",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/m/8f2ed5d7-1497-3dbc-aae2-83ce11524eb3/no.1-scheffler-leads-by-two.html",
+      "publishedAt": "2026-08-15T22:32:45.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 6.409,
+      "changePct": -0.9287316942296832,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "Royal Gold’s (RGLD) Profits Doubled, So Why Add A Buyback Now?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/royal-gold-rgld-profits-doubled-223104992.html",
+      "publishedAt": "2026-08-15T22:31:04.000Z",
+      "sentiment": {
+        "score": 89,
+        "label": "bullish",
+        "positiveHits": 3,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 6.409,
+      "changePct": -0.9287316942296832,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $6.464."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "2 Mid-Cap Stocks Worth Your Attention and 1 We Question",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/2-mid-cap-stocks-worth-222900922.html",
+      "publishedAt": "2026-08-15T22:29:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 72,
+      "price": 6.409,
+      "changePct": -0.9287316942296832,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
@@ -3299,111 +3404,6 @@
       "changePct": 0.31138214242330936,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Does Viavi Solutions (VIAV) Have the Potential to Rally 38.8% as Wall Street Analysts Expect?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-viavi-solutions-viav-potential-135501593.html",
-      "publishedAt": "2026-08-14T13:55:01.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 72,
-      "price": 75.56,
-      "changePct": 0.31138214242330936,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "The AI Problem at Law Firms Isn't Hallucination. It's Honesty.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/78783a02-4329-3f86-829e-8194d914cd03/the-ai-problem-at-law-firms.html",
-      "publishedAt": "2026-08-15T19:17:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 82,
-      "price": 225.16,
-      "changePct": -0.06213936972925645,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Are Mega-Mergers Back?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/3e6dc5e3-b9ed-330b-9c36-3fb714153a83/are-mega-mergers-back%3F.html",
-      "publishedAt": "2026-08-15T19:14:28.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 82,
-      "price": 225.16,
-      "changePct": -0.06213936972925645,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "SpaceX officially closes its Cursor acquisition",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/technology/ai/articles/spacex-officially-closes-cursor-acquisition-163000243.html",
-      "publishedAt": "2026-08-15T16:30:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 45,
-      "confidence": 72,
-      "price": 345.9,
-      "changePct": -0.1328097932786801,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "PLTR",
-      "assetType": "stock",
-      "name": "Palantir Technologies Inc.",
-      "title": "Jim Cramer Says Palantir (PLTR) Deserves a “Little Bit More Love” After a Massive Surge",
-      "publisher": "Insider Monkey",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-palantir-pltr-000702429.html",
-      "publishedAt": "2026-08-15T00:07:02.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 72,
-      "price": 174.04,
-      "changePct": -2.776381207753756,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     }
   ]
 }
