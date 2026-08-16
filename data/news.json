@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-08-15T23:53:37.207Z",
+  "updatedAt": "2026-08-16T00:25:30.808Z",
   "totalHeadlines": 160,
-  "bullish": 15,
-  "bearish": 20,
-  "mixed": 125,
-  "avgSentiment": 53,
+  "bullish": 17,
+  "bearish": 19,
+  "mixed": 124,
+  "avgSentiment": 54,
   "marketRead": "News is mixed",
   "symbolsTracked": [
     "SPY",
@@ -29,7 +29,6 @@
     "RIVN",
     "NET",
     "YUM",
-    "AVAX-USD",
     "ISRG",
     "ADBE",
     "NOW",
@@ -37,12 +36,13 @@
     "BMY",
     "BKNG",
     "EL",
-    "ADA-USD",
     "ABNB",
     "DE",
     "ZS",
     "DHR",
-    "DOT-USD"
+    "TMO",
+    "MMM",
+    "PFE"
   ],
   "headlines": [
     {
@@ -385,6 +385,27 @@
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
+      "title": "Apple’s first foldable could reshape its entire iPhone launch",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/2f3a1955-f6c7-35e4-9b81-2c860b2d345e/apple%E2%80%99s-first-foldable-could.html",
+      "publishedAt": "2026-08-16T00:03:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 55,
+      "confidence": 72,
+      "price": 305.93,
+      "changePct": 0.21948502915547924,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
       "title": "Apple (AAPL) Launches Ads On Maps While Pursuing Siri AI Content Deals",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/media-advertising/articles/apple-aapl-launches-ads-maps-200858734.html",
@@ -445,24 +466,24 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "AAPL",
+      "symbol": "MSFT",
       "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Apple, Samsung Can Absorb the Smartphone Cost Shock — Smaller Rivals May Not Be so Lucky",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-samsung-absorb-smartphone-cost-180159241.html",
-      "publishedAt": "2026-08-15T18:01:59.000Z",
+      "name": "Microsoft Corporation",
+      "title": "1 Dow Jones Stock with Impressive Fundamentals and 2 We Turn Down",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/1-dow-jones-stock-impressive-235700802.html",
+      "publishedAt": "2026-08-15T23:57:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 55,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 305.93,
-      "changePct": 0.21948502915547924,
-      "signal": "momentum",
+      "price": 495.4,
+      "changePct": -0.2978586379005028,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -529,23 +550,44 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "MSFT",
+      "symbol": "NVDA",
       "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/9f7a7ac7-0c70-3bd9-963c-24c0fe9ad6f9/nvidia%E2%80%99s-secret-%2421-billion.html",
-      "publishedAt": "2026-08-15T13:41:48.000Z",
+      "name": "NVIDIA Corporation",
+      "title": "How could open-weight models impact GenAI ROIC?",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/could-open-weight-models-impact-235236970.html",
+      "publishedAt": "2026-08-15T23:52:36.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
+        "positiveHits": 0,
+        "negativeHits": 0
       },
-      "aiScore": 51,
-      "confidence": 72,
-      "price": 495.4,
-      "changePct": -0.2978586379005028,
+      "aiScore": 46,
+      "confidence": 82,
+      "price": 225.16,
+      "changePct": -0.06213936972925645,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "SpaceX Stock Is Down 33% From Its High. Elon Musk Expects Revenue to Rise 53-Fold to $1 Trillion by 2030.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f887771f-e96f-3526-bb77-5bbfc5a3cef7/spacex-stock-is-down-33%25-from.html",
+      "publishedAt": "2026-08-15T23:50:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 46,
+      "confidence": 82,
+      "price": 225.16,
+      "changePct": -0.06213936972925645,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -582,48 +624,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 82,
-      "price": 225.16,
-      "changePct": -0.06213936972925645,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Dara Khosrowshahi Just Delivered Fantastic News for Uber Stock Investors",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/97f8e463-cfda-3e8b-94ce-6a28f0ee8e29/dara-khosrowshahi-just.html",
-      "publishedAt": "2026-08-15T22:20:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 82,
-      "price": 225.16,
-      "changePct": -0.06213936972925645,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Palantir Makes Its Case Against Frontier AI",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6b9e356e-3fd1-33c7-99f0-2f4bd39dc30a/palantir-makes-its-case.html",
-      "publishedAt": "2026-08-15T21:50:19.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 46,
@@ -721,6 +721,27 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
+      "title": "How could open-weight models impact GenAI ROIC?",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/could-open-weight-models-impact-235236970.html",
+      "publishedAt": "2026-08-15T23:52:36.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 72,
+      "price": 262.65,
+      "changePct": -0.9353901859465237,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
       "title": "Elon Musk Says SpaceX Has a Massive Competitive Advantage in AI That Amazon, Google, and Microsoft Can't Touch",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/e1bceb7d-0c91-3467-972f-84383fd5192e/elon-musk-says-spacex-has-a.html",
@@ -781,27 +802,6 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/9f7a7ac7-0c70-3bd9-963c-24c0fe9ad6f9/nvidia%E2%80%99s-secret-%2421-billion.html",
-      "publishedAt": "2026-08-15T13:41:48.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 85,
-      "confidence": 72,
-      "price": 262.65,
-      "changePct": -0.9353901859465237,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
       "symbol": "META",
       "assetType": "stock",
       "name": "Meta Platforms, Inc.",
@@ -809,27 +809,6 @@
       "publisher": "Bloomberg",
       "link": "https://finance.yahoo.com/technology/ai/articles/bond-traders-agonizing-over-70-190000845.html",
       "publishedAt": "2026-08-15T19:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 589.85,
-      "changePct": -0.8605475906348227,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
-      "publishedAt": "2026-08-15T17:30:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -886,6 +865,48 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
+      "symbol": "META",
+      "assetType": "stock",
+      "name": "Meta Platforms, Inc.",
+      "title": "Mark Zuckerberg Just Wrote a 6,500-Word Manifesto on the Future of AI, and Did Not Mention Crypto Once. Here's What He's Missing.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6d9823ea-2f54-327d-9e0b-53d37bd5d6b5/mark-zuckerberg-just-wrote-a.html",
+      "publishedAt": "2026-08-15T09:20:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 589.85,
+      "changePct": -0.8605475906348227,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
+      "title": "How could open-weight models impact GenAI ROIC?",
+      "publisher": "Investing.com",
+      "link": "https://finance.yahoo.com/technology/ai/articles/could-open-weight-models-impact-235236970.html",
+      "publishedAt": "2026-08-15T23:52:36.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 345.9,
+      "changePct": -0.1328097932786801,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
       "symbol": "GOOGL",
       "assetType": "stock",
       "name": "Alphabet Inc.",
@@ -935,27 +956,6 @@
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/e1bceb7d-0c91-3467-972f-84383fd5192e/elon-musk-says-spacex-has-a.html",
       "publishedAt": "2026-08-15T19:23:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 45,
-      "confidence": 72,
-      "price": 345.9,
-      "changePct": -0.1328097932786801,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Apple, Samsung Can Absorb the Smartphone Cost Shock — Smaller Rivals May Not Be so Lucky",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-samsung-absorb-smartphone-cost-180159241.html",
-      "publishedAt": "2026-08-15T18:01:59.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1319,12 +1319,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 63019.11,
-      "changePct": 0.06589166852037252,
+      "aiScore": 83,
+      "confidence": 62,
+      "price": 63001.68,
+      "changePct": -0.03642543788074837,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "BTC-USD",
@@ -1340,12 +1340,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 63019.11,
-      "changePct": 0.06589166852037252,
+      "aiScore": 83,
+      "confidence": 62,
+      "price": 63001.68,
+      "changePct": -0.03642543788074837,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "BTC-USD",
@@ -1361,10 +1361,10 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 63019.11,
-      "changePct": 0.06589166852037252,
+      "aiScore": 83,
+      "confidence": 62,
+      "price": 63001.68,
+      "changePct": -0.03642543788074837,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
@@ -1382,12 +1382,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 63019.11,
-      "changePct": 0.06589166852037252,
+      "aiScore": 83,
+      "confidence": 62,
+      "price": 63001.68,
+      "changePct": -0.03642543788074837,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ETH-USD",
@@ -1403,12 +1403,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 81,
-      "confidence": 72,
-      "price": 1881.08,
-      "changePct": 0.037524441940924316,
+      "aiScore": 90,
+      "confidence": 62,
+      "price": 1880.58,
+      "changePct": -0.0213718153602769,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ETH-USD",
@@ -1424,12 +1424,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 81,
-      "confidence": 72,
-      "price": 1881.08,
-      "changePct": 0.037524441940924316,
+      "aiScore": 90,
+      "confidence": 62,
+      "price": 1880.58,
+      "changePct": -0.0213718153602769,
       "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
@@ -1445,12 +1445,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 75.29,
-      "changePct": -0.047062447021554224,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 24,
+      "confidence": 62,
+      "price": 75.31,
+      "changePct": 0.049141119771885,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
@@ -1466,12 +1466,12 @@
         "positiveHits": 1,
         "negativeHits": 1
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 75.29,
-      "changePct": -0.047062447021554224,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 24,
+      "confidence": 62,
+      "price": 75.31,
+      "changePct": 0.049141119771885,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
@@ -1487,12 +1487,12 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 75.29,
-      "changePct": -0.047062447021554224,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 24,
+      "confidence": 62,
+      "price": 75.31,
+      "changePct": 0.049141119771885,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
@@ -1508,12 +1508,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 90,
-      "confidence": 72,
-      "price": 75.29,
-      "changePct": -0.047062447021554224,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 24,
+      "confidence": 62,
+      "price": 75.31,
+      "changePct": 0.049141119771885,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "PLTR",
@@ -1687,27 +1687,6 @@
       "symbol": "NET",
       "assetType": "stock",
       "name": "Cloudflare, Inc.",
-      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
-      "publishedAt": "2026-08-15T17:30:02.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 315.78,
-      "changePct": -4.549164223317115,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NET",
-      "assetType": "stock",
-      "name": "Cloudflare, Inc.",
       "title": "Why Did PANW, NET, HPQ Stocks Jump To 52-Week Highs Today?",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/4612c7d2-fc78-3366-9deb-cdfcbdbabda7/why-did-panw%2C-net%2C-hpq-stocks.html",
@@ -1766,6 +1745,27 @@
       "changePct": -4.549164223317115,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "NET",
+      "assetType": "stock",
+      "name": "Cloudflare, Inc.",
+      "title": "Akamai Q2 Earnings Highlight AI Growth, Cloud Gains and Margin Risk",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/akamai-q2-earnings-highlight-ai-152400172.html",
+      "publishedAt": "2026-08-12T15:24:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 99,
+      "confidence": 64,
+      "price": 315.78,
+      "changePct": -4.549164223317115,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "YUM",
@@ -1850,90 +1850,6 @@
       "changePct": -1.816373881339066,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "3 Russell 2000 Stocks with Questionable Fundamentals",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-questionable-234100895.html",
-      "publishedAt": "2026-08-15T23:41:00.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.331,
-      "changePct": -2.1344672111356005,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "3 Reasons to Sell ROCK and 1 Stock to Buy Instead",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-rock-1-233300370.html",
-      "publishedAt": "2026-08-15T23:33:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.331,
-      "changePct": -2.1344672111356005,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "Layne’s Chicken Fingers holds grand opening",
-      "publisher": "The Lima News, Ohio",
-      "link": "https://finance.yahoo.com/m/3906ce77-7d30-3b7b-9ad8-725e36a138d6/layne%E2%80%99s-chicken-fingers-holds.html",
-      "publishedAt": "2026-08-15T23:31:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.331,
-      "changePct": -2.1344672111356005,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "3 Reasons to Avoid CCL and 1 Stock to Buy Instead",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-ccl-1-232500231.html",
-      "publishedAt": "2026-08-15T23:25:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.331,
-      "changePct": -2.1344672111356005,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ISRG",
@@ -2191,27 +2107,6 @@
       "symbol": "CRWD",
       "assetType": "stock",
       "name": "CrowdStrike Holdings, Inc.",
-      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
-      "publishedAt": "2026-08-15T17:30:02.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 64,
-      "price": 216.95,
-      "changePct": -3.8043719239125666,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "CRWD",
-      "assetType": "stock",
-      "name": "CrowdStrike Holdings, Inc.",
       "title": "CrowdStrike’s Expanded QuiltWorks AI Security Push Might Change The Case For Investing In CRWD",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/technology/ai/articles/crowdstrike-expanded-quiltworks-ai-security-231134189.html",
@@ -2270,6 +2165,27 @@
       "changePct": -3.8043719239125666,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "CRWD",
+      "assetType": "stock",
+      "name": "CrowdStrike Holdings, Inc.",
+      "title": "Major Software Providers Poised for Quarterly Beats Amid 'Bullish' Reseller Feedback, RBC Says",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/major-software-providers-poised-quarterly-194418720.html",
+      "publishedAt": "2026-08-14T19:44:18.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 3,
+        "negativeHits": 1
+      },
+      "aiScore": 96,
+      "confidence": 64,
+      "price": 216.95,
+      "changePct": -3.8043719239125666,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $217.94."
     },
     {
       "symbol": "BMY",
@@ -2524,90 +2440,6 @@
       "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $86.28."
     },
     {
-      "symbol": "ADA-USD",
-      "assetType": "crypto",
-      "name": "Cardano USD",
-      "title": "Adaptive Biotechnologies Q2 Loss Widens, Revenue Rise",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-q2-loss-widens-082920634.html",
-      "publishedAt": "2026-07-30T08:29:20.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 0.1761,
-      "changePct": -2.0923057729011862,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "ADA-USD",
-      "assetType": "crypto",
-      "name": "Cardano USD",
-      "title": "Adaptive Biotechnologies Corp (ADPT) (Q2 2026) Earnings Call Highlights: MRD Revenue Surges ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-corp-adpt-q2-050307312.html",
-      "publishedAt": "2026-07-30T05:03:07.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 0.1761,
-      "changePct": -2.0923057729011862,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $0.177."
-    },
-    {
-      "symbol": "ADA-USD",
-      "assetType": "crypto",
-      "name": "Cardano USD",
-      "title": "Adaptive Biotechnologies (ADPT) Reports Q2 Earnings: What Key Metrics Have to Say",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-230004993.html",
-      "publishedAt": "2026-07-29T23:00:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 0.1761,
-      "changePct": -2.0923057729011862,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "ADA-USD",
-      "assetType": "crypto",
-      "name": "Cardano USD",
-      "title": "Adaptive Biotechnologies (ADPT) Reports Q2 Loss, Beats Revenue Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-222503985.html",
-      "publishedAt": "2026-07-29T22:25:03.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 3,
-        "negativeHits": 1
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 0.1761,
-      "changePct": -2.0923057729011862,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $0.177."
-    },
-    {
       "symbol": "ABNB",
       "assetType": "stock",
       "name": "Airbnb, Inc.",
@@ -2779,27 +2611,6 @@
       "symbol": "ZS",
       "assetType": "stock",
       "name": "Zscaler, Inc.",
-      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
-      "publishedAt": "2026-08-15T17:30:02.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 183.6,
-      "changePct": -2.4338399404825233,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "ZS",
-      "assetType": "stock",
-      "name": "Zscaler, Inc.",
       "title": "Major Software Providers Poised for Quarterly Beats Amid 'Bullish' Reseller Feedback, RBC Says",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/major-software-providers-poised-quarterly-194418720.html",
@@ -2850,6 +2661,27 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 183.6,
+      "changePct": -2.4338399404825233,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "ZS",
+      "assetType": "stock",
+      "name": "Zscaler, Inc.",
+      "title": "OpenAI replaces CRO Denise Dresser with Dali Rajic",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/166e282d-34aa-3bd0-a68a-e25a2292d285/openai-replaces-cro-denise.html",
+      "publishedAt": "2026-08-14T12:39:16.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 95,
@@ -2944,86 +2776,359 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot Barely Moves Since Missing Q2 Earnings Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-barely-moves-since-142200242.html",
-      "publishedAt": "2026-08-14T14:22:00.000Z",
+      "symbol": "TMO",
+      "assetType": "stock",
+      "name": "Thermo Fisher Scientific Inc.",
+      "title": "3 Profitable Stocks We’re Skeptical Of",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-profitable-stocks-skeptical-224500725.html",
+      "publishedAt": "2026-08-15T22:45:00.000Z",
       "sentiment": {
-        "score": 37,
-        "label": "bearish",
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 588.29,
+      "changePct": -1.2754031784389774,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "TMO",
+      "assetType": "stock",
+      "name": "Thermo Fisher Scientific Inc.",
+      "title": "Envetec Appoints Patrick S. Jones as Independent Director",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/envetec-appoints-patrick-jones-independent-070000390.html",
+      "publishedAt": "2026-08-14T07:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
         "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 588.29,
+      "changePct": -1.2754031784389774,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "TMO",
+      "assetType": "stock",
+      "name": "Thermo Fisher Scientific Inc.",
+      "title": "Thermo Fisher Scientific Insider Sold Shares Worth $15,300,000, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/thermo-fisher-scientific-insider-sold-200921867.html",
+      "publishedAt": "2026-08-13T20:09:21.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 588.29,
+      "changePct": -1.2754031784389774,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "TMO",
+      "assetType": "stock",
+      "name": "Thermo Fisher Scientific Inc.",
+      "title": "Thermo Fisher closes $1.1B sale of microbiology unit to PE firm",
+      "publisher": "MedTech Dive",
+      "link": "https://finance.yahoo.com/m/b314ab09-03c4-36c0-af60-872f7cbcc6f5/thermo-fisher-closes-%241.1b.html",
+      "publishedAt": "2026-08-13T11:19:28.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 588.29,
+      "changePct": -1.2754031784389774,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "MMM",
+      "assetType": "stock",
+      "name": "3M Company",
+      "title": "3M Board Declares Quarterly Dividend",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3m-board-declares-quarterly-dividend-183500868.html",
+      "publishedAt": "2026-08-14T18:35:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 182.65,
+      "changePct": 0,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "MMM",
+      "assetType": "stock",
+      "name": "3M Company",
+      "title": "3M Rides on Transportation & Electronics Strength: A Sign of More Upside?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3m-rides-transportation-electronics-strength-163700782.html",
+      "publishedAt": "2026-08-14T16:37:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 182.65,
+      "changePct": 0,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "MMM",
+      "assetType": "stock",
+      "name": "3M Company",
+      "title": "AIT Q4 Earnings Beat Estimates on Strong Organic Sales Growth",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ait-q4-earnings-beat-estimates-162600614.html",
+      "publishedAt": "2026-08-14T16:26:00.000Z",
+      "sentiment": {
+        "score": 89,
+        "label": "bullish",
+        "positiveHits": 3,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 182.65,
+      "changePct": 0,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $182.97."
+    },
+    {
+      "symbol": "MMM",
+      "assetType": "stock",
+      "name": "3M Company",
+      "title": "3M Rises 14.3% in the Past Year: Should You Buy the Stock Now or Wait?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3m-rises-14-3-past-160100511.html",
+      "publishedAt": "2026-08-12T16:01:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 94,
+      "confidence": 72,
+      "price": 182.65,
+      "changePct": 0,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "PFE",
+      "assetType": "stock",
+      "name": "Pfizer Inc.",
+      "title": "Pfizer (PFE) Stock Looks Reasonable On Returns But Stretched On Earnings",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pfizer-pfe-stock-looks-reasonable-061157778.html",
+      "publishedAt": "2026-08-15T06:11:57.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 93,
+      "confidence": 72,
+      "price": 26.79,
+      "changePct": -0.03731343283582673,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "PFE",
+      "assetType": "stock",
+      "name": "Pfizer Inc.",
+      "title": "AbbVie Defends Its Turf, But Leaves One Big Question Open",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/b8eda04d-a5b0-3134-a5b0-cbe83cd2fcd3/abbvie-defends-its-turf%2C-but.html",
+      "publishedAt": "2026-08-14T21:22:45.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 93,
+      "confidence": 72,
+      "price": 26.79,
+      "changePct": -0.03731343283582673,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "PFE",
+      "assetType": "stock",
+      "name": "Pfizer Inc.",
+      "title": "Sector Update: Healthcare Stocks Decline Late Afternoon",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-decline-afternoon-195128452.html",
+      "publishedAt": "2026-08-14T19:51:28.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 93,
+      "confidence": 72,
+      "price": 26.79,
+      "changePct": -0.03731343283582673,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "PFE",
+      "assetType": "stock",
+      "name": "Pfizer Inc.",
+      "title": "Can BMY's First CELMoD Approval Support Its Growth Strategy?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/bmys-first-celmod-approval-support-192500252.html",
+      "publishedAt": "2026-08-14T19:25:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 93,
+      "confidence": 72,
+      "price": 26.79,
+      "changePct": -0.03731343283582673,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $26.86."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
+      "title": "Apple, Samsung Can Absorb the Smartphone Cost Shock — Smaller Rivals May Not Be so Lucky",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-samsung-absorb-smartphone-cost-180159241.html",
+      "publishedAt": "2026-08-15T18:01:59.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 55,
+      "confidence": 72,
+      "price": 305.93,
+      "changePct": 0.21948502915547924,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9f7a7ac7-0c70-3bd9-963c-24c0fe9ad6f9/nvidia%E2%80%99s-secret-%2421-billion.html",
+      "publishedAt": "2026-08-15T13:41:48.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
         "negativeHits": 1
       },
-      "aiScore": 95,
+      "aiScore": 51,
       "confidence": 72,
-      "price": 0.7594,
-      "changePct": -0.6206173090251288,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "price": 495.4,
+      "changePct": -0.2978586379005028,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot (GDOT) Q2 Earnings Lag Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-gdot-q2-earnings-215504505.html",
-      "publishedAt": "2026-08-10T21:55:04.000Z",
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Dara Khosrowshahi Just Delivered Fantastic News for Uber Stock Investors",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/97f8e463-cfda-3e8b-94ce-6a28f0ee8e29/dara-khosrowshahi-just.html",
+      "publishedAt": "2026-08-15T22:20:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 0.7594,
-      "changePct": -0.6206173090251288,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 46,
+      "confidence": 82,
+      "price": 225.16,
+      "changePct": -0.06213936972925645,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot: Q2 Earnings Snapshot",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-q2-earnings-snapshot-203405163.html",
-      "publishedAt": "2026-08-10T20:34:05.000Z",
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Palantir Makes Its Case Against Frontier AI",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/6b9e356e-3fd1-33c7-99f0-2f4bd39dc30a/palantir-makes-its-case.html",
+      "publishedAt": "2026-08-15T21:50:19.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 0.7594,
-      "changePct": -0.6206173090251288,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 46,
+      "confidence": 82,
+      "price": 225.16,
+      "changePct": -0.06213936972925645,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot Reports Second Quarter 2026 Results",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-reports-second-quarter-200500156.html",
-      "publishedAt": "2026-08-10T20:05:00.000Z",
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Nvidia’s Secret $21 Billion SpaceX Windfall — How One Chip Deal Turned Into a Rocket Fortune",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9f7a7ac7-0c70-3bd9-963c-24c0fe9ad6f9/nvidia%E2%80%99s-secret-%2421-billion.html",
+      "publishedAt": "2026-08-15T13:41:48.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
+        "positiveHits": 1,
+        "negativeHits": 1
       },
-      "aiScore": 95,
+      "aiScore": 85,
       "confidence": 72,
-      "price": 0.7594,
-      "changePct": -0.6206173090251288,
+      "price": 262.65,
+      "changePct": -0.9353901859465237,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
@@ -3031,99 +3136,57 @@
       "symbol": "META",
       "assetType": "stock",
       "name": "Meta Platforms, Inc.",
-      "title": "Mark Zuckerberg Just Wrote a 6,500-Word Manifesto on the Future of AI, and Did Not Mention Crypto Once. Here's What He's Missing.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/6d9823ea-2f54-327d-9e0b-53d37bd5d6b5/mark-zuckerberg-just-wrote-a.html",
-      "publishedAt": "2026-08-15T09:20:00.000Z",
+      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
+      "publishedAt": "2026-08-15T17:30:02.000Z",
       "sentiment": {
-        "score": 37,
-        "label": "bearish",
+        "score": 50,
+        "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 1
+        "negativeHits": 0
       },
       "aiScore": 89,
       "confidence": 72,
       "price": 589.85,
       "changePct": -0.8605475906348227,
       "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Solar Is Now Half of All New Power on the Grid and This ETF Still Trades Like Nobody Noticed",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/1409d3f3-ebd9-3071-85c7-9df78ee6f4e6/solar-is-now-half-of-all-new.html",
-      "publishedAt": "2026-08-14T18:14:37.000Z",
+      "symbol": "GOOGL",
+      "assetType": "stock",
+      "name": "Alphabet Inc.",
+      "title": "Apple, Samsung Can Absorb the Smartphone Cost Shock — Smaller Rivals May Not Be so Lucky",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/apple-samsung-absorb-smartphone-cost-180159241.html",
+      "publishedAt": "2026-08-15T18:01:59.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 86,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 75.3,
-      "changePct": -0.03378672148657115,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Solar Power Hits Big Milestone, Trumping Wind For First Time",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/d74c7199-6b92-3b1d-a471-f1c79ff78414/solar-power-hits-big.html",
-      "publishedAt": "2026-08-14T16:15:05.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 86,
-      "confidence": 72,
-      "price": 75.3,
-      "changePct": -0.03378672148657115,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Boeing Analysts Turn Most Bullish Since 2022 on ‘Momentum Shift’",
-      "publisher": "Bloomberg",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/boeing-analysts-turn-most-bullish-103001501.html",
-      "publishedAt": "2026-08-14T10:30:01.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 86,
-      "confidence": 72,
-      "price": 75.3,
-      "changePct": -0.03378672148657115,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "price": 345.9,
+      "changePct": -0.1328097932786801,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "NET",
       "assetType": "stock",
       "name": "Cloudflare, Inc.",
-      "title": "Akamai Q2 Earnings Highlight AI Growth, Cloud Gains and Margin Risk",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/technology/ai/articles/akamai-q2-earnings-highlight-ai-152400172.html",
-      "publishedAt": "2026-08-12T15:24:00.000Z",
+      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
+      "publishedAt": "2026-08-15T17:30:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
+        "positiveHits": 0,
+        "negativeHits": 0
       },
       "aiScore": 99,
       "confidence": 64,
@@ -3136,20 +3199,41 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "Avax One Technology Ltd Q2 2026 Earnings Call Summary",
-      "publisher": "Moby",
-      "link": "https://finance.yahoo.com/m/a1c482f8-daa1-3b66-bbb8-d677751d35e2/avax-one-technology-ltd-q2.html",
-      "publishedAt": "2026-08-14T12:30:00.000Z",
+      "title": "3 Russell 2000 Stocks with Questionable Fundamentals",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-russell-2000-stocks-questionable-234100895.html",
+      "publishedAt": "2026-08-15T23:41:00.000Z",
       "sentiment": {
-        "score": 50,
-        "label": "mixed",
+        "score": 37,
+        "label": "bearish",
         "positiveHits": 0,
-        "negativeHits": 0
+        "negativeHits": 1
       },
       "aiScore": 99,
       "confidence": 64,
-      "price": 6.328,
-      "changePct": -2.180841654093523,
+      "price": 6.331,
+      "changePct": -2.1344672111356005,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "AVAX-USD",
+      "assetType": "crypto",
+      "name": "Avalanche USD",
+      "title": "3 Reasons to Sell ROCK and 1 Stock to Buy Instead",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-rock-1-233300370.html",
+      "publishedAt": "2026-08-15T23:33:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 99,
+      "confidence": 64,
+      "price": 6.331,
+      "changePct": -2.1344672111356005,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -3157,10 +3241,10 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "AVAX One Technology Ltd (AVX) (Q2 2026) Earnings Call Highlights: Avalanche Treasury Strategy ...",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/avax-one-technology-ltd-avx-050042130.html",
-      "publishedAt": "2026-08-14T05:00:42.000Z",
+      "title": "Layne’s Chicken Fingers holds grand opening",
+      "publisher": "The Lima News, Ohio",
+      "link": "https://finance.yahoo.com/m/3906ce77-7d30-3b7b-9ad8-725e36a138d6/layne%E2%80%99s-chicken-fingers-holds.html",
+      "publishedAt": "2026-08-15T23:31:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -3169,8 +3253,8 @@
       },
       "aiScore": 99,
       "confidence": 64,
-      "price": 6.328,
-      "changePct": -2.180841654093523,
+      "price": 6.331,
+      "changePct": -2.1344672111356005,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -3178,41 +3262,20 @@
       "symbol": "AVAX-USD",
       "assetType": "crypto",
       "name": "Avalanche USD",
-      "title": "Avalanche Treasury Firm AVAX One Reclaims Nasdaq Compliance After Reverse Stock Split",
-      "publisher": "decrypt",
-      "link": "https://finance.yahoo.com/m/9aa63de6-50cf-35ba-80ea-1444bbebe1ba/avalanche-treasury-firm-avax.html",
-      "publishedAt": "2026-07-09T20:57:49.000Z",
+      "title": "3 Reasons to Avoid CCL and 1 Stock to Buy Instead",
+      "publisher": "StockStory",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-avoid-ccl-1-232500231.html",
+      "publishedAt": "2026-08-15T23:25:00.000Z",
       "sentiment": {
-        "score": 50,
+        "score": 63,
         "label": "mixed",
-        "positiveHits": 0,
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 99,
       "confidence": 64,
-      "price": 6.328,
-      "changePct": -2.180841654093523,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "Avax One Technology Regains Compliance With Nasdaq Listing Requirement",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/avax-one-technology-regains-compliance-134032756.html",
-      "publishedAt": "2026-07-09T13:40:32.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.328,
-      "changePct": -2.180841654093523,
+      "price": 6.331,
+      "changePct": -2.1344672111356005,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -3220,10 +3283,94 @@
       "symbol": "CRWD",
       "assetType": "stock",
       "name": "CrowdStrike Holdings, Inc.",
-      "title": "Major Software Providers Poised for Quarterly Beats Amid 'Bullish' Reseller Feedback, RBC Says",
+      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
+      "publishedAt": "2026-08-15T17:30:02.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 64,
+      "price": 216.95,
+      "changePct": -3.8043719239125666,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ADA-USD",
+      "assetType": "crypto",
+      "name": "Cardano USD",
+      "title": "Adaptive Biotechnologies Q2 Loss Widens, Revenue Rise",
       "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/major-software-providers-poised-quarterly-194418720.html",
-      "publishedAt": "2026-08-14T19:44:18.000Z",
+      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-q2-loss-widens-082920634.html",
+      "publishedAt": "2026-07-30T08:29:20.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 0.1761,
+      "changePct": -2.0923057729011862,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "ADA-USD",
+      "assetType": "crypto",
+      "name": "Cardano USD",
+      "title": "Adaptive Biotechnologies Corp (ADPT) (Q2 2026) Earnings Call Highlights: MRD Revenue Surges ...",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-corp-adpt-q2-050307312.html",
+      "publishedAt": "2026-07-30T05:03:07.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 0.1761,
+      "changePct": -2.0923057729011862,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $0.177."
+    },
+    {
+      "symbol": "ADA-USD",
+      "assetType": "crypto",
+      "name": "Cardano USD",
+      "title": "Adaptive Biotechnologies (ADPT) Reports Q2 Earnings: What Key Metrics Have to Say",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-230004993.html",
+      "publishedAt": "2026-07-29T23:00:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 0.1761,
+      "changePct": -2.0923057729011862,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "ADA-USD",
+      "assetType": "crypto",
+      "name": "Cardano USD",
+      "title": "Adaptive Biotechnologies (ADPT) Reports Q2 Loss, Beats Revenue Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/healthcare/articles/adaptive-biotechnologies-adpt-reports-q2-222503985.html",
+      "publishedAt": "2026-07-29T22:25:03.000Z",
       "sentiment": {
         "score": 76,
         "label": "bullish",
@@ -3231,20 +3378,20 @@
         "negativeHits": 1
       },
       "aiScore": 96,
-      "confidence": 64,
-      "price": 216.95,
-      "changePct": -3.8043719239125666,
+      "confidence": 72,
+      "price": 0.1761,
+      "changePct": -2.0923057729011862,
       "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $217.94."
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $0.177."
     },
     {
       "symbol": "ZS",
       "assetType": "stock",
       "name": "Zscaler, Inc.",
-      "title": "OpenAI replaces CRO Denise Dresser with Dali Rajic",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/166e282d-34aa-3bd0-a68a-e25a2292d285/openai-replaces-cro-denise.html",
-      "publishedAt": "2026-08-14T12:39:16.000Z",
+      "title": "The AI Boom Has a Dark Side. Why Cybersecurity Stocks Might Be the Best Way to Play It.",
+      "publisher": "Barchart",
+      "link": "https://finance.yahoo.com/m/be1c3e8a-4954-3d06-8690-9529d4de3215/the-ai-boom-has-a-dark-side..html",
+      "publishedAt": "2026-08-15T17:30:02.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -3257,153 +3404,6 @@
       "changePct": -2.4338399404825233,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Global Technology Virtual Investor Presentations Now Available for On-Demand Viewing",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/global-technology-virtual-investor-presentations-123500248.html",
-      "publishedAt": "2026-07-10T12:35:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 0.7584,
-      "changePct": -0.7514829696663916,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Global Technology Virtual Investor Conference Agenda Announced",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/global-technology-virtual-investor-conference-131600325.html",
-      "publishedAt": "2026-07-06T13:16:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 0.7584,
-      "changePct": -0.7514829696663916,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "SpaceX Is Poised to Hit $220 by June 2027 (Hint: It's Not Too Late to Buy In)",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/9e4721df-c85d-3674-bf95-f083c755871e/spacex-is-poised-to-hit-%24220.html",
-      "publishedAt": "2026-08-15T21:35:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 46,
-      "confidence": 82,
-      "price": 225.16,
-      "changePct": -0.06213936972925645,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "Kraken Parent Payward Posts $508M Q2 Revenue, Up 17% Year Over Year",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/3c0e2705-7b07-3e57-a5ef-49b13703de1e/kraken-parent-payward-posts.html",
-      "publishedAt": "2026-08-14T16:52:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 51,
-      "confidence": 72,
-      "price": 63061.66,
-      "changePct": 0.13345535976412118,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "Russia to Allow Bitcoin, Ether, Tether Trading on Official Exchanges",
-      "publisher": "CryptoProwl",
-      "link": "https://finance.yahoo.com/m/f3e037de-2da6-3060-9ead-8b65bcbcb7c0/russia-to-allow-bitcoin%2C.html",
-      "publishedAt": "2026-08-11T14:57:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 51,
-      "confidence": 72,
-      "price": 63061.66,
-      "changePct": 0.13345535976412118,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "3 Reasons DNUT is Risky and 1 Stock to Buy Instead",
-      "publisher": "StockStory",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-dnut-risky-1-230900553.html",
-      "publishedAt": "2026-08-15T23:09:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.33,
-      "changePct": -2.149925358788246,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AVAX-USD",
-      "assetType": "crypto",
-      "name": "Avalanche USD",
-      "title": "Snowflake vs. Verizon: Which Technology Stock Is a Better Buy in 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7dc616e5-e658-3ce4-b143-226b12450c82/snowflake-vs.-verizon%3A-which.html",
-      "publishedAt": "2026-08-15T23:06:22.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 64,
-      "price": 6.33,
-      "changePct": -2.149925358788246,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
 }
