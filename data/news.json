@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-17T22:09:59.494Z",
+  "updatedAt": "2026-08-17T22:37:42.650Z",
   "totalHeadlines": 160,
   "bullish": 8,
-  "bearish": 21,
-  "mixed": 131,
+  "bearish": 26,
+  "mixed": 126,
   "avgSentiment": 51,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -70,6 +70,27 @@
       "symbol": "SPY",
       "assetType": "stock",
       "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
+      "publishedAt": "2026-08-17T21:46:04.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 89,
+      "confidence": 82,
+      "price": 772.67,
+      "changePct": -0.4727310199139646,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
       "title": "FactSet’s Kashner: Active Investors Prefer Performance to Cost",
       "publisher": "etf.com",
       "link": "https://finance.yahoo.com/m/1f67d75b-415b-3ad3-b39f-6d43828eb394/factset%E2%80%99s-kashner%3A-active.html",
@@ -109,25 +130,46 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "SPY",
+      "symbol": "QQQ",
       "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "CoreWeave for $105: A Reasonable Bull Case On Offer",
+      "name": "Invesco QQQ Trust",
+      "title": "QQQI’s 14% Yield Erases a $500,000 Cost Basis in Seven Years, Then the Tax Bill Lands",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/debbfe5d-933e-35a4-98a4-9f079afc09b6/coreweave-for-%24105%3A-a.html",
-      "publishedAt": "2026-08-17T14:00:15.000Z",
+      "link": "https://finance.yahoo.com/m/8aac21ce-5f02-3c6b-a336-14c976f4ae56/qqqi%E2%80%99s-14%25-yield-erases-a.html",
+      "publishedAt": "2026-08-17T22:05:17.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 89,
-      "confidence": 82,
-      "price": 772.67,
-      "changePct": -0.4727310199139646,
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 729.87,
+      "changePct": -0.164142968525592,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "QQQ",
+      "assetType": "stock",
+      "name": "Invesco QQQ Trust",
+      "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
+      "publishedAt": "2026-08-17T21:46:04.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 729.87,
+      "changePct": -0.164142968525592,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "QQQ",
@@ -172,46 +214,25 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
-      "symbol": "QQQ",
+      "symbol": "DIA",
       "assetType": "stock",
-      "name": "Invesco QQQ Trust",
-      "title": "Fed's Next Rate Move Just Got More Complicated",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/economy/policy/articles/feds-next-rate-move-just-203716877.html",
-      "publishedAt": "2026-08-17T20:37:16.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 80,
-      "confidence": 72,
-      "price": 729.87,
-      "changePct": -0.164142968525592,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "QQQ",
-      "assetType": "stock",
-      "name": "Invesco QQQ Trust",
-      "title": "Exchange-Traded Funds Fall, US Equities Mixed After Midday",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-fall-us-171229685.html",
-      "publishedAt": "2026-08-17T17:12:29.000Z",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
+      "publishedAt": "2026-08-17T21:46:04.000Z",
       "sentiment": {
         "score": 37,
         "label": "bearish",
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 80,
+      "aiScore": 52,
       "confidence": 72,
-      "price": 729.87,
-      "changePct": -0.164142968525592,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "price": 534.19,
+      "changePct": -0.4862146050670455,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "DIA",
@@ -267,27 +288,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 52,
-      "confidence": 72,
-      "price": 534.19,
-      "changePct": -0.4862146050670455,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "DIA",
-      "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
-      "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/04cc5747-afdc-303f-ab37-0dac48eba0d4/s%26p-500-ends-at-record-high%2C.html",
-      "publishedAt": "2026-08-07T21:24:45.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
         "negativeHits": 0
       },
       "aiScore": 52,
@@ -574,6 +574,27 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
+      "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
+      "publishedAt": "2026-08-17T21:46:04.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 91,
+      "confidence": 82,
+      "price": 225.01,
+      "changePct": -0.06661929294724005,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
       "title": "BlackRock (BLK) & NVIDIA Corporation (NVDA): BlackRock’s Larry Fink Says the US Alone Needs 70 Gigawatts of Power for AI",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/technology/ai/articles/blackrock-blk-nvidia-corporation-nvda-213145577.html",
@@ -613,25 +634,25 @@
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
-      "symbol": "NVDA",
+      "symbol": "TSLA",
       "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Penguin Solutions Highlights AI Factory Platform, MemoryAI for Inference Growth",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/715e91fe-9218-3b85-9811-60f4e5b387d5/penguin-solutions-highlights.html",
-      "publishedAt": "2026-08-17T21:02:00.000Z",
+      "name": "Tesla, Inc.",
+      "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
+      "publishedAt": "2026-08-17T21:46:04.000Z",
       "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
       },
-      "aiScore": 91,
-      "confidence": 82,
-      "price": 225.01,
-      "changePct": -0.06661929294724005,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $225.48."
+      "aiScore": 57,
+      "confidence": 72,
+      "price": 339.3,
+      "changePct": -0.867735997896389,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "TSLA",
@@ -687,27 +708,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 57,
-      "confidence": 72,
-      "price": 339.3,
-      "changePct": -0.867735997896389,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "BYD Keeps Global EV Lead as Tesla Sales Rebound",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/byd-keeps-global-ev-lead-203216285.html",
-      "publishedAt": "2026-08-17T20:32:16.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 57,
@@ -973,6 +973,27 @@
       "symbol": "AMD",
       "assetType": "stock",
       "name": "Advanced Micro Devices, Inc.",
+      "title": "JPMorgan lifts Bitcoin miner's price target after $9.1B Anthropic deal",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/bf01f292-f3ec-338b-9898-586027a1aa77/jpmorgan-lifts-bitcoin.html",
+      "publishedAt": "2026-08-17T22:21:09.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 506,
+      "changePct": -1.631058146542504,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AMD",
+      "assetType": "stock",
+      "name": "Advanced Micro Devices, Inc.",
       "title": "Stocks to Watch Recap: Alibaba, L3Harris, Diana Shipping, BHP",
       "publisher": "The Wall Street Journal",
       "link": "https://finance.yahoo.com/m/33ff8e66-9257-302b-bd2c-fb8c53ace832/stocks-to-watch-recap%3A.html",
@@ -1031,27 +1052,6 @@
       "changePct": -1.631058146542504,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "AMD",
-      "assetType": "stock",
-      "name": "Advanced Micro Devices, Inc.",
-      "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/cd7217b5-d3da-364e-93aa-992f30c3cbc4/nvidia%2C-asml-lead-five-stocks.html",
-      "publishedAt": "2026-08-17T20:33:45.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 506,
-      "changePct": -1.631058146542504,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $507.67."
     },
     {
       "symbol": "JPM",
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 73,
+      "aiScore": 55,
       "confidence": 72,
-      "price": 64274.1,
-      "changePct": 2.299015351624578,
-      "signal": "dip",
+      "price": 64284.28,
+      "changePct": 2.3152178962931083,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 73,
+      "aiScore": 55,
       "confidence": 72,
-      "price": 64274.1,
-      "changePct": 2.299015351624578,
-      "signal": "dip",
+      "price": 64284.28,
+      "changePct": 2.3152178962931083,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,12 +1361,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 73,
+      "aiScore": 55,
       "confidence": 72,
-      "price": 64274.1,
-      "changePct": 2.299015351624578,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "price": 64284.28,
+      "changePct": 2.3152178962931083,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "BTC-USD",
@@ -1382,10 +1382,31 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 73,
+      "aiScore": 55,
       "confidence": 72,
-      "price": 64274.1,
-      "changePct": 2.299015351624578,
+      "price": 64284.28,
+      "changePct": 2.3152178962931083,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "Ethos Signs Erin Andrews as Its Next Sports Partner in Growing Campaign to Make Life Insurance Accessible for Every Family",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/ethos-signs-erin-andrews-next-130500906.html",
+      "publishedAt": "2026-08-13T13:05:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 72,
+      "confidence": 72,
+      "price": 1903.52,
+      "changePct": 1.5697659837970241,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1393,20 +1414,20 @@
       "symbol": "ETH-USD",
       "assetType": "crypto",
       "name": "Ethereum USD",
-      "title": "The Worst Performing ETFs of 2026 So Far",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
-      "publishedAt": "2026-07-10T22:33:46.000Z",
+      "title": "Ethos (LIFE) Q2 2026 Earnings Call Transcript",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/44f006c2-03a5-3484-9e17-297a849b0949/ethos-%28life%29-q2-2026-earnings.html",
+      "publishedAt": "2026-08-11T01:44:48.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 73,
+      "aiScore": 72,
       "confidence": 72,
-      "price": 1904.05,
-      "changePct": 1.5980462098894266,
+      "price": 1903.52,
+      "changePct": 1.5697659837970241,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1414,20 +1435,41 @@
       "symbol": "ETH-USD",
       "assetType": "crypto",
       "name": "Ethereum USD",
-      "title": "What 15,000 ETF Investors Were Searching for This Month",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
-      "publishedAt": "2026-05-28T00:05:25.000Z",
+      "title": "Update: Ethos Shares Rise After Higher Q2 Results, Share Repurchase Plan",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ethos-shares-rise-higher-q2-182631612.html",
+      "publishedAt": "2026-08-04T18:26:31.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 73,
+      "aiScore": 72,
       "confidence": 72,
-      "price": 1904.05,
-      "changePct": 1.5980462098894266,
+      "price": 1903.52,
+      "changePct": 1.5697659837970241,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "BofA Securities Adjusts Ethos Technologies Price Target to $32 From $28",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-ethos-technologies-121904459.html",
+      "publishedAt": "2026-08-04T12:19:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 72,
+      "confidence": 72,
+      "price": 1903.52,
+      "changePct": 1.5697659837970241,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1445,10 +1487,10 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 72,
+      "aiScore": 73,
       "confidence": 72,
-      "price": 75.85,
-      "changePct": 1.7605036695494853,
+      "price": 75.76,
+      "changePct": 1.6397594990780502,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
@@ -1466,10 +1508,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 72,
+      "aiScore": 73,
       "confidence": 72,
-      "price": 75.85,
-      "changePct": 1.7605036695494853,
+      "price": 75.76,
+      "changePct": 1.6397594990780502,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1487,10 +1529,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 72,
+      "aiScore": 73,
       "confidence": 72,
-      "price": 75.85,
-      "changePct": 1.7605036695494853,
+      "price": 75.76,
+      "changePct": 1.6397594990780502,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1508,10 +1550,10 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 72,
+      "aiScore": 73,
       "confidence": 72,
-      "price": 75.85,
-      "changePct": 1.7605036695494853,
+      "price": 75.76,
+      "changePct": 1.6397594990780502,
       "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -2191,6 +2233,27 @@
       "symbol": "LMT",
       "assetType": "stock",
       "name": "Lockheed Martin Corporation",
+      "title": "Boeing Stock Commands a Massive Premium: Is It Truly Earned?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/cf43297a-271f-3030-9f59-5bad4b205a7e/boeing-stock-commands-a.html",
+      "publishedAt": "2026-08-17T22:05:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 97,
+      "confidence": 72,
+      "price": 593.74,
+      "changePct": -2.454491686929083,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "LMT",
+      "assetType": "stock",
+      "name": "Lockheed Martin Corporation",
       "title": "Tomahawk Missile Production Is Surging—and These Stocks Could Benefit",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/8d196373-48aa-32b5-9a23-dd6b9478db77/tomahawk-missile-production.html",
@@ -2241,27 +2304,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 97,
-      "confidence": 72,
-      "price": 593.74,
-      "changePct": -2.454491686929083,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "LMT",
-      "assetType": "stock",
-      "name": "Lockheed Martin Corporation",
-      "title": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/937be2cd-8baf-375f-8d71-c03a0713716d/rocket-lab-stock%27s-next-leg.html",
-      "publishedAt": "2026-08-17T15:51:48.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 97,
@@ -2611,6 +2653,27 @@
       "symbol": "RTX",
       "assetType": "stock",
       "name": "RTX Corporation",
+      "title": "Boeing Stock Commands a Massive Premium: Is It Truly Earned?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/cf43297a-271f-3030-9f59-5bad4b205a7e/boeing-stock-commands-a.html",
+      "publishedAt": "2026-08-17T22:05:37.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 221.64,
+      "changePct": -0.5964928017222103,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "RTX",
+      "assetType": "stock",
+      "name": "RTX Corporation",
       "title": "RTX, Pentagon Sign $23 Billion Tomahawk Missile Contract",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/840f039e-f7a6-3452-8856-142ad01604ae/rtx%2C-pentagon-sign-%2423.html",
@@ -2661,27 +2724,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 96,
-      "confidence": 72,
-      "price": 221.64,
-      "changePct": -0.5964928017222103,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "RTX",
-      "assetType": "stock",
-      "name": "RTX Corporation",
-      "title": "Can L3Harris' New Rhode Island Facility Strengthen Undersea Growth?",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-rhode-island-facility-strengthen-143300358.html",
-      "publishedAt": "2026-08-17T14:33:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 96,
@@ -3031,6 +3073,237 @@
       "symbol": "SPY",
       "assetType": "stock",
       "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "CoreWeave for $105: A Reasonable Bull Case On Offer",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/debbfe5d-933e-35a4-98a4-9f079afc09b6/coreweave-for-%24105%3A-a.html",
+      "publishedAt": "2026-08-17T14:00:15.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 82,
+      "price": 772.67,
+      "changePct": -0.4727310199139646,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "QQQ",
+      "assetType": "stock",
+      "name": "Invesco QQQ Trust",
+      "title": "Fed's Next Rate Move Just Got More Complicated",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/economy/policy/articles/feds-next-rate-move-just-203716877.html",
+      "publishedAt": "2026-08-17T20:37:16.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 729.87,
+      "changePct": -0.164142968525592,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "QQQ",
+      "assetType": "stock",
+      "name": "Invesco QQQ Trust",
+      "title": "Exchange-Traded Funds Fall, US Equities Mixed After Midday",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/articles/exchange-traded-funds-fall-us-171229685.html",
+      "publishedAt": "2026-08-17T17:12:29.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 80,
+      "confidence": 72,
+      "price": 729.87,
+      "changePct": -0.164142968525592,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "DIA",
+      "assetType": "stock",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "title": "S&P 500 Ends At Record High, Clocks Strongest Week Since April As Poor Jobs Data Calms Rate Hike Fear — SEZL, SPCX, RDW, PLTR, TTD In Focus",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/04cc5747-afdc-303f-ab37-0dac48eba0d4/s%26p-500-ends-at-record-high%2C.html",
+      "publishedAt": "2026-08-07T21:24:45.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 52,
+      "confidence": 72,
+      "price": 534.19,
+      "changePct": -0.4862146050670455,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Penguin Solutions Highlights AI Factory Platform, MemoryAI for Inference Growth",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/715e91fe-9218-3b85-9811-60f4e5b387d5/penguin-solutions-highlights.html",
+      "publishedAt": "2026-08-17T21:02:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 91,
+      "confidence": 82,
+      "price": 225.01,
+      "changePct": -0.06661929294724005,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $225.48."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "BYD Keeps Global EV Lead as Tesla Sales Rebound",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/byd-keeps-global-ev-lead-203216285.html",
+      "publishedAt": "2026-08-17T20:32:16.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 57,
+      "confidence": 72,
+      "price": 339.3,
+      "changePct": -0.867735997896389,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMD",
+      "assetType": "stock",
+      "name": "Advanced Micro Devices, Inc.",
+      "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/cd7217b5-d3da-364e-93aa-992f30c3cbc4/nvidia%2C-asml-lead-five-stocks.html",
+      "publishedAt": "2026-08-17T20:33:45.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 89,
+      "confidence": 72,
+      "price": 506,
+      "changePct": -1.631058146542504,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $507.67."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "The Worst Performing ETFs of 2026 So Far",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
+      "publishedAt": "2026-07-10T22:33:46.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 73,
+      "confidence": 72,
+      "price": 1904.05,
+      "changePct": 1.5980462098894266,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "What 15,000 ETF Investors Were Searching for This Month",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
+      "publishedAt": "2026-05-28T00:05:25.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 73,
+      "confidence": 72,
+      "price": 1904.05,
+      "changePct": 1.5980462098894266,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LMT",
+      "assetType": "stock",
+      "name": "Lockheed Martin Corporation",
+      "title": "Rocket Lab Stock's Next Leg Rides On A Vehicle That Has Not Flown Yet",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/937be2cd-8baf-375f-8d71-c03a0713716d/rocket-lab-stock%27s-next-leg.html",
+      "publishedAt": "2026-08-17T15:51:48.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 97,
+      "confidence": 72,
+      "price": 593.74,
+      "changePct": -2.454491686929083,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "RTX",
+      "assetType": "stock",
+      "name": "RTX Corporation",
+      "title": "Can L3Harris' New Rhode Island Facility Strengthen Undersea Growth?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/l3harris-rhode-island-facility-strengthen-143300358.html",
+      "publishedAt": "2026-08-17T14:33:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 96,
+      "confidence": 72,
+      "price": 221.64,
+      "changePct": -0.5964928017222103,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
       "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Monday Amid Lower Rate Hike Expectations",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-131346618.html",
@@ -3131,279 +3404,6 @@
       "changePct": 0.25420281995661603,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DIS",
-      "assetType": "stock",
-      "name": "The Walt Disney Company",
-      "title": "Netflix Stock Has Fallen On Slowing Sales While Margin And Buybacks Compound Earnings",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/9926f4e4-be5d-3c35-bf41-26c3d65e189d/netflix-stock-has-fallen-on.html",
-      "publishedAt": "2026-08-17T14:00:06.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 95,
-      "confidence": 72,
-      "price": 103.5,
-      "changePct": -3.1352363125877343,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Apple Changes App Tracking Rules in Europe",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/apple-changes-app-tracking-rules-201438480.html",
-      "publishedAt": "2026-08-17T20:14:38.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 44,
-      "confidence": 82,
-      "price": 305.59,
-      "changePct": -0.11113653450136692,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Four Reasons To Put This Nvidia, AMD Partner On Your Watchlist Right Now",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/badd95c3-60f3-3400-b02b-19b6385bb030/four-reasons-to-put-this.html",
-      "publishedAt": "2026-08-17T20:07:13.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 44,
-      "confidence": 82,
-      "price": 305.59,
-      "changePct": -0.11113653450136692,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "What You Actually Pay To Join The AAPL Run",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/e60005fe-e2ca-3ad5-a4e4-155b2ceda3dc/what-you-actually-pay-to-join.html",
-      "publishedAt": "2026-08-17T20:00:44.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 44,
-      "confidence": 82,
-      "price": 305.59,
-      "changePct": -0.11113653450136692,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Here’s How Nancy Pelosi Beat the Stock Market and Warren Buffett",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/f906d4b2-e97b-3815-aa32-9a205d066061/here%E2%80%99s-how-nancy-pelosi-beat.html",
-      "publishedAt": "2026-08-17T19:12:28.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 52,
-      "confidence": 72,
-      "price": 480.35,
-      "changePct": -3.0379491320145244,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "OpenAI to lease massive new AI data center in US, backed by Nvidia",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/technology/ai/articles/openai-lease-massive-ai-data-205913179.html",
-      "publishedAt": "2026-08-17T20:59:13.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 91,
-      "confidence": 82,
-      "price": 225.01,
-      "changePct": -0.06661929294724005,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Will Bitcoin Drop Below $60K as BTC ETFs See Biggest Outflow in 6 Weeks?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/81e3315c-b5a6-3197-a4f5-b85181354271/will-bitcoin-drop-below-%2460k.html",
-      "publishedAt": "2026-08-17T20:55:55.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 91,
-      "confidence": 82,
-      "price": 225.01,
-      "changePct": -0.06661929294724005,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Nvidia, Alphabet, Peter Thiel: SpaceX Top Shareholders Disclosed",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/39bcf7b6-6f3a-3fec-beef-45673cbe3d5b/nvidia%2C-alphabet%2C-peter.html",
-      "publishedAt": "2026-08-17T20:04:09.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 57,
-      "confidence": 72,
-      "price": 339.3,
-      "changePct": -0.867735997896389,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Functional Brands Announces Second Quarter 2026 Financial Results",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/functional-brands-announces-second-quarter-200100666.html",
-      "publishedAt": "2026-08-17T20:01:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 34,
-      "confidence": 82,
-      "price": 261.31,
-      "changePct": -0.5101846563868171,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "What You Actually Pay To Join The AAPL Run",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/e60005fe-e2ca-3ad5-a4e4-155b2ceda3dc/what-you-actually-pay-to-join.html",
-      "publishedAt": "2026-08-17T20:00:44.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 34,
-      "confidence": 82,
-      "price": 261.31,
-      "changePct": -0.5101846563868171,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Apple Changes App Tracking Rules in Europe",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/articles/apple-changes-app-tracking-rules-201438480.html",
-      "publishedAt": "2026-08-17T20:14:38.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 72,
-      "price": 568.97,
-      "changePct": -3.5398830211070607,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "META",
-      "assetType": "stock",
-      "name": "Meta Platforms, Inc.",
-      "title": "Sector Update: Tech Stocks Rise Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-rise-afternoon-195417941.html",
-      "publishedAt": "2026-08-17T19:54:17.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 42,
-      "confidence": 72,
-      "price": 568.97,
-      "changePct": -3.5398830211070607,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Alphabet Eyes First Australian Dollar Bond Sale",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-eyes-first-australian-dollar-202414977.html",
-      "publishedAt": "2026-08-17T20:24:14.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 49,
-      "confidence": 72,
-      "price": 344,
-      "changePct": -0.5492917028042722,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
 }
