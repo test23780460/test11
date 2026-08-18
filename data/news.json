@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T03:29:39.217Z",
+  "updatedAt": "2026-08-18T04:08:10.443Z",
   "totalHeadlines": 160,
   "bullish": 9,
   "bearish": 24,
@@ -30,7 +30,6 @@
     "MDB",
     "DAL",
     "ROST",
-    "DOT-USD",
     "XLF",
     "FDX",
     "APD",
@@ -42,7 +41,8 @@
     "RTX",
     "ORCL",
     "DIS",
-    "TFC"
+    "TFC",
+    "CB"
   ],
   "headlines": [
     {
@@ -385,6 +385,27 @@
       "symbol": "AAPL",
       "assetType": "stock",
       "name": "Apple Inc.",
+      "title": "Apple vs. CoreWeave: Comparing Revenue Trends Between a Stable Tech Giant and a Rapidly Growing AI Neocloud",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/7de6037e-54d5-3e55-8d06-39417c6364f8/apple-vs.-coreweave%3A.html",
+      "publishedAt": "2026-08-18T03:55:17.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 44,
+      "confidence": 82,
+      "price": 305.59,
+      "changePct": -0.11113653450136692,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
       "title": "Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/f338191e-ff3f-3b81-bb04-a22eed6a0055/micron-reclaims-%241%2C000-amid.html",
@@ -431,27 +452,6 @@
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/fc5643f9-a7a4-3fdf-b877-278d44482173/review-%26-preview%3A-chips.html",
       "publishedAt": "2026-08-17T23:55:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 44,
-      "confidence": 82,
-      "price": 305.59,
-      "changePct": -0.11113653450136692,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AAPL",
-      "assetType": "stock",
-      "name": "Apple Inc.",
-      "title": "Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/1aec5e50-83ad-33cf-b22b-7f6081b0fc3e/financial-advisors-love.html",
-      "publishedAt": "2026-08-17T21:42:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -637,6 +637,27 @@
       "symbol": "TSLA",
       "assetType": "stock",
       "name": "Tesla, Inc.",
+      "title": "Elon Musk to Merge SpaceX and Tesla? Prediction Markets Are Betting on This Date",
+      "publisher": "Benzinga Prediction Markets",
+      "link": "https://finance.yahoo.com/m/80b30f5f-adbc-36b5-aaae-3e06ca355b09/elon-musk-to-merge-spacex-and.html",
+      "publishedAt": "2026-08-18T03:25:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 57,
+      "confidence": 72,
+      "price": 339.3,
+      "changePct": -0.867735997896389,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
       "title": "5-star analyst sets alarming SpaceX stock price target",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/5d935cf8-8ba7-35d3-aa5f-f44744ab8b4a/5-star-analyst-sets-alarming.html",
@@ -687,27 +708,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 57,
-      "confidence": 72,
-      "price": 339.3,
-      "changePct": -0.867735997896389,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "SpaceX Matters More for Tesla Stock Than Cybercab These Days",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/91303a01-c30a-32ed-80bc-3608651417c8/spacex-matters-more-for-tesla.html",
-      "publishedAt": "2026-08-17T20:59:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 57,
@@ -1056,7 +1056,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "SanDisk (SNDK) Gets New ‘Buy’ Reco, Surges 8.88%",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/markets/stocks/articles/sandisk-sndk-gets-buy-reco-012552380.html",
@@ -1077,7 +1077,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "CVS Health Names JPMorgan's Heitsenrether to Board",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/healthcare/articles/cvs-health-names-jpmorgan-apos-205358619.html",
@@ -1098,7 +1098,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "Jane Street’s $15 Billion Loss Lays Bare Its Hedge Fund Side",
       "publisher": "Bloomberg",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jane-street-15-billion-loss-204522531.html",
@@ -1119,7 +1119,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "Sector Update: Financial Stocks Decline Late Afternoon",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/sector-financial-stocks-decline-afternoon-195353964.html",
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 74,
-      "confidence": 62,
-      "price": 64049.72,
-      "changePct": -0.6790912678629168,
-      "signal": "dip",
+      "aiScore": 43,
+      "confidence": 72,
+      "price": 64070.64,
+      "changePct": -0.6466509478946775,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 74,
-      "confidence": 62,
-      "price": 64049.72,
-      "changePct": -0.6790912678629168,
-      "signal": "dip",
+      "aiScore": 43,
+      "confidence": 72,
+      "price": 64070.64,
+      "changePct": -0.6466509478946775,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,12 +1361,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 74,
-      "confidence": 62,
-      "price": 64049.72,
-      "changePct": -0.6790912678629168,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "aiScore": 43,
+      "confidence": 72,
+      "price": 64070.64,
+      "changePct": -0.6466509478946775,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "BTC-USD",
@@ -1382,95 +1382,53 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 74,
-      "confidence": 62,
-      "price": 64049.72,
-      "changePct": -0.6790912678629168,
-      "signal": "dip",
+      "aiScore": 43,
+      "confidence": 72,
+      "price": 64070.64,
+      "changePct": -0.6466509478946775,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ETH-USD",
       "assetType": "crypto",
       "name": "Ethereum USD",
-      "title": "Ethos Signs Erin Andrews as Its Next Sports Partner in Growing Campaign to Make Life Insurance Accessible for Every Family",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/ethos-signs-erin-andrews-next-130500906.html",
-      "publishedAt": "2026-08-13T13:05:00.000Z",
+      "title": "The Worst Performing ETFs of 2026 So Far",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
+      "publishedAt": "2026-07-10T22:33:46.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 85,
-      "confidence": 62,
-      "price": 1889.15,
-      "changePct": -1.1894248127703906,
-      "signal": "dip",
+      "aiScore": 46,
+      "confidence": 72,
+      "price": 1892.02,
+      "changePct": -1.0393116132958446,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "ETH-USD",
       "assetType": "crypto",
       "name": "Ethereum USD",
-      "title": "Ethos (LIFE) Q2 2026 Earnings Call Transcript",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/44f006c2-03a5-3484-9e17-297a849b0949/ethos-%28life%29-q2-2026-earnings.html",
-      "publishedAt": "2026-08-11T01:44:48.000Z",
+      "title": "What 15,000 ETF Investors Were Searching for This Month",
+      "publisher": "etf.com",
+      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
+      "publishedAt": "2026-05-28T00:05:25.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 85,
-      "confidence": 62,
-      "price": 1889.15,
-      "changePct": -1.1894248127703906,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ETH-USD",
-      "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "Update: Ethos Shares Rise After Higher Q2 Results, Share Repurchase Plan",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ethos-shares-rise-higher-q2-182631612.html",
-      "publishedAt": "2026-08-04T18:26:31.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 85,
-      "confidence": 62,
-      "price": 1889.15,
-      "changePct": -1.1894248127703906,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ETH-USD",
-      "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "BofA Securities Adjusts Ethos Technologies Price Target to $32 From $28",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-ethos-technologies-121904459.html",
-      "publishedAt": "2026-08-04T12:19:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 85,
-      "confidence": 62,
-      "price": 1889.15,
-      "changePct": -1.1894248127703906,
-      "signal": "dip",
+      "aiScore": 46,
+      "confidence": 72,
+      "price": 1892.02,
+      "changePct": -1.0393116132958446,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1487,10 +1445,10 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 53,
-      "confidence": 62,
-      "price": 75.34,
-      "changePct": -0.7943039549810941,
+      "aiScore": 27,
+      "confidence": 72,
+      "price": 75.53,
+      "changePct": -0.5441170390194089,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1508,10 +1466,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
-      "confidence": 62,
-      "price": 75.34,
-      "changePct": -0.7943039549810941,
+      "aiScore": 27,
+      "confidence": 72,
+      "price": 75.53,
+      "changePct": -0.5441170390194089,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1529,10 +1487,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
-      "confidence": 62,
-      "price": 75.34,
-      "changePct": -0.7943039549810941,
+      "aiScore": 27,
+      "confidence": 72,
+      "price": 75.53,
+      "changePct": -0.5441170390194089,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1550,10 +1508,10 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 53,
-      "confidence": 62,
-      "price": 75.34,
-      "changePct": -0.7943039549810941,
+      "aiScore": 27,
+      "confidence": 72,
+      "price": 75.53,
+      "changePct": -0.5441170390194089,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1976,90 +1934,6 @@
       "changePct": -4.108249103358336,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot Barely Moves Since Missing Q2 Earnings Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-barely-moves-since-142200242.html",
-      "publishedAt": "2026-08-14T14:22:00.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 99,
-      "confidence": 62,
-      "price": 0.7299,
-      "changePct": -4.077731968108495,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot (GDOT) Q2 Earnings Lag Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-gdot-q2-earnings-215504505.html",
-      "publishedAt": "2026-08-10T21:55:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 62,
-      "price": 0.7299,
-      "changePct": -4.077731968108495,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot: Q2 Earnings Snapshot",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-q2-earnings-snapshot-203405163.html",
-      "publishedAt": "2026-08-10T20:34:05.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 62,
-      "price": 0.7299,
-      "changePct": -4.077731968108495,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "DOT-USD",
-      "assetType": "crypto",
-      "name": "Polkadot USD",
-      "title": "Green Dot Reports Second Quarter 2026 Results",
-      "publisher": "Business Wire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-reports-second-quarter-200500156.html",
-      "publishedAt": "2026-08-10T20:05:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 62,
-      "price": 0.7299,
-      "changePct": -4.077731968108495,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "XLF",
@@ -2904,7 +2778,7 @@
     {
       "symbol": "DIS",
       "assetType": "stock",
-      "name": "The Walt Disney Company",
+      "name": "Walt Disney Company (The)",
       "title": "Review & Preview: Chips Aren’t Enough",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/fc5643f9-a7a4-3fdf-b877-278d44482173/review-%26-preview%3A-chips.html",
@@ -2925,7 +2799,7 @@
     {
       "symbol": "DIS",
       "assetType": "stock",
-      "name": "The Walt Disney Company",
+      "name": "Walt Disney Company (The)",
       "title": "Top Stock Reports for Walt Disney, Parker-Hannifin & Occidental Petroleum",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/top-stock-reports-walt-disney-205400128.html",
@@ -2946,7 +2820,7 @@
     {
       "symbol": "DIS",
       "assetType": "stock",
-      "name": "The Walt Disney Company",
+      "name": "Walt Disney Company (The)",
       "title": "Disney Has a New CEO and a New Plan. D23 Showed What’s Next.",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/e0e56485-4af1-3645-b813-1edd37fc0c40/disney-has-a-new-ceo-and-a.html",
@@ -2967,7 +2841,7 @@
     {
       "symbol": "DIS",
       "assetType": "stock",
-      "name": "The Walt Disney Company",
+      "name": "Walt Disney Company (The)",
       "title": "The Lakers Brought a Record Price. The Surprising Benefit for Iger and Kushner.",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/d3179a86-bccf-3cbe-9da2-7f14530d03ac/the-lakers-brought-a-record.html",
@@ -3068,6 +2942,300 @@
       "changePct": -1.0734463276836164,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "CB",
+      "assetType": "stock",
+      "name": "Chubb Limited",
+      "title": "RLI's Underwriting Discipline Supports Consistent Profitability",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rlis-underwriting-discipline-supports-consistent-144200156.html",
+      "publishedAt": "2026-08-17T14:42:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 340.86,
+      "changePct": -0.8089861482947192,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "CB",
+      "assetType": "stock",
+      "name": "Chubb Limited",
+      "title": "He Just Wanted a Gym Reservation. His AI Assistant Committed a Cyberattack Instead.",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/fd97bc3f-090a-3620-a8a8-1f68c079d1ad/he-just-wanted-a-gym.html",
+      "publishedAt": "2026-08-14T11:23:46.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 340.86,
+      "changePct": -0.8089861482947192,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "CB",
+      "assetType": "stock",
+      "name": "Chubb Limited",
+      "title": "Berkshire's Insurance Business: The Horsepower of its Growth Story",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/berkshires-insurance-business-horsepower-growth-180300534.html",
+      "publishedAt": "2026-08-13T18:03:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 340.86,
+      "changePct": -0.8089861482947192,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "CB",
+      "assetType": "stock",
+      "name": "Chubb Limited",
+      "title": "Chubb Limited Board Declares Quarterly Dividend",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/chubb-limited-board-declares-quarterly-140000480.html",
+      "publishedAt": "2026-08-13T14:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 95,
+      "confidence": 72,
+      "price": 340.86,
+      "changePct": -0.8089861482947192,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "AAPL",
+      "assetType": "stock",
+      "name": "Apple Inc.",
+      "title": "Financial Advisors Love Warren Buffett, but They Don’t Always Agree With Him",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/1aec5e50-83ad-33cf-b22b-7f6081b0fc3e/financial-advisors-love.html",
+      "publishedAt": "2026-08-17T21:42:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 44,
+      "confidence": 82,
+      "price": 305.59,
+      "changePct": -0.11113653450136692,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "SpaceX Matters More for Tesla Stock Than Cybercab These Days",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/91303a01-c30a-32ed-80bc-3608651417c8/spacex-matters-more-for-tesla.html",
+      "publishedAt": "2026-08-17T20:59:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 57,
+      "confidence": 72,
+      "price": 339.3,
+      "changePct": -0.867735997896389,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "Ethos Signs Erin Andrews as Its Next Sports Partner in Growing Campaign to Make Life Insurance Accessible for Every Family",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/ethos-signs-erin-andrews-next-130500906.html",
+      "publishedAt": "2026-08-13T13:05:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 62,
+      "price": 1889.15,
+      "changePct": -1.1894248127703906,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "Ethos (LIFE) Q2 2026 Earnings Call Transcript",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/44f006c2-03a5-3484-9e17-297a849b0949/ethos-%28life%29-q2-2026-earnings.html",
+      "publishedAt": "2026-08-11T01:44:48.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 62,
+      "price": 1889.15,
+      "changePct": -1.1894248127703906,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "Update: Ethos Shares Rise After Higher Q2 Results, Share Repurchase Plan",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ethos-shares-rise-higher-q2-182631612.html",
+      "publishedAt": "2026-08-04T18:26:31.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 62,
+      "price": 1889.15,
+      "changePct": -1.1894248127703906,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "ETH-USD",
+      "assetType": "crypto",
+      "name": "Ethereum USD",
+      "title": "BofA Securities Adjusts Ethos Technologies Price Target to $32 From $28",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-adjusts-ethos-technologies-121904459.html",
+      "publishedAt": "2026-08-04T12:19:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 62,
+      "price": 1889.15,
+      "changePct": -1.1894248127703906,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Green Dot Barely Moves Since Missing Q2 Earnings Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-barely-moves-since-142200242.html",
+      "publishedAt": "2026-08-14T14:22:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 99,
+      "confidence": 62,
+      "price": 0.7299,
+      "changePct": -4.077731968108495,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Green Dot (GDOT) Q2 Earnings Lag Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-gdot-q2-earnings-215504505.html",
+      "publishedAt": "2026-08-10T21:55:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 62,
+      "price": 0.7299,
+      "changePct": -4.077731968108495,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Green Dot: Q2 Earnings Snapshot",
+      "publisher": "Associated Press",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-q2-earnings-snapshot-203405163.html",
+      "publishedAt": "2026-08-10T20:34:05.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 62,
+      "price": 0.7299,
+      "changePct": -4.077731968108495,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Green Dot Reports Second Quarter 2026 Results",
+      "publisher": "Business Wire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-reports-second-quarter-200500156.html",
+      "publishedAt": "2026-08-10T20:05:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 62,
+      "price": 0.7299,
+      "changePct": -4.077731968108495,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SPY",
@@ -3175,48 +3343,6 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "ETH-USD",
-      "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "The Worst Performing ETFs of 2026 So Far",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/0cc87be8-2386-3eab-8381-c982ba378b8c/the-worst-performing-etfs-of.html",
-      "publishedAt": "2026-07-10T22:33:46.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 91,
-      "confidence": 62,
-      "price": 1892.09,
-      "changePct": -1.0356503157476884,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ETH-USD",
-      "assetType": "crypto",
-      "name": "Ethereum USD",
-      "title": "What 15,000 ETF Investors Were Searching for This Month",
-      "publisher": "etf.com",
-      "link": "https://finance.yahoo.com/m/d56cc8c9-5d44-3bbf-97a2-67edface2287/what-15%2C000-etf-investors.html",
-      "publishedAt": "2026-05-28T00:05:25.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 91,
-      "confidence": 62,
-      "price": 1892.09,
-      "changePct": -1.0356503157476884,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
       "symbol": "DAL",
       "assetType": "stock",
       "name": "Delta Air Lines, Inc.",
@@ -3277,132 +3403,6 @@
       "price": 305.59,
       "changePct": -0.11113653450136692,
       "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Cloudways Bets That Enterprises Will Pay to Rehabilitate the Agent Every Hyperscaler Banned",
-      "publisher": "Forkast News",
-      "link": "https://finance.yahoo.com/technology/ai/articles/cloudways-bets-enterprises-pay-rehabilitate-001904217.html",
-      "publishedAt": "2026-08-18T00:19:04.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 52,
-      "confidence": 72,
-      "price": 480.35,
-      "changePct": -3.0379491320145244,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Q2 Earnings Season Standout Performers: PLTR, MSFT",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/q2-earnings-season-standout-performers-232900437.html",
-      "publishedAt": "2026-08-17T23:29:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 52,
-      "confidence": 72,
-      "price": 480.35,
-      "changePct": -3.0379491320145244,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Chevron Struck Oil Off Angola. Here's What CVX Investors Need to Know.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/7a39b7f5-762b-302f-ac3a-2c04b1ad0727/chevron-struck-oil-off.html",
-      "publishedAt": "2026-08-18T00:15:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 91,
-      "confidence": 82,
-      "price": 225.01,
-      "changePct": -0.06661929294724005,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Amazon Alexa+ assistance is the way consumers 'actually want to shop': VP",
-      "publisher": "Yahoo Finance Video",
-      "link": "https://finance.yahoo.com/video/amazon-alexa-assistance-way-consumers-211500608.html",
-      "publishedAt": "2026-08-17T21:15:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 34,
-      "confidence": 82,
-      "price": 261.31,
-      "changePct": -0.5101846563868171,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMD",
-      "assetType": "stock",
-      "name": "Advanced Micro Devices, Inc.",
-      "title": "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/ccd42e94-981a-3d19-ab82-9989d6030c1f/micron-stock-has-a-new-profit.html",
-      "publishedAt": "2026-08-17T20:34:28.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 89,
-      "confidence": 72,
-      "price": 506,
-      "changePct": -1.631058146542504,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Prairie Operating Co. (PROP) Q2 Earnings Top Estimates",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prairie-operating-co-prop-q2-232501722.html",
-      "publishedAt": "2026-08-14T23:25:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 81,
-      "confidence": 62,
-      "price": 75.59,
-      "changePct": -0.4651106445051885,
-      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
