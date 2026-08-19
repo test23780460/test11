@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T22:25:58.279Z",
+  "updatedAt": "2026-08-19T22:48:29.408Z",
   "totalHeadlines": 160,
   "bullish": 7,
   "bearish": 16,
@@ -45,6 +45,27 @@
     "EL"
   ],
   "headlines": [
+    {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "NEOS’s ‘Boosted’ S&P Fund Pays 17% While the Nasdaq Version Pays 21%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/cb8b6855-c581-300f-869f-d4c4ca199b8c/neos%E2%80%99s-%E2%80%98boosted%E2%80%99-s%26p-fund.html",
+      "publishedAt": "2026-08-19T22:25:42.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 53,
+      "confidence": 82,
+      "price": 769.06,
+      "changePct": 0.20978565378850736,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
     {
       "symbol": "SPY",
       "assetType": "stock",
@@ -99,27 +120,6 @@
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 53,
-      "confidence": 82,
-      "price": 769.06,
-      "changePct": 0.20978565378850736,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SPY",
-      "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "Dividend Stocks Lost the Yield War But May Still Beat the Market",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/714012eb-818a-372b-8f2d-149eb49509d5/dividend-stocks-lost-the.html",
-      "publishedAt": "2026-08-19T14:07:30.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 53,
@@ -388,7 +388,7 @@
       "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
-      "publishedAt": "2026-08-19T22:03:53.000Z",
+      "publishedAt": "2026-08-19T22:42:25.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -553,6 +553,69 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
+      "title": "Oil Is Up 36% and the Strait of Hormuz Is Still Closed. The QQQI Family Runs a 14.75% Energy Fund",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/bad5e918-3c7c-353a-9ff4-b4f5eb44b2cd/oil-is-up-36%25-and-the-strait.html",
+      "publishedAt": "2026-08-19T22:35:11.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "NEOS’s ‘Boosted’ S&P Fund Pays 17% While the Nasdaq Version Pays 21%",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/cb8b6855-c581-300f-869f-d4c4ca199b8c/neos%E2%80%99s-%E2%80%98boosted%E2%80%99-s%26p-fund.html",
+      "publishedAt": "2026-08-19T22:25:42.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Tesla's Model Y L Is Coming to America. Will It Reignite Sales Growth?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/0b8b2cf6-50b8-3443-8076-11803c049785/tesla%27s-model-y-l-is-coming.html",
+      "publishedAt": "2026-08-19T22:25:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
       "title": "Broadcom Gets Fresh Google Warning",
       "publisher": "GuruFocus.com",
       "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-gets-fresh-google-warning-220417060.html",
@@ -571,67 +634,25 @@
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
-      "symbol": "NVDA",
+      "symbol": "TSLA",
       "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
+      "name": "Tesla, Inc.",
+      "title": "Tesla's Model Y L Is Coming to America. Will It Reignite Sales Growth?",
       "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/f6a7330b-1765-3d7b-b063-3e008718de86/billionaire-stanley.html",
-      "publishedAt": "2026-08-19T21:52:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 82,
-      "price": 217.56,
-      "changePct": -0.9920815509238221,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Stifel Has Message For Nvidia Investors Before Earnings",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html",
-      "publishedAt": "2026-08-19T21:51:14.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 82,
-      "price": 217.56,
-      "changePct": -0.9920815509238221,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "The Fed's July Meeting Minutes Show a Growing Urgency to Raise Interest Rates. Here's Why I Still Think a 2026 Rate Hike Is Very Unlikely",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/019c6c25-ea6b-3ea0-9bb3-1470aa97159c/the-fed%27s-july-meeting.html",
-      "publishedAt": "2026-08-19T21:27:01.000Z",
+      "link": "https://finance.yahoo.com/m/0b8b2cf6-50b8-3443-8076-11803c049785/tesla%27s-model-y-l-is-coming.html",
+      "publishedAt": "2026-08-19T22:25:00.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 99,
-      "confidence": 82,
-      "price": 217.56,
-      "changePct": -0.9920815509238221,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+      "aiScore": 18,
+      "confidence": 74,
+      "price": 351.12,
+      "changePct": 4.230118443316413,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "TSLA",
@@ -687,27 +708,6 @@
         "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 18,
-      "confidence": 74,
-      "price": 351.12,
-      "changePct": 4.230118443316413,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Apple stock stands out among Magnificent Seven on low AI spending",
-      "publisher": "Quartz",
-      "link": "https://finance.yahoo.com/m/694851d7-40d9-350b-aa7c-2b05a5d085f3/apple-stock-stands-out-among.html",
-      "publishedAt": "2026-08-19T17:53:39.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 18,
@@ -1015,9 +1015,9 @@
       "symbol": "AMD",
       "assetType": "stock",
       "name": "Advanced Micro Devices, Inc.",
-      "title": "AMD Appoints Tim Ryan to Board of Directors",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/amd-appoints-tim-ryan-board-201500345.html",
+      "title": "Stocks Snap Losing Streak as Treasury Yields Ease: Stock Market Today",
+      "publisher": "Kiplinger",
+      "link": "https://finance.yahoo.com/m/6a2adf77-5891-3f29-8047-00ebd1e8b3f4/stocks-snap-losing-streak-as.html",
       "publishedAt": "2026-08-19T20:15:00.000Z",
       "sentiment": {
         "score": 50,
@@ -1036,10 +1036,10 @@
       "symbol": "AMD",
       "assetType": "stock",
       "name": "Advanced Micro Devices, Inc.",
-      "title": "Why Is NVDA The Discount Option Among Its Peers?",
-      "publisher": "Trefis",
-      "link": "https://finance.yahoo.com/m/725ad964-b19a-3266-9805-3bd75f4abddc/why-is-nvda-the-discount.html",
-      "publishedAt": "2026-08-19T19:11:17.000Z",
+      "title": "AMD Appoints Tim Ryan to Board of Directors",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/amd-appoints-tim-ryan-board-201500345.html",
+      "publishedAt": "2026-08-19T20:15:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1144,7 +1144,28 @@
       "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
-      "publishedAt": "2026-08-19T22:03:53.000Z",
+      "publishedAt": "2026-08-19T22:32:01.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 1280.34,
+      "changePct": 4.4553041860768605,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LLY",
+      "assetType": "stock",
+      "name": "Eli Lilly and Company",
+      "title": "Can Eli Lilly Catch Novo Nordisk in the Oral GLP-1 Race?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/healthcare/articles/eli-lilly-catch-novo-nordisk-222550046.html",
+      "publishedAt": "2026-08-19T22:25:50.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1192,27 +1213,6 @@
         "label": "mixed",
         "positiveHits": 1,
         "negativeHits": 1
-      },
-      "aiScore": 45,
-      "confidence": 72,
-      "price": 1280.34,
-      "changePct": 4.4553041860768605,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LLY",
-      "assetType": "stock",
-      "name": "Eli Lilly and Company",
-      "title": "The Key to Pharma M&A: Never Shopping Hungry",
-      "publisher": "The Wall Street Journal",
-      "link": "https://finance.yahoo.com/m/d5ab6575-da39-3d8a-bafa-07984a0358e5/the-key-to-pharma-m%26a%3A-never.html",
-      "publishedAt": "2026-08-19T21:05:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
       },
       "aiScore": 45,
       "confidence": 72,
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 42,
+      "aiScore": 72,
       "confidence": 64,
-      "price": 69196.49,
-      "changePct": 6.980805247643758,
-      "signal": "peak",
+      "price": 69104.7,
+      "changePct": 6.838893886046052,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 42,
+      "aiScore": 72,
       "confidence": 64,
-      "price": 69196.49,
-      "changePct": 6.980805247643758,
-      "signal": "peak",
+      "price": 69104.7,
+      "changePct": 6.838893886046052,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,12 +1361,12 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 42,
+      "aiScore": 72,
       "confidence": 64,
-      "price": 69196.49,
-      "changePct": 6.980805247643758,
-      "signal": "peak",
-      "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
+      "price": 69104.7,
+      "changePct": 6.838893886046052,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "BTC-USD",
@@ -1382,11 +1382,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 42,
+      "aiScore": 72,
       "confidence": 64,
-      "price": 69196.49,
-      "changePct": 6.980805247643758,
-      "signal": "peak",
+      "price": 69104.7,
+      "changePct": 6.838893886046052,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1403,11 +1403,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 70,
       "confidence": 64,
-      "price": 85.49,
-      "changePct": 10.987027668992,
-      "signal": "momentum",
+      "price": 85.39,
+      "changePct": 10.857203095744856,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1424,11 +1424,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 70,
       "confidence": 64,
-      "price": 85.49,
-      "changePct": 10.987027668992,
-      "signal": "momentum",
+      "price": 85.39,
+      "changePct": 10.857203095744856,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1445,11 +1445,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 70,
       "confidence": 64,
-      "price": 85.49,
-      "changePct": 10.987027668992,
-      "signal": "momentum",
+      "price": 85.39,
+      "changePct": 10.857203095744856,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1466,11 +1466,11 @@
         "positiveHits": 1,
         "negativeHits": 0
       },
-      "aiScore": 53,
+      "aiScore": 70,
       "confidence": 64,
-      "price": 85.49,
-      "changePct": 10.987027668992,
-      "signal": "momentum",
+      "price": 85.39,
+      "changePct": 10.857203095744856,
+      "signal": "dip",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -2404,7 +2404,7 @@
       "title": "Dow Jones Futures: S&P 500, Nasdaq Rise On Treasury Move; Moderna, Merck Spur Big Biopharma Gains",
       "publisher": "Investor's Business Daily",
       "link": "https://finance.yahoo.com/m/68a3e9b8-8858-3a96-8c98-dd4126c44fbe/dow-jones-futures%3A-s%26p-500%2C.html",
-      "publishedAt": "2026-08-19T22:03:53.000Z",
+      "publishedAt": "2026-08-19T22:42:25.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -2986,6 +2986,153 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
+      "symbol": "SPY",
+      "assetType": "stock",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "title": "Dividend Stocks Lost the Yield War But May Still Beat the Market",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/714012eb-818a-372b-8f2d-149eb49509d5/dividend-stocks-lost-the.html",
+      "publishedAt": "2026-08-19T14:07:30.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 53,
+      "confidence": 82,
+      "price": 769.06,
+      "changePct": 0.20978565378850736,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Billionaire Stanley Druckenmiller Just Dumped Micron and Intel While Adding These 2 AI Stocks. Should Investors Follow Suit?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/f6a7330b-1765-3d7b-b063-3e008718de86/billionaire-stanley.html",
+      "publishedAt": "2026-08-19T21:52:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Stifel Has Message For Nvidia Investors Before Earnings",
+      "publisher": "GuruFocus.com",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-message-nvidia-investors-earnings-215114118.html",
+      "publishedAt": "2026-08-19T21:51:14.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "The Fed's July Meeting Minutes Show a Growing Urgency to Raise Interest Rates. Here's Why I Still Think a 2026 Rate Hike Is Very Unlikely",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/019c6c25-ea6b-3ea0-9bb3-1470aa97159c/the-fed%27s-july-meeting.html",
+      "publishedAt": "2026-08-19T21:27:01.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 99,
+      "confidence": 82,
+      "price": 217.56,
+      "changePct": -0.9920815509238221,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "TSLA",
+      "assetType": "stock",
+      "name": "Tesla, Inc.",
+      "title": "Apple stock stands out among Magnificent Seven on low AI spending",
+      "publisher": "Quartz",
+      "link": "https://finance.yahoo.com/m/694851d7-40d9-350b-aa7c-2b05a5d085f3/apple-stock-stands-out-among.html",
+      "publishedAt": "2026-08-19T17:53:39.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 18,
+      "confidence": 74,
+      "price": 351.12,
+      "changePct": 4.230118443316413,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMD",
+      "assetType": "stock",
+      "name": "Advanced Micro Devices, Inc.",
+      "title": "Why Is NVDA The Discount Option Among Its Peers?",
+      "publisher": "Trefis",
+      "link": "https://finance.yahoo.com/m/725ad964-b19a-3266-9805-3bd75f4abddc/why-is-nvda-the-discount.html",
+      "publishedAt": "2026-08-19T19:11:17.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 58,
+      "confidence": 72,
+      "price": 466.42,
+      "changePct": -3.7098205991040216,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LLY",
+      "assetType": "stock",
+      "name": "Eli Lilly and Company",
+      "title": "The Key to Pharma M&A: Never Shopping Hungry",
+      "publisher": "The Wall Street Journal",
+      "link": "https://finance.yahoo.com/m/d5ab6575-da39-3d8a-bafa-07984a0358e5/the-key-to-pharma-m%26a%3A-never.html",
+      "publishedAt": "2026-08-19T21:05:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 1280.34,
+      "changePct": 4.4553041860768605,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
@@ -3257,153 +3404,6 @@
       "changePct": -0.7812500000000049,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "EL",
-      "assetType": "stock",
-      "name": "Estee Lauder Companies, Inc. (T",
-      "title": "Sector Update: Consumer Stocks Rise Late Afternoon",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-rise-afternoon-194905033.html",
-      "publishedAt": "2026-08-19T19:49:05.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 73,
-      "confidence": 65,
-      "price": 98.01,
-      "changePct": 16.304734781060887,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SPY",
-      "assetType": "stock",
-      "name": "State Street SPDR S&P 500 ETF Trust",
-      "title": "Stocks Supported by Lower Bond Yields",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/1d5b33df-3ecb-3fde-8811-b24e071b38fe/stocks-supported-by-lower.html",
-      "publishedAt": "2026-08-19T15:15:08.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 53,
-      "confidence": 82,
-      "price": 769.06,
-      "changePct": 0.20978565378850736,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "DIA",
-      "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
-      "title": "Stocks Supported by Lower Bond Yields",
-      "publisher": "Barchart",
-      "link": "https://finance.yahoo.com/m/1d5b33df-3ecb-3fde-8811-b24e071b38fe/stocks-supported-by-lower.html",
-      "publishedAt": "2026-08-19T15:15:08.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 40,
-      "confidence": 72,
-      "price": 534.27,
-      "changePct": 0.25520256703758865,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Could Eli Lilly Be Worth More Than SpaceX by the End of 2026?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/37281d37-c475-3c63-8ba1-de85cfe391d3/could-eli-lilly-be-worth-more.html",
-      "publishedAt": "2026-08-19T21:13:30.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 82,
-      "price": 217.56,
-      "changePct": -0.9920815509238221,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Lowe's Companies, Inc. Q2 2027 Earnings Call Summary",
-      "publisher": "Moby",
-      "link": "https://finance.yahoo.com/m/5cf692f1-29e4-3b97-80f4-ef2770d6a41f/lowe%27s-companies%2C-inc.-q2.html",
-      "publishedAt": "2026-08-19T21:03:25.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 99,
-      "confidence": 82,
-      "price": 217.56,
-      "changePct": -0.9920815509238221,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "TSLA",
-      "assetType": "stock",
-      "name": "Tesla, Inc.",
-      "title": "Nvidia Stalls as Google's $12.2 Billion Custom-Chip Push Expands",
-      "publisher": "GuruFocus.com",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-stalls-googles-12-2-173648919.html",
-      "publishedAt": "2026-08-19T17:36:48.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 18,
-      "confidence": 74,
-      "price": 351.12,
-      "changePct": 4.230118443316413,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Walmart Earnings: The Biggest And Most Influential Retail Report Looms",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/4636436b-031c-3a60-8074-bdf83b8f6b03/walmart-earnings%3A-the-biggest.html",
-      "publishedAt": "2026-08-19T20:18:09.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 22,
-      "confidence": 82,
-      "price": 265.84,
-      "changePct": 2.462902293312772,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
 }
