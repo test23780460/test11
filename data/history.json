@@ -1,7 +1,165 @@
 {
-  "updatedAt": "2026-08-20T01:42:14.615Z",
+  "updatedAt": "2026-08-20T02:42:59.360Z",
   "maxHistoryRows": 5000,
   "runs": [
+    {
+      "timestamp": "2026-08-20T02:42:59.360Z",
+      "totalRecords": 181,
+      "stockRecords": 169,
+      "cryptoRecords": 12,
+      "stockAverageMove": 0.7146415777057258,
+      "cryptoAverageMove": -0.033251542591041246,
+      "advancers": 101,
+      "decliners": 80,
+      "topGainers": [
+        {
+          "symbol": "EL",
+          "assetType": "stock",
+          "price": 98.01,
+          "changePct": 16.304734781060887,
+          "rsi": 26.6347862062252
+        },
+        {
+          "symbol": "MRK",
+          "assetType": "stock",
+          "price": 152.2,
+          "changePct": 12.598949471036475,
+          "rsi": 45.496320938231236
+        },
+        {
+          "symbol": "MRVL",
+          "assetType": "stock",
+          "price": 237.27,
+          "changePct": 9.847222222222227,
+          "rsi": 73.5850190266373
+        },
+        {
+          "symbol": "COIN",
+          "assetType": "stock",
+          "price": 160.2,
+          "changePct": 9.5534432059085,
+          "rsi": 53.11317559194329
+        },
+        {
+          "symbol": "NEM",
+          "assetType": "stock",
+          "price": 125.08,
+          "changePct": 7.8461803759268784,
+          "rsi": 71.71944529790899
+        }
+      ],
+      "topLosers": [
+        {
+          "symbol": "LRCX",
+          "assetType": "stock",
+          "price": 307.17,
+          "changePct": -6.327762868992437,
+          "rsi": 53.020717092814515
+        },
+        {
+          "symbol": "CRWD",
+          "assetType": "stock",
+          "price": 201.63,
+          "changePct": -5.302461018222803,
+          "rsi": 57.6704154720215
+        },
+        {
+          "symbol": "DDOG",
+          "assetType": "stock",
+          "price": 233.52,
+          "changePct": -5.073170731707314,
+          "rsi": 43.28239302665348
+        },
+        {
+          "symbol": "GE",
+          "assetType": "stock",
+          "price": 356.23,
+          "changePct": -5.028126582953414,
+          "rsi": 41.740986247932945
+        },
+        {
+          "symbol": "AVGO",
+          "assetType": "stock",
+          "price": 362.48,
+          "changePct": -4.567832977911162,
+          "rsi": 24.53911812274451
+        }
+      ],
+      "cryptoGainers": [
+        {
+          "symbol": "DOGE-USD",
+          "assetType": "crypto",
+          "price": 0.07561,
+          "changePct": 0.8485846199252727,
+          "rsi": 64.06244543009814
+        },
+        {
+          "symbol": "AVAX-USD",
+          "assetType": "crypto",
+          "price": 6.798,
+          "changePct": 0.4306225171010517,
+          "rsi": 61.403582154479366
+        },
+        {
+          "symbol": "LTC-USD",
+          "assetType": "crypto",
+          "price": 46.897,
+          "changePct": 0.34703465386638405,
+          "rsi": 38.14445152308818
+        },
+        {
+          "symbol": "ETH-USD",
+          "assetType": "crypto",
+          "price": 2255.72,
+          "changePct": 0.16823780688878268,
+          "rsi": 38.31877235073107
+        },
+        {
+          "symbol": "DOT-USD",
+          "assetType": "crypto",
+          "price": 0.7895,
+          "changePct": 0.064327610938129,
+          "rsi": 32.67335497196814
+        }
+      ],
+      "cryptoLosers": [
+        {
+          "symbol": "BCH-USD",
+          "assetType": "crypto",
+          "price": 212.01,
+          "changePct": -0.6392438290741909,
+          "rsi": 79.11439470761505
+        },
+        {
+          "symbol": "SOL-USD",
+          "assetType": "crypto",
+          "price": 84.83,
+          "changePct": -0.6193279767194056,
+          "rsi": 43.85959041627626
+        },
+        {
+          "symbol": "ADA-USD",
+          "assetType": "crypto",
+          "price": 0.18618,
+          "changePct": -0.3756007870851877,
+          "rsi": 45.07342765478225
+        },
+        {
+          "symbol": "BNB-USD",
+          "assetType": "crypto",
+          "price": 624.8,
+          "changePct": -0.27697400117925747,
+          "rsi": 46.693850098785155
+        },
+        {
+          "symbol": "LINK-USD",
+          "assetType": "crypto",
+          "price": 10.525,
+          "changePct": -0.18843285882139055,
+          "rsi": 54.59447477356263
+        }
+      ]
+    },
     {
       "timestamp": "2026-08-20T01:42:14.615Z",
       "totalRecords": 181,
@@ -47241,164 +47399,6 @@
           "price": 8.698,
           "changePct": 0.32384370657040074,
           "rsi": 40.799884030548796
-        }
-      ]
-    },
-    {
-      "timestamp": "2026-08-13T08:04:02.939Z",
-      "totalRecords": 181,
-      "stockRecords": 169,
-      "cryptoRecords": 12,
-      "stockAverageMove": 0.04992680449064392,
-      "cryptoAverageMove": 1.0616792862467432,
-      "advancers": 97,
-      "decliners": 84,
-      "topGainers": [
-        {
-          "symbol": "SMCI",
-          "assetType": "stock",
-          "price": 37.61,
-          "changePct": 19.018987341772146,
-          "rsi": 48.39286928314055
-        },
-        {
-          "symbol": "ORCL",
-          "assetType": "stock",
-          "price": 153.28,
-          "changePct": 5.361561726697836,
-          "rsi": 62.165107867112624
-        },
-        {
-          "symbol": "MU",
-          "assetType": "stock",
-          "price": 911.29,
-          "changePct": 4.924469211992814,
-          "rsi": 27.28447933114471
-        },
-        {
-          "symbol": "LRCX",
-          "assetType": "stock",
-          "price": 326.11,
-          "changePct": 4.720464981856712,
-          "rsi": 43.333168373995804
-        },
-        {
-          "symbol": "AMAT",
-          "assetType": "stock",
-          "price": 548.15,
-          "changePct": 4.2883506782595395,
-          "rsi": 38.17271697689095
-        }
-      ],
-      "topLosers": [
-        {
-          "symbol": "FSLR",
-          "assetType": "stock",
-          "price": 226.77,
-          "changePct": -5.869411813540321,
-          "rsi": 56.24076854530585
-        },
-        {
-          "symbol": "UBER",
-          "assetType": "stock",
-          "price": 75.36,
-          "changePct": -4.04889228418641,
-          "rsi": 54.76188004733335
-        },
-        {
-          "symbol": "LULU",
-          "assetType": "stock",
-          "price": 120.87,
-          "changePct": -3.773584905660373,
-          "rsi": 25.98597298739368
-        },
-        {
-          "symbol": "ENPH",
-          "assetType": "stock",
-          "price": 40.77,
-          "changePct": -3.6170212765957306,
-          "rsi": 43.61953285358473
-        },
-        {
-          "symbol": "PINS",
-          "assetType": "stock",
-          "price": 22.9,
-          "changePct": -3.5789473684210584,
-          "rsi": 51.51518654451926
-        }
-      ],
-      "cryptoGainers": [
-        {
-          "symbol": "AVAX-USD",
-          "assetType": "crypto",
-          "price": 6.519,
-          "changePct": 3.2306440998366237,
-          "rsi": 43.24331290636459
-        },
-        {
-          "symbol": "ADA-USD",
-          "assetType": "crypto",
-          "price": 0.18552,
-          "changePct": 1.7110058742601546,
-          "rsi": 72.16470034001065
-        },
-        {
-          "symbol": "BCH-USD",
-          "assetType": "crypto",
-          "price": 215.61,
-          "changePct": 1.5114189164535279,
-          "rsi": 77.53623989650484
-        },
-        {
-          "symbol": "DOGE-USD",
-          "assetType": "crypto",
-          "price": 0.07058,
-          "changePct": 1.4150401177092786,
-          "rsi": 49.01975106644071
-        },
-        {
-          "symbol": "SOL-USD",
-          "assetType": "crypto",
-          "price": 76.36,
-          "changePct": 1.1008286137058625,
-          "rsi": 39.02452640589527
-        }
-      ],
-      "cryptoLosers": [
-        {
-          "symbol": "LTC-USD",
-          "assetType": "crypto",
-          "price": 44.86,
-          "changePct": 0.018282432366152988,
-          "rsi": 24.000976517798563
-        },
-        {
-          "symbol": "DOT-USD",
-          "assetType": "crypto",
-          "price": 0.7737,
-          "changePct": 0.04788384566117732,
-          "rsi": 35.555526120589164
-        },
-        {
-          "symbol": "BNB-USD",
-          "assetType": "crypto",
-          "price": 613.13,
-          "changePct": 0.5649469169027402,
-          "rsi": 70.35705669481302
-        },
-        {
-          "symbol": "BTC-USD",
-          "assetType": "crypto",
-          "price": 63840.26,
-          "changePct": 0.6779172939955149,
-          "rsi": 43.82188987083617
-        },
-        {
-          "symbol": "LINK-USD",
-          "assetType": "crypto",
-          "price": 8.737,
-          "changePct": 0.7736746912285078,
-          "rsi": 32.43246726466646
         }
       ]
     }
