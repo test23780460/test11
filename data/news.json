@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T19:31:02.685Z",
+  "updatedAt": "2026-08-22T19:47:46.434Z",
   "totalHeadlines": 160,
   "bullish": 8,
   "bearish": 23,
@@ -34,7 +34,6 @@
     "RTX",
     "ADI",
     "PDD",
-    "LINK-USD",
     "MRVL",
     "FSLR",
     "CARR",
@@ -42,7 +41,8 @@
     "JNJ",
     "GE",
     "NVO",
-    "CAT"
+    "CAT",
+    "ROKU"
   ],
   "headlines": [
     {
@@ -216,7 +216,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "name": "State Street SPDR Dow Jones Ind",
       "title": "US Stock Indices End Lower As Trump’s ‘Economic Warfare’ Threats Push Yields, Oil Higher — WMT, CRWV, SBUX, DE, RKLB In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/bce4fe5a-c9a3-3343-accb-f30e7b141648/us-stock-indices-end-lower-as.html",
@@ -237,7 +237,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "name": "State Street SPDR Dow Jones Ind",
       "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh — BABA, AAPL, GRRR, KLAR, CRWD In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/1531307b-53c6-3678-aa33-dd7ca8654dd9/us-stocks-end-third-session.html",
@@ -258,7 +258,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "name": "State Street SPDR Dow Jones Ind",
       "title": "New Reports Show Cooling Economy, Bond Yields Climb",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/economy/articles/reports-show-cooling-economy-bond-143700395.html",
@@ -279,7 +279,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "name": "State Street SPDR Dow Jones Ind",
       "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
@@ -553,6 +553,27 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
+      "title": "Can This 6.3% Yield Survive if Oil Crashes Again?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/b4c9c1ff-32c6-3ded-abb9-234642b0c2c1/can-this-6.3%25-yield-survive.html",
+      "publishedAt": "2026-08-22T19:35:01.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
       "title": "My 3 Favorite High-Yield Dividend Stocks to Buy Right Now",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/352825e4-da16-3124-8995-10490f77488a/my-3-favorite-high-yield.html",
@@ -599,27 +620,6 @@
       "publisher": "24/7 Wall St.",
       "link": "https://finance.yahoo.com/m/5ad77136-11da-3ac1-92a1-75fe9c1f5117/want-%2410%2C000-a-year-on-%24100k%3F.html",
       "publishedAt": "2026-08-22T19:01:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Amazon's Custom Chip Business Crossed a $25 Billion Run Rate: Time to Load Up on Shares?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/61dccfd3-ef54-3d15-b919-8665a929f303/amazon%27s-custom-chip-business.html",
-      "publishedAt": "2026-08-22T18:53:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -721,10 +721,10 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
-      "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
-      "publisher": "Reuters",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-customers-notified-ai-related-192053530.html",
-      "publishedAt": "2026-08-22T19:20:53.000Z",
+      "title": "Amazon's Custom Chip Business Crossed a $25 Billion Run Rate: Time to Load Up on Shares?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/61dccfd3-ef54-3d15-b919-8665a929f303/amazon%27s-custom-chip-business.html",
+      "publishedAt": "2026-08-22T18:53:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -742,10 +742,31 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
-      "title": "Readout - Prime Minister Carney chairs First Ministers' Meeting",
-      "publisher": "CNW Group",
-      "link": "https://finance.yahoo.com/economy/policy/articles/readout-prime-minister-carney-chairs-191900503.html",
-      "publishedAt": "2026-08-22T19:19:00.000Z",
+      "title": "AI’s Absurd Spending Boom? Hyperscalers Are Spending 102% of Cloud Revenue on Capex",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/5e3d3153-2958-390a-a18c-89976740cdda/ai%E2%80%99s-absurd-spending-boom%3F.html",
+      "publishedAt": "2026-08-22T16:27:09.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 60,
+      "confidence": 82,
+      "price": 258.63,
+      "changePct": -0.5689900426742601,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
+      "publisher": "Yahoo Finance",
+      "link": "https://finance.yahoo.com/markets/article/tariff-refunds-are-hitting-retailers-wallets-heres-what-theyre-doing-with-the-money-142951738.html",
+      "publishedAt": "2026-08-22T14:29:51.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -763,35 +784,14 @@
       "symbol": "AMZN",
       "assetType": "stock",
       "name": "Amazon.com, Inc.",
-      "title": "Dozens of civilians killed, kidnapped as jihadists clash in Nigeria",
-      "publisher": "AFP",
-      "link": "https://finance.yahoo.com/m/0a40fb3d-1fb7-39f4-82f8-8489ff68f8ff/dozens-of-civilians-killed%2C.html",
-      "publishedAt": "2026-08-22T19:16:56.000Z",
+      "title": "Amazon Stock Is Historically Cheap. Is This a Once-in-a-Decade Buying Opportunity?",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/9b04016b-f5c6-385b-9faf-ed2aa3137546/amazon-stock-is-historically.html",
+      "publishedAt": "2026-08-22T13:30:46.000Z",
       "sentiment": {
-        "score": 50,
+        "score": 63,
         "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 60,
-      "confidence": 82,
-      "price": 258.63,
-      "changePct": -0.5689900426742601,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "NEREUS™ Sponsored No. 47 IndyCar Ready for Historic Freedom 250 Grand Prix in Washington, D.C.",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/healthcare/articles/nereus-sponsored-no-47-indycar-191600819.html",
-      "publishedAt": "2026-08-22T19:16:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
+        "positiveHits": 1,
         "negativeHits": 0
       },
       "aiScore": 60,
@@ -1056,7 +1056,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
+      "name": "JP Morgan Chase & Co.",
       "title": "Magna International (TSX:MG) Climbed, But What Is Behind The Latest Attention?",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/markets/stocks/articles/magna-international-tsx-mg-climbed-180949615.html",
@@ -1077,7 +1077,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
+      "name": "JP Morgan Chase & Co.",
       "title": "JPMorgan Chase CEO Jamie Dimon Dropped a 9-Word Warning: \"Margin Debt Is the Highest It Has Ever Been.\" Should Investors Be Worried?",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/76741312-6793-3307-88ca-ac306f11a00a/jpmorgan-chase-ceo-jamie.html",
@@ -1098,7 +1098,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
+      "name": "JP Morgan Chase & Co.",
       "title": "JPMREIT’s First Office Buy Lags Its Industrial Portfolio",
       "publisher": "CRE Daily",
       "link": "https://finance.yahoo.com/m/1fa7248b-670e-3246-960e-fbb8116da081/jpmreit%E2%80%99s-first-office-buy.html",
@@ -1119,7 +1119,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JPMorgan Chase & Co.",
+      "name": "JP Morgan Chase & Co.",
       "title": "JPMorgan Chase Financial Company LLC Declares Quarterly Coupon on Alerian MLP Index ETN",
       "publisher": "Business Wire",
       "link": "https://finance.yahoo.com/markets/options/articles/jpmorgan-chase-financial-company-llc-201000025.html",
@@ -1319,11 +1319,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 28,
       "confidence": 72,
-      "price": 77288.7,
-      "changePct": -1.3255587443252357,
-      "signal": "watch",
+      "price": 77439.06,
+      "changePct": -1.133594214100205,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1340,11 +1340,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 28,
       "confidence": 72,
-      "price": 77288.7,
-      "changePct": -1.3255587443252357,
-      "signal": "watch",
+      "price": 77439.06,
+      "changePct": -1.133594214100205,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1361,11 +1361,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 28,
       "confidence": 72,
-      "price": 77288.7,
-      "changePct": -1.3255587443252357,
-      "signal": "watch",
+      "price": 77439.06,
+      "changePct": -1.133594214100205,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1382,101 +1382,101 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 28,
       "confidence": 72,
-      "price": 77288.7,
-      "changePct": -1.3255587443252357,
-      "signal": "watch",
+      "price": 77439.06,
+      "changePct": -1.133594214100205,
+      "signal": "peak",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "Patent Win And KuBank 3.0 Safety Milestone Might Change The Case For Investing In Canadian Solar (CSIQ)",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/energy/articles/patent-win-kubank-3-0-011029473.html",
-      "publishedAt": "2026-08-22T01:10:29.000Z",
+      "title": "Sustainable Development ETF (SDG) Touches New 52-Week High",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sustainable-development-etf-sdg-touches-135600118.html",
+      "publishedAt": "2026-08-21T13:56:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 51,
+      "aiScore": 49,
       "confidence": 64,
-      "price": 94.44,
-      "changePct": 0.8312707622839702,
-      "signal": "watch",
+      "price": 94.66,
+      "changePct": 1.0661593642291456,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "Skyworks Solutions (SWKS) Rebounds On Broad Markets Hope, Is The Stock Fully Valued?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-rebounds-broad-011622273.html",
-      "publishedAt": "2026-08-19T01:16:22.000Z",
+      "title": "One company stands to gain as bankruptcy wave hits solar sector",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/b61053b8-f6bc-3161-bb9e-bcbfe9388bb5/one-company-stands-to-gain-as.html",
+      "publishedAt": "2026-08-20T03:33:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 51,
+      "aiScore": 49,
       "confidence": 64,
-      "price": 94.44,
-      "changePct": 0.8312707622839702,
-      "signal": "watch",
+      "price": 94.66,
+      "changePct": 1.0661593642291456,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "Skyworks Solutions (SWKS) Stock Looks Stretched Following Its 57% Five Year Slump",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-looks-171437724.html",
-      "publishedAt": "2026-08-18T17:14:37.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 51,
-      "confidence": 64,
-      "price": 94.44,
-      "changePct": 0.8312707622839702,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "CANADIAN SOLAR ANNOUNCES RESOLUTION OF MAXEON U.S. PATENT LITIGATION",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/energy/articles/canadian-solar-announces-resolution-maxeon-110000368.html",
-      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/zacks-industry-outlook-highlights-first-074000072.html",
+      "publishedAt": "2026-08-19T07:40:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 51,
+      "aiScore": 49,
       "confidence": 64,
-      "price": 94.44,
-      "changePct": 0.8312707622839702,
-      "signal": "watch",
+      "price": 94.66,
+      "changePct": 1.0661593642291456,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "First Solar (FSLR) Stock Could Be 30% Undervalued As Tariff News Lifts Sentiment",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-stock-could-061206520.html",
+      "publishedAt": "2026-08-19T06:12:06.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 49,
+      "confidence": 64,
+      "price": 94.66,
+      "changePct": 1.0661593642291456,
+      "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "The Southern Company",
+      "name": "Southern Company (The)",
       "title": "PG&E Stock Runs On A Legislative Calendar, Not The Market's",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/3b687209-154c-34c1-ac09-8da24b3f3d5e/pg%26e-stock-runs-on-a.html",
@@ -1497,7 +1497,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "The Southern Company",
+      "name": "Southern Company (The)",
       "title": "Morgan Stanley Adjusts PT on Southern Co. to $89 From $92, Keeps Underweight Rating",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-pt-southern-102910710.html",
@@ -1518,7 +1518,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "The Southern Company",
+      "name": "Southern Company (The)",
       "title": "Georgia Power's Learning Power program marks 15 years and 1.5 million Georgia students reached",
       "publisher": "PR Newswire",
       "link": "https://finance.yahoo.com/energy/articles/georgia-powers-learning-power-program-120000838.html",
@@ -1539,7 +1539,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "The Southern Company",
+      "name": "Southern Company (The)",
       "title": "JPMorgan Adjusts Price Target on Southern to $101 From $104, Maintains Neutral Rating",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-southern-093042844.html",
@@ -1812,7 +1812,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation plc",
+      "name": "Eaton Corporation, PLC",
       "title": "Eaton vs. Hubbell: Which Electrification Stock Has an Edge?",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/eaton-vs-hubbell-electrification-stock-172000203.html",
@@ -1833,7 +1833,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation plc",
+      "name": "Eaton Corporation, PLC",
       "title": "VWDRY or ETN: Which Is the Better Value Stock Right Now?",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/vwdry-etn-better-value-stock-154002140.html",
@@ -1854,7 +1854,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation plc",
+      "name": "Eaton Corporation, PLC",
       "title": "2 Stocks for What’s Next in AI",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/727e6a3c-bc78-3bd6-a091-fc3403729be7/2-stocks-for-what%E2%80%99s-next-in-ai.html",
@@ -1875,7 +1875,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation plc",
+      "name": "Eaton Corporation, PLC",
       "title": "Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls",
       "publisher": "The Fly",
       "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-initiated-teradyne-downgraded-wall-133824309.html",
@@ -2228,90 +2228,6 @@
       "changePct": -1.273458445040215,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "LINK-USD",
-      "assetType": "crypto",
-      "name": "Chainlink USD",
-      "title": "Interlink Electronics Eyes $50M Revenue as Transformative Acquisition Nears",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/4c134aae-1b93-3be4-a528-5873a1d98aca/interlink-electronics-eyes.html",
-      "publishedAt": "2026-08-19T01:01:57.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 64,
-      "price": 11.706,
-      "changePct": -2.392085971009466,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $11.87."
-    },
-    {
-      "symbol": "LINK-USD",
-      "assetType": "crypto",
-      "name": "Chainlink USD",
-      "title": "Interlink Electronics to Participate in the Lytham Partners 2026 Consumer & Technology Investor Summit on August 18, 2026",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/technology/articles/interlink-electronics-participate-lytham-partners-130000892.html",
-      "publishedAt": "2026-08-17T13:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 64,
-      "price": 11.706,
-      "changePct": -2.392085971009466,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LINK-USD",
-      "assetType": "crypto",
-      "name": "Chainlink USD",
-      "title": "Interlink Electronics Reports Second Quarter 2026 Results",
-      "publisher": "GlobeNewswire",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-reports-second-quarter-130000359.html",
-      "publishedAt": "2026-08-13T13:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 88,
-      "confidence": 64,
-      "price": 11.706,
-      "changePct": -2.392085971009466,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "LINK-USD",
-      "assetType": "crypto",
-      "name": "Chainlink USD",
-      "title": "Interlink Electronics Added to Russell Microcap Index",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-added-russell-microcap-163345501.html",
-      "publishedAt": "2026-06-25T16:33:45.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 88,
-      "confidence": 64,
-      "price": 11.706,
-      "changePct": -2.392085971009466,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "MRVL",
@@ -2904,7 +2820,7 @@
     {
       "symbol": "CAT",
       "assetType": "stock",
-      "name": "Caterpillar Inc.",
+      "name": "Caterpillar, Inc.",
       "title": "Bill Gates makes $180 million bet on backbone of America's economy",
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/f529fb2e-6820-3581-aa34-b650dc2d6db3/bill-gates-makes-%24180-million.html",
@@ -2925,7 +2841,7 @@
     {
       "symbol": "CAT",
       "assetType": "stock",
-      "name": "Caterpillar Inc.",
+      "name": "Caterpillar, Inc.",
       "title": "What Separates DE Stock From Its Peers Right Now",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/7a1486a9-5ac9-345b-9a25-fe71eaa1952f/what-separates-de-stock-from.html",
@@ -2946,7 +2862,7 @@
     {
       "symbol": "CAT",
       "assetType": "stock",
-      "name": "Caterpillar Inc.",
+      "name": "Caterpillar, Inc.",
       "title": "Deere Faces Delayed Agricultural Recovery Amid Weak International Markets, BofA Says",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/commodities/articles/deere-faces-delayed-agricultural-recovery-162601691.html",
@@ -2967,7 +2883,7 @@
     {
       "symbol": "CAT",
       "assetType": "stock",
-      "name": "Caterpillar Inc.",
+      "name": "Caterpillar, Inc.",
       "title": "What Is Caterpillar (CAT) Facing As AI Data Center Backlash Grows?",
       "publisher": "Simply Wall St.",
       "link": "https://finance.yahoo.com/markets/stocks/articles/caterpillar-cat-facing-ai-data-161310967.html",
@@ -2984,6 +2900,363 @@
       "changePct": 1.5342351512773018,
       "signal": "dip",
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "ROKU",
+      "assetType": "stock",
+      "name": "Roku, Inc. Class A Common Stock",
+      "title": "Parks Associates Announces Advisory Board and Roku Keynote for Ninth Annual Future of Video Executive Conference, November 17-18",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/media-advertising/articles/parks-associates-announces-advisory-board-124600960.html",
+      "publishedAt": "2026-08-20T12:46:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 82,
+      "confidence": 72,
+      "price": 157.49,
+      "changePct": 0.23548879837067496,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "ROKU",
+      "assetType": "stock",
+      "name": "Roku, Inc. Class A Common Stock",
+      "title": "Magnite Sees CTV Surge and Google Antitrust Remedies as Growth Catalysts",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/ac400e15-f260-359f-92e8-32cd68fb1705/magnite-sees-ctv-surge-and.html",
+      "publishedAt": "2026-08-19T04:01:59.000Z",
+      "sentiment": {
+        "score": 89,
+        "label": "bullish",
+        "positiveHits": 3,
+        "negativeHits": 0
+      },
+      "aiScore": 82,
+      "confidence": 72,
+      "price": 157.49,
+      "changePct": 0.23548879837067496,
+      "signal": "dip",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $157.73."
+    },
+    {
+      "symbol": "ROKU",
+      "assetType": "stock",
+      "name": "Roku, Inc. Class A Common Stock",
+      "title": "These 3 Buy Rated Growth Stocks Have Been Red Hot",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/3-buy-rated-growth-stocks-212000787.html",
+      "publishedAt": "2026-08-18T21:20:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 82,
+      "confidence": 72,
+      "price": 157.49,
+      "changePct": 0.23548879837067496,
+      "signal": "dip",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $157.73."
+    },
+    {
+      "symbol": "ROKU",
+      "assetType": "stock",
+      "name": "Roku, Inc. Class A Common Stock",
+      "title": "Roku Insider Sold Shares Worth $1,099,770, According to a Recent SEC Filing",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/roku-insider-sold-shares-worth-074657394.html",
+      "publishedAt": "2026-08-18T07:46:57.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 82,
+      "confidence": 72,
+      "price": 157.49,
+      "changePct": 0.23548879837067496,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Amazon's Custom Chip Business Crossed a $25 Billion Run Rate: Time to Load Up on Shares?",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/61dccfd3-ef54-3d15-b919-8665a929f303/amazon%27s-custom-chip-business.html",
+      "publishedAt": "2026-08-22T18:53:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
+      "publisher": "Reuters",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-customers-notified-ai-related-192053530.html",
+      "publishedAt": "2026-08-22T19:20:53.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 60,
+      "confidence": 82,
+      "price": 258.63,
+      "changePct": -0.5689900426742601,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Readout - Prime Minister Carney chairs First Ministers' Meeting",
+      "publisher": "CNW Group",
+      "link": "https://finance.yahoo.com/economy/policy/articles/readout-prime-minister-carney-chairs-191900503.html",
+      "publishedAt": "2026-08-22T19:19:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 60,
+      "confidence": 82,
+      "price": 258.63,
+      "changePct": -0.5689900426742601,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "Dozens of civilians killed, kidnapped as jihadists clash in Nigeria",
+      "publisher": "AFP",
+      "link": "https://finance.yahoo.com/m/0a40fb3d-1fb7-39f4-82f8-8489ff68f8ff/dozens-of-civilians-killed%2C.html",
+      "publishedAt": "2026-08-22T19:16:56.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 60,
+      "confidence": 82,
+      "price": 258.63,
+      "changePct": -0.5689900426742601,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "AMZN",
+      "assetType": "stock",
+      "name": "Amazon.com, Inc.",
+      "title": "NEREUS™ Sponsored No. 47 IndyCar Ready for Historic Freedom 250 Grand Prix in Washington, D.C.",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/healthcare/articles/nereus-sponsored-no-47-indycar-191600819.html",
+      "publishedAt": "2026-08-22T19:16:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 60,
+      "confidence": 82,
+      "price": 258.63,
+      "changePct": -0.5689900426742601,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Patent Win And KuBank 3.0 Safety Milestone Might Change The Case For Investing In Canadian Solar (CSIQ)",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/patent-win-kubank-3-0-011029473.html",
+      "publishedAt": "2026-08-22T01:10:29.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 51,
+      "confidence": 64,
+      "price": 94.44,
+      "changePct": 0.8312707622839702,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Skyworks Solutions (SWKS) Rebounds On Broad Markets Hope, Is The Stock Fully Valued?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-rebounds-broad-011622273.html",
+      "publishedAt": "2026-08-19T01:16:22.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 51,
+      "confidence": 64,
+      "price": 94.44,
+      "changePct": 0.8312707622839702,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Skyworks Solutions (SWKS) Stock Looks Stretched Following Its 57% Five Year Slump",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-looks-171437724.html",
+      "publishedAt": "2026-08-18T17:14:37.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 51,
+      "confidence": 64,
+      "price": 94.44,
+      "changePct": 0.8312707622839702,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "CANADIAN SOLAR ANNOUNCES RESOLUTION OF MAXEON U.S. PATENT LITIGATION",
+      "publisher": "PR Newswire",
+      "link": "https://finance.yahoo.com/energy/articles/canadian-solar-announces-resolution-maxeon-110000368.html",
+      "publishedAt": "2026-08-18T11:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 51,
+      "confidence": 64,
+      "price": 94.44,
+      "changePct": 0.8312707622839702,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Eyes $50M Revenue as Transformative Acquisition Nears",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/4c134aae-1b93-3be4-a528-5873a1d98aca/interlink-electronics-eyes.html",
+      "publishedAt": "2026-08-19T01:01:57.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 88,
+      "confidence": 64,
+      "price": 11.706,
+      "changePct": -2.392085971009466,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $11.87."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics to Participate in the Lytham Partners 2026 Consumer & Technology Investor Summit on August 18, 2026",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/interlink-electronics-participate-lytham-partners-130000892.html",
+      "publishedAt": "2026-08-17T13:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 88,
+      "confidence": 64,
+      "price": 11.706,
+      "changePct": -2.392085971009466,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Reports Second Quarter 2026 Results",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-reports-second-quarter-130000359.html",
+      "publishedAt": "2026-08-13T13:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 88,
+      "confidence": 64,
+      "price": 11.706,
+      "changePct": -2.392085971009466,
+      "signal": "dip",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Added to Russell Microcap Index",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-added-russell-microcap-163345501.html",
+      "publishedAt": "2026-06-25T16:33:45.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 88,
+      "confidence": 64,
+      "price": 11.706,
+      "changePct": -2.392085971009466,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
     {
       "symbol": "SPY",
@@ -3070,90 +3343,6 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Amazon's Custom Chip Business Crossed a $25 Billion Run Rate: Time to Load Up on Shares?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/61dccfd3-ef54-3d15-b919-8665a929f303/amazon%27s-custom-chip-business.html",
-      "publishedAt": "2026-08-22T18:53:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 60,
-      "confidence": 82,
-      "price": 258.63,
-      "changePct": -0.5689900426742601,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "AI’s Absurd Spending Boom? Hyperscalers Are Spending 102% of Cloud Revenue on Capex",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/5e3d3153-2958-390a-a18c-89976740cdda/ai%E2%80%99s-absurd-spending-boom%3F.html",
-      "publishedAt": "2026-08-22T16:27:09.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 60,
-      "confidence": 82,
-      "price": 258.63,
-      "changePct": -0.5689900426742601,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Tariff refunds are hitting retailers' wallets. Here's what they're doing with the money.",
-      "publisher": "Yahoo Finance",
-      "link": "https://finance.yahoo.com/markets/article/tariff-refunds-are-hitting-retailers-wallets-heres-what-theyre-doing-with-the-money-142951738.html",
-      "publishedAt": "2026-08-22T14:29:51.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 60,
-      "confidence": 82,
-      "price": 258.63,
-      "changePct": -0.5689900426742601,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "AMZN",
-      "assetType": "stock",
-      "name": "Amazon.com, Inc.",
-      "title": "Amazon Stock Is Historically Cheap. Is This a Once-in-a-Decade Buying Opportunity?",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/9b04016b-f5c6-385b-9faf-ed2aa3137546/amazon-stock-is-historically.html",
-      "publishedAt": "2026-08-22T13:30:46.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 60,
-      "confidence": 82,
-      "price": 258.63,
-      "changePct": -0.5689900426742601,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
       "symbol": "GOOGL",
       "assetType": "stock",
       "name": "Alphabet Inc.",
@@ -3172,90 +3361,6 @@
       "price": 344.82,
       "changePct": 1.2181876889658545,
       "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Sustainable Development ETF (SDG) Touches New 52-Week High",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sustainable-development-etf-sdg-touches-135600118.html",
-      "publishedAt": "2026-08-21T13:56:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 64,
-      "price": 94.39,
-      "changePct": 0.7778869891146148,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "One company stands to gain as bankruptcy wave hits solar sector",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/b61053b8-f6bc-3161-bb9e-bcbfe9388bb5/one-company-stands-to-gain-as.html",
-      "publishedAt": "2026-08-20T03:33:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 64,
-      "price": 94.39,
-      "changePct": 0.7778869891146148,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/energy/articles/zacks-industry-outlook-highlights-first-074000072.html",
-      "publishedAt": "2026-08-19T07:40:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 64,
-      "price": 94.39,
-      "changePct": 0.7778869891146148,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "First Solar (FSLR) Stock Could Be 30% Undervalued As Tariff News Lifts Sentiment",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-stock-could-061206520.html",
-      "publishedAt": "2026-08-19T06:12:06.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 50,
-      "confidence": 64,
-      "price": 94.39,
-      "changePct": 0.7778869891146148,
-      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -3298,111 +3403,6 @@
       "price": 237.04,
       "changePct": -5.565515318114816,
       "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "ROKU",
-      "assetType": "stock",
-      "name": "Roku, Inc.",
-      "title": "Parks Associates Announces Advisory Board and Roku Keynote for Ninth Annual Future of Video Executive Conference, November 17-18",
-      "publisher": "PR Newswire",
-      "link": "https://finance.yahoo.com/media-advertising/articles/parks-associates-announces-advisory-board-124600960.html",
-      "publishedAt": "2026-08-20T12:46:00.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 82,
-      "confidence": 72,
-      "price": 157.49,
-      "changePct": 0.23548879837067496,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "ROKU",
-      "assetType": "stock",
-      "name": "Roku, Inc.",
-      "title": "Magnite Sees CTV Surge and Google Antitrust Remedies as Growth Catalysts",
-      "publisher": "MarketBeat",
-      "link": "https://finance.yahoo.com/m/ac400e15-f260-359f-92e8-32cd68fb1705/magnite-sees-ctv-surge-and.html",
-      "publishedAt": "2026-08-19T04:01:59.000Z",
-      "sentiment": {
-        "score": 89,
-        "label": "bullish",
-        "positiveHits": 3,
-        "negativeHits": 0
-      },
-      "aiScore": 82,
-      "confidence": 72,
-      "price": 157.49,
-      "changePct": 0.23548879837067496,
-      "signal": "dip",
-      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $157.73."
-    },
-    {
-      "symbol": "ROKU",
-      "assetType": "stock",
-      "name": "Roku, Inc.",
-      "title": "These 3 Buy Rated Growth Stocks Have Been Red Hot",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/3-buy-rated-growth-stocks-212000787.html",
-      "publishedAt": "2026-08-18T21:20:00.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 82,
-      "confidence": 72,
-      "price": 157.49,
-      "changePct": 0.23548879837067496,
-      "signal": "dip",
-      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $157.73."
-    },
-    {
-      "symbol": "ROKU",
-      "assetType": "stock",
-      "name": "Roku, Inc.",
-      "title": "Roku Insider Sold Shares Worth $1,099,770, According to a Recent SEC Filing",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/roku-insider-sold-shares-worth-074657394.html",
-      "publishedAt": "2026-08-18T07:46:57.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 82,
-      "confidence": 72,
-      "price": 157.49,
-      "changePct": 0.23548879837067496,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Forget JEPI: BlackRock’s Answer Pays 7.6%, Charges the Same 0.35%, and Beat It by 10 Points This Year",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/b62488e9-bc26-348b-a1b9-820f5db4e2ec/forget-jepi%3A-blackrock%E2%80%99s.html",
-      "publishedAt": "2026-08-22T18:01:35.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
