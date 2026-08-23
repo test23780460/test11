@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-23T22:47:15.728Z",
+  "updatedAt": "2026-08-23T23:00:44.948Z",
   "totalHeadlines": 160,
   "bullish": 8,
-  "bearish": 17,
-  "mixed": 135,
+  "bearish": 16,
+  "mixed": 136,
   "avgSentiment": 52,
   "marketRead": "News is mixed",
   "symbolsTracked": [
@@ -39,10 +39,10 @@
     "CARR",
     "OXY",
     "JNJ",
+    "LINK-USD",
     "GE",
     "NVO",
-    "CAT",
-    "ROKU"
+    "HOOD"
   ],
   "headlines": [
     {
@@ -216,7 +216,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Ind",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
       "title": "US Stock Indices End Lower As Trump’s ‘Economic Warfare’ Threats Push Yields, Oil Higher — WMT, CRWV, SBUX, DE, RKLB In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/bce4fe5a-c9a3-3343-accb-f30e7b141648/us-stock-indices-end-lower-as.html",
@@ -237,7 +237,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Ind",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
       "title": "US Stocks End Third Session Lower As Higher Treasury Yields, Oil Prices Weigh — BABA, AAPL, GRRR, KLAR, CRWD In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/1531307b-53c6-3678-aa33-dd7ca8654dd9/us-stocks-end-third-session.html",
@@ -258,7 +258,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Ind",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
       "title": "New Reports Show Cooling Economy, Bond Yields Climb",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/economy/articles/reports-show-cooling-economy-bond-143700395.html",
@@ -279,7 +279,7 @@
     {
       "symbol": "DIA",
       "assetType": "stock",
-      "name": "State Street SPDR Dow Jones Ind",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
       "title": "S&P500, Dow, Nasdaq End Lower As Geopolitics And Oil Price Risk Take Center Stage — TSLA, PSKY, MSTR, BABA, NVDA In Focus",
       "publisher": "Stocktwits",
       "link": "https://finance.yahoo.com/m/a7037492-737a-33e6-9bfa-60dbe7964b56/s%26p500%2C-dow%2C-nasdaq-end-lower.html",
@@ -553,15 +553,57 @@
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
-      "title": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
       "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
-      "publishedAt": "2026-08-23T22:36:44.000Z",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "publishedAt": "2026-08-23T22:55:04.000Z",
       "sentiment": {
-        "score": 37,
-        "label": "bearish",
+        "score": 50,
+        "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 1
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "The Cannabis M&A Wave Is Here. Curaleaf Proved It. Here's Whether Green Thumb Should Ride It -- or Wait to Be Swept Up.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/88db79ea-7e75-34dd-8aaa-172920faf20a/the-cannabis-m%26a-wave-is.html",
+      "publishedAt": "2026-08-23T22:50:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Prediction: Oklo Won't Book Its First Commercial Power Revenue Before 2028",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d95aeab0-9488-3912-a9aa-aea5b3c249f9/prediction%3A-oklo-won%27t-book.html",
+      "publishedAt": "2026-08-23T22:46:01.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
       },
       "aiScore": 66,
       "confidence": 82,
@@ -578,48 +620,6 @@
       "publisher": "TheStreet",
       "link": "https://finance.yahoo.com/m/0200f3e9-04c1-3b16-ba95-f823af874d7c/goldman-sachs-spots-huge.html",
       "publishedAt": "2026-08-23T22:17:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/916f5f53-0f2a-329c-a4c7-27b41a9afa5d/does-billionaire-bill-ackman.html",
-      "publishedAt": "2026-08-23T21:35:01.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Axsome Therapeutics Stock Is Up 16% Year to Date. Why Wall Street Thinks It Has Even More Room to Run",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/67de64d0-044f-3860-82e0-7774fe5e96e1/axsome-therapeutics-stock-is.html",
-      "publishedAt": "2026-08-23T21:20:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1056,7 +1056,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "If a Bear Market Is Coming, Here's What All of the Smartest Investors Are Doing Right Now",
       "publisher": "Motley Fool",
       "link": "https://finance.yahoo.com/m/c1743b80-0e9e-30a5-a632-025584fb55c5/if-a-bear-market-is-coming%2C.html",
@@ -1077,7 +1077,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "Bessent Has No Easy Fix for What’s Really Driving Bond Yields Up",
       "publisher": "Bloomberg",
       "link": "https://finance.yahoo.com/economy/policy/articles/bessent-no-easy-fix-really-130000330.html",
@@ -1098,7 +1098,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "Got $2M saved? You should (probably) retire immediately. Don't sacrifice it all for nothing",
       "publisher": "Moneywise",
       "link": "https://finance.yahoo.com/markets/articles/got-2m-saved-probably-retire-124500785.html",
@@ -1119,7 +1119,7 @@
     {
       "symbol": "JPM",
       "assetType": "stock",
-      "name": "JP Morgan Chase & Co.",
+      "name": "JPMorgan Chase & Co.",
       "title": "Jim Cramer Continued To Complain About JPMorgan Chase & Co. (NYSE:JPM) & Wells Fargo’s Multiple",
       "publisher": "Insider Monkey",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-continued-complain-jpmorgan-000039380.html",
@@ -1225,10 +1225,10 @@
       "symbol": "COIN",
       "assetType": "stock",
       "name": "Coinbase Global, Inc.",
-      "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/51afa978-4df4-31e3-8eb1-47e8e0bef2a7/donald-trump-sold.html",
-      "publishedAt": "2026-08-23T16:02:52.000Z",
+      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "publishedAt": "2026-08-23T22:55:04.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1246,10 +1246,10 @@
       "symbol": "COIN",
       "assetType": "stock",
       "name": "Coinbase Global, Inc.",
-      "title": "Ripple CEO Brad Garlinghouse Calls CFTC’s New Crypto Panel An ‘Olympic Roster’",
-      "publisher": "Stocktwits",
-      "link": "https://finance.yahoo.com/m/e0074048-a14d-3742-a610-906004080c29/ripple-ceo-brad-garlinghouse.html",
-      "publishedAt": "2026-08-22T16:57:09.000Z",
+      "title": "The Cannabis M&A Wave Is Here. Curaleaf Proved It. Here's Whether Green Thumb Should Ride It -- or Wait to Be Swept Up.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/88db79ea-7e75-34dd-8aaa-172920faf20a/the-cannabis-m%26a-wave-is.html",
+      "publishedAt": "2026-08-23T22:50:00.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1267,10 +1267,10 @@
       "symbol": "COIN",
       "assetType": "stock",
       "name": "Coinbase Global, Inc.",
-      "title": "XRP Price Breaks $1.20 as Whales Scoop 300M Tokens — Is $2 Next After Ripple Prime’s $275M Raise?",
-      "publisher": "CCN",
-      "link": "https://finance.yahoo.com/m/c98c7d97-5529-3e97-a18e-d781c72ac00d/xrp-price-breaks-%241.20-as.html",
-      "publishedAt": "2026-08-22T10:57:15.000Z",
+      "title": "Prediction: Oklo Won't Book Its First Commercial Power Revenue Before 2028",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/d95aeab0-9488-3912-a9aa-aea5b3c249f9/prediction%3A-oklo-won%27t-book.html",
+      "publishedAt": "2026-08-23T22:46:01.000Z",
       "sentiment": {
         "score": 63,
         "label": "mixed",
@@ -1288,10 +1288,10 @@
       "symbol": "COIN",
       "assetType": "stock",
       "name": "Coinbase Global, Inc.",
-      "title": "Trump's Crypto Comments Cheered: Robinhood CEO Stresses 'Broad Ownership' At White House Event, Binance Founder Says, 'We're So Back'",
-      "publisher": "Benzinga",
-      "link": "https://finance.yahoo.com/markets/crypto/articles/trumps-crypto-comments-cheered-robinhood-094524088.html",
-      "publishedAt": "2026-08-22T09:45:24.000Z",
+      "title": "Abbott vs. Thermo Fisher: Which is the Better Investment, Diversification or Recovery?",
+      "publisher": "Insider Monkey",
+      "link": "https://finance.yahoo.com/healthcare/articles/abbott-vs-thermo-fisher-better-224317862.html",
+      "publishedAt": "2026-08-23T22:43:17.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -1319,12 +1319,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 44,
+      "aiScore": 76,
       "confidence": 72,
-      "price": 77618.6,
-      "changePct": 0.7039020935943121,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 77593.13,
+      "changePct": 0.6708568133866819,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "BTC-USD",
@@ -1340,12 +1340,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 44,
+      "aiScore": 76,
       "confidence": 72,
-      "price": 77618.6,
-      "changePct": 0.7039020935943121,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 77593.13,
+      "changePct": 0.6708568133866819,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "BTC-USD",
@@ -1361,12 +1361,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 44,
+      "aiScore": 76,
       "confidence": 72,
-      "price": 77618.6,
-      "changePct": 0.7039020935943121,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 77593.13,
+      "changePct": 0.6708568133866819,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "BTC-USD",
@@ -1382,12 +1382,12 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 44,
+      "aiScore": 76,
       "confidence": 72,
-      "price": 77618.6,
-      "changePct": 0.7039020935943121,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+      "price": 77593.13,
+      "changePct": 0.6708568133866819,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
       "symbol": "SOL-USD",
@@ -1403,11 +1403,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 95.48,
-      "changePct": 1.6838972664625005,
-      "signal": "momentum",
+      "price": 95.57,
+      "changePct": 1.7797450958925436,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1424,11 +1424,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 95.48,
-      "changePct": 1.6838972664625005,
-      "signal": "momentum",
+      "price": 95.57,
+      "changePct": 1.7797450958925436,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1445,11 +1445,11 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 95.48,
-      "changePct": 1.6838972664625005,
-      "signal": "momentum",
+      "price": 95.57,
+      "changePct": 1.7797450958925436,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
@@ -1466,17 +1466,17 @@
         "positiveHits": 0,
         "negativeHits": 1
       },
-      "aiScore": 49,
+      "aiScore": 40,
       "confidence": 72,
-      "price": 95.48,
-      "changePct": 1.6838972664625005,
-      "signal": "momentum",
+      "price": 95.57,
+      "changePct": 1.7797450958925436,
+      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "Southern Company (The)",
+      "name": "The Southern Company",
       "title": "PG&E Stock Runs On A Legislative Calendar, Not The Market's",
       "publisher": "Trefis",
       "link": "https://finance.yahoo.com/m/3b687209-154c-34c1-ac09-8da24b3f3d5e/pg%26e-stock-runs-on-a.html",
@@ -1497,7 +1497,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "Southern Company (The)",
+      "name": "The Southern Company",
       "title": "Morgan Stanley Adjusts PT on Southern Co. to $89 From $92, Keeps Underweight Rating",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-adjusts-pt-southern-102910710.html",
@@ -1518,7 +1518,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "Southern Company (The)",
+      "name": "The Southern Company",
       "title": "Georgia Power's Learning Power program marks 15 years and 1.5 million Georgia students reached",
       "publisher": "PR Newswire",
       "link": "https://finance.yahoo.com/energy/articles/georgia-powers-learning-power-program-120000838.html",
@@ -1539,7 +1539,7 @@
     {
       "symbol": "SO",
       "assetType": "stock",
-      "name": "Southern Company (The)",
+      "name": "The Southern Company",
       "title": "JPMorgan Adjusts Price Target on Southern to $101 From $104, Maintains Neutral Rating",
       "publisher": "MT Newswires",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-adjusts-price-target-southern-093042844.html",
@@ -1812,7 +1812,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation, PLC",
+      "name": "Eaton Corporation plc",
       "title": "Eaton vs. Hubbell: Which Electrification Stock Has an Edge?",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/eaton-vs-hubbell-electrification-stock-172000203.html",
@@ -1833,7 +1833,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation, PLC",
+      "name": "Eaton Corporation plc",
       "title": "VWDRY or ETN: Which Is the Better Value Stock Right Now?",
       "publisher": "Zacks",
       "link": "https://finance.yahoo.com/markets/stocks/articles/vwdry-etn-better-value-stock-154002140.html",
@@ -1854,7 +1854,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation, PLC",
+      "name": "Eaton Corporation plc",
       "title": "2 Stocks for What’s Next in AI",
       "publisher": "Barrons.com",
       "link": "https://finance.yahoo.com/m/727e6a3c-bc78-3bd6-a091-fc3403729be7/2-stocks-for-what%E2%80%99s-next-in-ai.html",
@@ -1875,7 +1875,7 @@
     {
       "symbol": "ETN",
       "assetType": "stock",
-      "name": "Eaton Corporation, PLC",
+      "name": "Eaton Corporation plc",
       "title": "Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls",
       "publisher": "The Fly",
       "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-initiated-teradyne-downgraded-wall-133824309.html",
@@ -2233,22 +2233,22 @@
       "symbol": "MRVL",
       "assetType": "stock",
       "name": "Marvell Technology, Inc.",
-      "title": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
       "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
-      "publishedAt": "2026-08-23T22:36:44.000Z",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "publishedAt": "2026-08-23T22:55:04.000Z",
       "sentiment": {
-        "score": 37,
-        "label": "bearish",
+        "score": 50,
+        "label": "mixed",
         "positiveHits": 0,
-        "negativeHits": 1
+        "negativeHits": 0
       },
       "aiScore": 87,
       "confidence": 64,
       "price": 237.04,
       "changePct": -5.565515318114816,
       "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "MRVL",
@@ -2650,6 +2650,90 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Eyes $50M Revenue as Transformative Acquisition Nears",
+      "publisher": "MarketBeat",
+      "link": "https://finance.yahoo.com/m/4c134aae-1b93-3be4-a528-5873a1d98aca/interlink-electronics-eyes.html",
+      "publishedAt": "2026-08-19T01:01:57.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 72,
+      "price": 11.549,
+      "changePct": -0.9123034847913393,
+      "signal": "dip",
+      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $11.63."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics to Participate in the Lytham Partners 2026 Consumer & Technology Investor Summit on August 18, 2026",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/technology/articles/interlink-electronics-participate-lytham-partners-130000892.html",
+      "publishedAt": "2026-08-17T13:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 72,
+      "price": 11.549,
+      "changePct": -0.9123034847913393,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Reports Second Quarter 2026 Results",
+      "publisher": "GlobeNewswire",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-reports-second-quarter-130000359.html",
+      "publishedAt": "2026-08-13T13:00:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 85,
+      "confidence": 72,
+      "price": 11.549,
+      "changePct": -0.9123034847913393,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "LINK-USD",
+      "assetType": "crypto",
+      "name": "Chainlink USD",
+      "title": "Interlink Electronics Added to Russell Microcap Index",
+      "publisher": "MT Newswires",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/interlink-electronics-added-russell-microcap-163345501.html",
+      "publishedAt": "2026-06-25T16:33:45.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 85,
+      "confidence": 72,
+      "price": 11.549,
+      "changePct": -0.9123034847913393,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
       "symbol": "GE",
       "assetType": "stock",
       "name": "GE Aerospace",
@@ -2814,6 +2898,258 @@
       "confidence": 72,
       "price": 46.74,
       "changePct": 1.3003901170351135,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
+      "symbol": "HOOD",
+      "assetType": "stock",
+      "name": "Robinhood Markets, Inc.",
+      "title": "Dow Jones Futures: Tariffs In Focus; Nvidia, Warsh Ahead",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-tariffs-in.html",
+      "publishedAt": "2026-08-23T22:55:04.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 67,
+      "price": 108.13,
+      "changePct": 13.701366982124084,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "HOOD",
+      "assetType": "stock",
+      "name": "Robinhood Markets, Inc.",
+      "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/51afa978-4df4-31e3-8eb1-47e8e0bef2a7/donald-trump-sold.html",
+      "publishedAt": "2026-08-23T16:02:52.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 67,
+      "price": 108.13,
+      "changePct": 13.701366982124084,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "HOOD",
+      "assetType": "stock",
+      "name": "Robinhood Markets, Inc.",
+      "title": "Why Robinhood Markets Stock Popped Today",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/74cf811c-93f9-32e4-963d-42318ab4d5fb/why-robinhood-markets-stock.html",
+      "publishedAt": "2026-08-22T03:25:33.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 67,
+      "price": 108.13,
+      "changePct": 13.701366982124084,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "HOOD",
+      "assetType": "stock",
+      "name": "Robinhood Markets, Inc.",
+      "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Been Talked About'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/trump-says-us-hottest-country-023156530.html",
+      "publishedAt": "2026-08-22T02:31:56.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 29,
+      "confidence": 67,
+      "price": 108.13,
+      "changePct": 13.701366982124084,
+      "signal": "peak",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
+      "publishedAt": "2026-08-23T22:36:44.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/916f5f53-0f2a-329c-a4c7-27b41a9afa5d/does-billionaire-bill-ackman.html",
+      "publishedAt": "2026-08-23T21:35:01.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Axsome Therapeutics Stock Is Up 16% Year to Date. Why Wall Street Thinks It Has Even More Room to Run",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/67de64d0-044f-3860-82e0-7774fe5e96e1/axsome-therapeutics-stock-is.html",
+      "publishedAt": "2026-08-23T21:20:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "COIN",
+      "assetType": "stock",
+      "name": "Coinbase Global, Inc.",
+      "title": "Donald Trump Sold MicroStrategy and Bought Two Other Crypto Stocks",
+      "publisher": "BeInCrypto",
+      "link": "https://finance.yahoo.com/m/51afa978-4df4-31e3-8eb1-47e8e0bef2a7/donald-trump-sold.html",
+      "publishedAt": "2026-08-23T16:02:52.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 65,
+      "price": 186.49,
+      "changePct": 8.204235567159857,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "COIN",
+      "assetType": "stock",
+      "name": "Coinbase Global, Inc.",
+      "title": "Ripple CEO Brad Garlinghouse Calls CFTC’s New Crypto Panel An ‘Olympic Roster’",
+      "publisher": "Stocktwits",
+      "link": "https://finance.yahoo.com/m/e0074048-a14d-3742-a610-906004080c29/ripple-ceo-brad-garlinghouse.html",
+      "publishedAt": "2026-08-22T16:57:09.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 65,
+      "price": 186.49,
+      "changePct": 8.204235567159857,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "COIN",
+      "assetType": "stock",
+      "name": "Coinbase Global, Inc.",
+      "title": "XRP Price Breaks $1.20 as Whales Scoop 300M Tokens — Is $2 Next After Ripple Prime’s $275M Raise?",
+      "publisher": "CCN",
+      "link": "https://finance.yahoo.com/m/c98c7d97-5529-3e97-a18e-d781c72ac00d/xrp-price-breaks-%241.20-as.html",
+      "publishedAt": "2026-08-22T10:57:15.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 65,
+      "price": 186.49,
+      "changePct": 8.204235567159857,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "COIN",
+      "assetType": "stock",
+      "name": "Coinbase Global, Inc.",
+      "title": "Trump's Crypto Comments Cheered: Robinhood CEO Stresses 'Broad Ownership' At White House Event, Binance Founder Says, 'We're So Back'",
+      "publisher": "Benzinga",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/trumps-crypto-comments-cheered-robinhood-094524088.html",
+      "publishedAt": "2026-08-22T09:45:24.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 43,
+      "confidence": 65,
+      "price": 186.49,
+      "changePct": 8.204235567159857,
+      "signal": "momentum",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MRVL",
+      "assetType": "stock",
+      "name": "Marvell Technology, Inc.",
+      "title": "Dow Jones Futures Fall With Tariffs In Focus; Nvidia, Warsh Ahead",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-fall-with.html",
+      "publishedAt": "2026-08-23T22:36:44.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 87,
+      "confidence": 64,
+      "price": 237.04,
+      "changePct": -5.565515318114816,
       "signal": "dip",
       "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
     },
@@ -3068,342 +3404,6 @@
       "changePct": 5.137203819187305,
       "signal": "peak",
       "prediction": "Bearish news plus peak-risk price action. Be careful chasing this until the chart cools down."
-    },
-    {
-      "symbol": "LLY",
-      "assetType": "stock",
-      "name": "Eli Lilly and Company",
-      "title": "Will Eli Lilly’s Global Vault CRM Deal and Leadership Shift Change Veeva Systems’ (VEEV) Narrative?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/eli-lilly-global-vault-crm-080851754.html",
-      "publishedAt": "2026-08-22T08:08:51.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 56,
-      "confidence": 72,
-      "price": 1255.4,
-      "changePct": 0.8839601414336226,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MRVL",
-      "assetType": "stock",
-      "name": "Marvell Technology, Inc.",
-      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-due-with.html",
-      "publishedAt": "2026-08-23T21:23:43.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 87,
-      "confidence": 64,
-      "price": 237.04,
-      "changePct": -5.565515318114816,
-      "signal": "dip",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVO",
-      "assetType": "stock",
-      "name": "Novo Nordisk A/S",
-      "title": "Scholar Rock's Global Regulatory Path Further De-Risked, Wedbush Says",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/healthcare/articles/scholar-rock-apos-global-regulatory-190321564.html",
-      "publishedAt": "2026-08-21T19:03:21.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 83,
-      "confidence": 72,
-      "price": 46.74,
-      "changePct": 1.3003901170351135,
-      "signal": "dip",
-      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "BC-Most Active Stocks",
-      "publisher": "Associated Press",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-143019148.html",
-      "publishedAt": "2026-08-20T14:30:19.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 72,
-      "price": 77762.73,
-      "changePct": 0.8908991974940056,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BTC-USD",
-      "assetType": "crypto",
-      "name": "Bitcoin USD",
-      "title": "Top Premarket Gainers",
-      "publisher": "MT Newswires",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/top-premarket-gainers-111350112.html",
-      "publishedAt": "2026-08-20T11:13:50.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 43,
-      "confidence": 72,
-      "price": 77762.73,
-      "changePct": 0.8908991974940056,
-      "signal": "momentum",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Tilray Posted Record Fiscal 2026 Revenue -- Why Isn't the Stock Rallying?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/77ccd289-451e-3400-a20b-db84cdc8af44/tilray-posted-record-fiscal.html",
-      "publishedAt": "2026-08-23T20:59:00.000Z",
-      "sentiment": {
-        "score": 89,
-        "label": "bullish",
-        "positiveHits": 3,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "SK Hynix Is Buying Back 3.3% of Its Shares and Canceling Every One",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/19efb0c8-e703-36b6-8a5a-d36ad38a6db0/sk-hynix-is-buying-back-3.3%25.html",
-      "publishedAt": "2026-08-23T20:57:01.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Sustainable Development ETF (SDG) Touches New 52-Week High",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sustainable-development-etf-sdg-touches-135600118.html",
-      "publishedAt": "2026-08-21T13:56:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 22,
-      "confidence": 72,
-      "price": 96.16,
-      "changePct": 2.4080808666006837,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "One company stands to gain as bankruptcy wave hits solar sector",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/b61053b8-f6bc-3161-bb9e-bcbfe9388bb5/one-company-stands-to-gain-as.html",
-      "publishedAt": "2026-08-20T03:33:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 22,
-      "confidence": 72,
-      "price": 96.16,
-      "changePct": 2.4080808666006837,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/energy/articles/zacks-industry-outlook-highlights-first-074000072.html",
-      "publishedAt": "2026-08-19T07:40:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 22,
-      "confidence": 72,
-      "price": 96.16,
-      "changePct": 2.4080808666006837,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "First Solar (FSLR) Stock Could Be 30% Undervalued As Tariff News Lifts Sentiment",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-stock-could-061206520.html",
-      "publishedAt": "2026-08-19T06:12:06.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 22,
-      "confidence": 72,
-      "price": 96.16,
-      "changePct": 2.4080808666006837,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Better Dividend King to Buy Right Now: Abbott Labs or Johnson & Johnson?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/df9049c1-abbc-359e-b757-dec75d80b7d9/better-dividend-king-to-buy.html",
-      "publishedAt": "2026-08-23T20:20:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/8322ee48-a104-33a7-8879-f0513fedd10a/oracle-vs.-amazon%3A-which-is.html",
-      "publishedAt": "2026-08-23T20:13:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "$22 Billion in Customer Deposits Did Not Stop This Chip CEO From Selling $37 Million",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/5ba84e7a-df12-36fd-9738-ae3338895691/%2422-billion-in-customer.html",
-      "publishedAt": "2026-08-23T20:12:36.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-      "publisher": "Investor's Business Daily",
-      "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures-due-with.html",
-      "publishedAt": "2026-08-23T20:43:43.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 49,
-      "confidence": 72,
-      "price": 344.82,
-      "changePct": 1.2181876889658545,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "GOOGL",
-      "assetType": "stock",
-      "name": "Alphabet Inc.",
-      "title": "The Custodial Account You Opened for Your Grandson Becomes Legally His the Day He Turns 21, and He Can Spend It on a Car. A 529 Never Does.",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/eb9887b9-f384-3303-be34-5cd4c89127de/the-custodial-account-you.html",
-      "publishedAt": "2026-08-23T20:43:23.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 49,
-      "confidence": 72,
-      "price": 344.82,
-      "changePct": 1.2181876889658545,
-      "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
 }
