@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-08-23T19:41:42.656Z",
+  "updatedAt": "2026-08-23T19:54:58.686Z",
   "totalHeadlines": 160,
-  "bullish": 12,
-  "bearish": 15,
+  "bullish": 11,
+  "bearish": 16,
   "mixed": 133,
   "avgSentiment": 52,
   "marketRead": "News is mixed",
@@ -37,12 +37,12 @@
     "MRVL",
     "FSLR",
     "CARR",
+    "DOT-USD",
     "OXY",
     "JNJ",
     "GE",
     "NVO",
-    "CAT",
-    "ROKU"
+    "CAT"
   ],
   "headlines": [
     {
@@ -469,10 +469,10 @@
       "symbol": "MSFT",
       "assetType": "stock",
       "name": "Microsoft Corporation",
-      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
-      "publisher": "TechCrunch",
-      "link": "https://finance.yahoo.com/technology/articles/uber-faces-fine-nearly-1b-193000400.html",
-      "publishedAt": "2026-08-23T19:30:00.000Z",
+      "title": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html",
+      "publishedAt": "2026-08-23T17:07:38.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
@@ -490,14 +490,14 @@
       "symbol": "MSFT",
       "assetType": "stock",
       "name": "Microsoft Corporation",
-      "title": "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/edf16a55-11a1-3a0b-a793-dafd22126c54/this-company-has-raised-its.html",
-      "publishedAt": "2026-08-23T19:28:00.000Z",
+      "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/71a8f2dc-68de-3123-bbcc-2179142c8350/bill-ackman%27s-pershing-square.html",
+      "publishedAt": "2026-08-23T17:07:00.000Z",
       "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 38,
@@ -505,47 +505,68 @@
       "price": 483.24,
       "changePct": 0.4343759742284178,
       "signal": "watch",
-      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $483.99."
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
       "symbol": "MSFT",
       "assetType": "stock",
       "name": "Microsoft Corporation",
-      "title": "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI",
+      "title": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
       "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/201d4d0f-3cfe-3728-91a7-b92e182a16d4/this-chinese-tech-giant.html",
-      "publishedAt": "2026-08-23T19:17:45.000Z",
+      "link": "https://finance.yahoo.com/m/5a241fc4-1169-3e4c-b6ef-b07d8dbf47ee/the-%241.7-trillion-job.html",
+      "publishedAt": "2026-08-23T16:17:42.000Z",
       "sentiment": {
         "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/05a9d2a4-1e60-376d-8d37-eac54d49c5f5/this-is-one-of-the-cheapest.html",
+      "publishedAt": "2026-08-23T15:00:54.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Vistra Is the Quietest Big Winner of the AI Power Boom. Here's Why.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/1fc05e08-fa9a-317d-a2e9-951585729477/vistra-is-the-quietest-big.html",
+      "publishedAt": "2026-08-23T19:39:00.000Z",
+      "sentiment": {
+        "score": 63,
         "label": "mixed",
         "positiveHits": 1,
-        "negativeHits": 1
-      },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Look Back: Long before Party on the Patio, Mötley Crüe rocked Pocono Downs",
-      "publisher": "The Times-Leader (Wilkes-Barre, Pa.)",
-      "link": "https://finance.yahoo.com/m/c9ba0bfa-66d4-35fb-9c0a-915b6d62653c/look-back%3A-long-before-party.html",
-      "publishedAt": "2026-08-23T19:17:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -603,27 +624,6 @@
         "score": 76,
         "label": "bullish",
         "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Why Social Security Can't Be the Center of Your Retirement Income Plan",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/e79044a2-6a79-3548-9036-c1d012efcba2/why-social-security-can%27t-be.html",
-      "publishedAt": "2026-08-23T18:56:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
         "negativeHits": 0
       },
       "aiScore": 66,
@@ -1319,10 +1319,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 77358.83,
-      "changePct": 0.3668713735497171,
+      "price": 77377.84,
+      "changePct": 0.39153532238155253,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1340,10 +1340,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 77358.83,
-      "changePct": 0.3668713735497171,
+      "price": 77377.84,
+      "changePct": 0.39153532238155253,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1361,10 +1361,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 77358.83,
-      "changePct": 0.3668713735497171,
+      "price": 77377.84,
+      "changePct": 0.39153532238155253,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1382,10 +1382,10 @@
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 49,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 77358.83,
-      "changePct": 0.3668713735497171,
+      "price": 77377.84,
+      "changePct": 0.39153532238155253,
       "signal": "momentum",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -1393,83 +1393,83 @@
       "symbol": "SOL-USD",
       "assetType": "crypto",
       "name": "Solana USD",
-      "title": "Sustainable Development ETF (SDG) Touches New 52-Week High",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sustainable-development-etf-sdg-touches-135600118.html",
-      "publishedAt": "2026-08-21T13:56:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 72,
-      "price": 95.15,
-      "changePct": 1.3324552252189683,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "One company stands to gain as bankruptcy wave hits solar sector",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/b61053b8-f6bc-3161-bb9e-bcbfe9388bb5/one-company-stands-to-gain-as.html",
-      "publishedAt": "2026-08-20T03:33:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 72,
-      "price": 95.15,
-      "changePct": 1.3324552252189683,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
-      "publisher": "Zacks",
-      "link": "https://finance.yahoo.com/energy/articles/zacks-industry-outlook-highlights-first-074000072.html",
-      "publishedAt": "2026-08-19T07:40:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 47,
-      "confidence": 72,
-      "price": 95.15,
-      "changePct": 1.3324552252189683,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "First Solar (FSLR) Stock Could Be 30% Undervalued As Tariff News Lifts Sentiment",
+      "title": "Canadian Solar (CSIQ) Clears Maxeon Patent Case, Is The 19% Undervaluation Case Convincing?",
       "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-stock-could-061206520.html",
-      "publishedAt": "2026-08-19T06:12:06.000Z",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-solar-csiq-clears-maxeon-060950516.html",
+      "publishedAt": "2026-08-23T06:09:50.000Z",
       "sentiment": {
         "score": 50,
         "label": "mixed",
         "positiveHits": 0,
         "negativeHits": 0
       },
-      "aiScore": 47,
+      "aiScore": 45,
       "confidence": 72,
-      "price": 95.15,
-      "changePct": 1.3324552252189683,
+      "price": 95.23,
+      "changePct": 1.4176532958234596,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Patent Win And KuBank 3.0 Safety Milestone Might Change The Case For Investing In Canadian Solar (CSIQ)",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/energy/articles/patent-win-kubank-3-0-011029473.html",
+      "publishedAt": "2026-08-22T01:10:29.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 95.23,
+      "changePct": 1.4176532958234596,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Skyworks Solutions (SWKS) Rebounds On Broad Markets Hope, Is The Stock Fully Valued?",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-rebounds-broad-011622273.html",
+      "publishedAt": "2026-08-19T01:16:22.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 95.23,
+      "changePct": 1.4176532958234596,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Skyworks Solutions (SWKS) Stock Looks Stretched Following Its 57% Five Year Slump",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-looks-171437724.html",
+      "publishedAt": "2026-08-18T17:14:37.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 45,
+      "confidence": 72,
+      "price": 95.23,
+      "changePct": 1.4176532958234596,
       "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
@@ -2482,6 +2482,90 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Embedded Finance Market Expansion Aids GDOT Amid High Investment Costs",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/embedded-finance-market-expansion-aids-141100482.html",
+      "publishedAt": "2026-08-20T14:11:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 86,
+      "confidence": 72,
+      "price": 0.9212,
+      "changePct": 0.0052542925616217255,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Is GDOT Stock Worth Holding as Cheap Valuation Meets Mixed Growth?",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/gdot-stock-worth-holding-cheap-150200624.html",
+      "publishedAt": "2026-08-18T15:02:00.000Z",
+      "sentiment": {
+        "score": 63,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 0
+      },
+      "aiScore": 86,
+      "confidence": 72,
+      "price": 0.9212,
+      "changePct": 0.0052542925616217255,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "What Green Dot's Pending Split Means for Investors as Closing Nears",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dots-pending-split-means-150200356.html",
+      "publishedAt": "2026-08-18T15:02:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 86,
+      "confidence": 72,
+      "price": 0.9212,
+      "changePct": 0.0052542925616217255,
+      "signal": "dip",
+      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
+    },
+    {
+      "symbol": "DOT-USD",
+      "assetType": "crypto",
+      "name": "Polkadot USD",
+      "title": "Green Dot Barely Moves Since Missing Q2 Earnings Estimates",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/green-dot-barely-moves-since-142200242.html",
+      "publishedAt": "2026-08-14T14:22:00.000Z",
+      "sentiment": {
+        "score": 37,
+        "label": "bearish",
+        "positiveHits": 0,
+        "negativeHits": 1
+      },
+      "aiScore": 86,
+      "confidence": 72,
+      "price": 0.9212,
+      "changePct": 0.0052542925616217255,
+      "signal": "dip",
+      "prediction": "Bad news and a falling setup. Wait for a clear bounce before treating it as a dip opportunity."
+    },
+    {
       "symbol": "OXY",
       "assetType": "stock",
       "name": "Occidental Petroleum Corporation",
@@ -2902,6 +2986,195 @@
       "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
     },
     {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/technology/articles/uber-faces-fine-nearly-1b-193000400.html",
+      "publishedAt": "2026-08-23T19:30:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/edf16a55-11a1-3a0b-a793-dafd22126c54/this-company-has-raised-its.html",
+      "publishedAt": "2026-08-23T19:28:00.000Z",
+      "sentiment": {
+        "score": 76,
+        "label": "bullish",
+        "positiveHits": 2,
+        "negativeHits": 0
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $483.99."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI",
+      "publisher": "24/7 Wall St.",
+      "link": "https://finance.yahoo.com/m/201d4d0f-3cfe-3728-91a7-b92e182a16d4/this-chinese-tech-giant.html",
+      "publishedAt": "2026-08-23T19:17:45.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 1,
+        "negativeHits": 1
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "MSFT",
+      "assetType": "stock",
+      "name": "Microsoft Corporation",
+      "title": "Look Back: Long before Party on the Patio, Mötley Crüe rocked Pocono Downs",
+      "publisher": "The Times-Leader (Wilkes-Barre, Pa.)",
+      "link": "https://finance.yahoo.com/m/c9ba0bfa-66d4-35fb-9c0a-915b6d62653c/look-back%3A-long-before-party.html",
+      "publishedAt": "2026-08-23T19:17:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 38,
+      "confidence": 72,
+      "price": 483.24,
+      "changePct": 0.4343759742284178,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "NVDA",
+      "assetType": "stock",
+      "name": "NVIDIA Corporation",
+      "title": "Why Social Security Can't Be the Center of Your Retirement Income Plan",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/e79044a2-6a79-3548-9036-c1d012efcba2/why-social-security-can%27t-be.html",
+      "publishedAt": "2026-08-23T18:56:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 66,
+      "confidence": 82,
+      "price": 214.72,
+      "changePct": -0.9822457920221331,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Sustainable Development ETF (SDG) Touches New 52-Week High",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sustainable-development-etf-sdg-touches-135600118.html",
+      "publishedAt": "2026-08-21T13:56:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 95.15,
+      "changePct": 1.3324552252189683,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "One company stands to gain as bankruptcy wave hits solar sector",
+      "publisher": "TheStreet",
+      "link": "https://finance.yahoo.com/m/b61053b8-f6bc-3161-bb9e-bcbfe9388bb5/one-company-stands-to-gain-as.html",
+      "publishedAt": "2026-08-20T03:33:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 95.15,
+      "changePct": 1.3324552252189683,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/energy/articles/zacks-industry-outlook-highlights-first-074000072.html",
+      "publishedAt": "2026-08-19T07:40:00.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 95.15,
+      "changePct": 1.3324552252189683,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
+      "symbol": "SOL-USD",
+      "assetType": "crypto",
+      "name": "Solana USD",
+      "title": "First Solar (FSLR) Stock Could Be 30% Undervalued As Tariff News Lifts Sentiment",
+      "publisher": "Simply Wall St.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/first-solar-fslr-stock-could-061206520.html",
+      "publishedAt": "2026-08-19T06:12:06.000Z",
+      "sentiment": {
+        "score": 50,
+        "label": "mixed",
+        "positiveHits": 0,
+        "negativeHits": 0
+      },
+      "aiScore": 47,
+      "confidence": 72,
+      "price": 95.15,
+      "changePct": 1.3324552252189683,
+      "signal": "watch",
+      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
+    },
+    {
       "symbol": "ROKU",
       "assetType": "stock",
       "name": "Roku, Inc.",
@@ -3007,90 +3280,6 @@
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     },
     {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Microsoft (MSFT) Gets New Australia News Rules As AI Commerce Push Deepens",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-msft-gets-australia-news-170738761.html",
-      "publishedAt": "2026-08-23T17:07:38.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "Bill Ackman's Pershing Square invests $1.1B in fintech giant",
-      "publisher": "TheStreet",
-      "link": "https://finance.yahoo.com/m/71a8f2dc-68de-3123-bbcc-2179142c8350/bill-ackman%27s-pershing-square.html",
-      "publishedAt": "2026-08-23T17:07:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "The $1.7 Trillion Job Apocalypse: Why Investors Can’t Ignore Humanoid Robots",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/5a241fc4-1169-3e4c-b6ef-b07d8dbf47ee/the-%241.7-trillion-job.html",
-      "publishedAt": "2026-08-23T16:17:42.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "MSFT",
-      "assetType": "stock",
-      "name": "Microsoft Corporation",
-      "title": "This is One of the Cheapest Magnificent Seven Stocks Right Now",
-      "publisher": "24/7 Wall St.",
-      "link": "https://finance.yahoo.com/m/05a9d2a4-1e60-376d-8d37-eac54d49c5f5/this-is-one-of-the-cheapest.html",
-      "publishedAt": "2026-08-23T15:00:54.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 38,
-      "confidence": 72,
-      "price": 483.24,
-      "changePct": 0.4343759742284178,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
       "symbol": "NVDA",
       "assetType": "stock",
       "name": "NVIDIA Corporation",
@@ -3175,90 +3364,6 @@
       "prediction": "News tone is bullish and price action is already firm. Watch for continuation above $345.60."
     },
     {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Canadian Solar (CSIQ) Clears Maxeon Patent Case, Is The 19% Undervaluation Case Convincing?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-solar-csiq-clears-maxeon-060950516.html",
-      "publishedAt": "2026-08-23T06:09:50.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 95.06,
-      "changePct": 1.2366073957889099,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Patent Win And KuBank 3.0 Safety Milestone Might Change The Case For Investing In Canadian Solar (CSIQ)",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/energy/articles/patent-win-kubank-3-0-011029473.html",
-      "publishedAt": "2026-08-22T01:10:29.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 95.06,
-      "changePct": 1.2366073957889099,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Skyworks Solutions (SWKS) Rebounds On Broad Markets Hope, Is The Stock Fully Valued?",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-rebounds-broad-011622273.html",
-      "publishedAt": "2026-08-19T01:16:22.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 95.06,
-      "changePct": 1.2366073957889099,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "SOL-USD",
-      "assetType": "crypto",
-      "name": "Solana USD",
-      "title": "Skyworks Solutions (SWKS) Stock Looks Stretched Following Its 57% Five Year Slump",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/skyworks-solutions-swks-stock-looks-171437724.html",
-      "publishedAt": "2026-08-18T17:14:37.000Z",
-      "sentiment": {
-        "score": 37,
-        "label": "bearish",
-        "positiveHits": 0,
-        "negativeHits": 1
-      },
-      "aiScore": 48,
-      "confidence": 72,
-      "price": 95.06,
-      "changePct": 1.2366073957889099,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
       "symbol": "JNJ",
       "assetType": "stock",
       "name": "Johnson & Johnson",
@@ -3298,111 +3403,6 @@
       "price": 362.86,
       "changePct": 5.137203819187305,
       "signal": "peak",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "BABA",
-      "assetType": "stock",
-      "name": "Alibaba Group Holding Limited",
-      "title": "Alibaba Group Holding (BABA) Buybacks Meet AI Spending As Fair Value Debate Widens",
-      "publisher": "Simply Wall St.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-group-holding-baba-buybacks-160729869.html",
-      "publishedAt": "2026-08-23T16:07:29.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 93,
-      "confidence": 75,
-      "price": 119.34,
-      "changePct": -8.572741898414156,
-      "signal": "dip",
-      "prediction": "The scanner still likes the setup, but the news tone is mixed. Use the trigger and invalidation levels first."
-    },
-    {
-      "symbol": "BABA",
-      "assetType": "stock",
-      "name": "Alibaba Group Holding Limited",
-      "title": "Alibaba Launches Record $10 Billion Share Sale to Enter the AI Race",
-      "publisher": "BeInCrypto",
-      "link": "https://finance.yahoo.com/m/0894528f-9f98-3906-b948-5b7f7757479d/alibaba-launches-record-%2410.html",
-      "publishedAt": "2026-08-23T14:08:50.000Z",
-      "sentiment": {
-        "score": 76,
-        "label": "bullish",
-        "positiveHits": 2,
-        "negativeHits": 0
-      },
-      "aiScore": 93,
-      "confidence": 75,
-      "price": 119.34,
-      "changePct": -8.572741898414156,
-      "signal": "dip",
-      "prediction": "Bullish news is landing during a dip. This can become interesting if buyers reclaim $119.96."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "I Love NuScale Stock for 1 Reason, and It's Not What You Think",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/2519795e-ec8e-31b0-85b3-6b05c96a177c/i-love-nuscale-stock-for-1.html",
-      "publishedAt": "2026-08-23T18:14:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Target Just Reported Earnings. Here's Whether the Dividend King Is Still a Buy.",
-      "publisher": "Motley Fool",
-      "link": "https://finance.yahoo.com/m/0cda3085-a3dc-3ed3-9e07-c87c5ddcbd47/target-just-reported.html",
-      "publishedAt": "2026-08-23T18:00:00.000Z",
-      "sentiment": {
-        "score": 63,
-        "label": "mixed",
-        "positiveHits": 1,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
-      "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
-    },
-    {
-      "symbol": "NVDA",
-      "assetType": "stock",
-      "name": "NVIDIA Corporation",
-      "title": "Nvidia, Fed Confab, Inflation, GDP, and More to Watch This Week",
-      "publisher": "Barrons.com",
-      "link": "https://finance.yahoo.com/m/e7011a59-9767-38bc-88d5-890ce80e3f65/nvidia%2C-fed-confab%2C.html",
-      "publishedAt": "2026-08-23T18:00:00.000Z",
-      "sentiment": {
-        "score": 50,
-        "label": "mixed",
-        "positiveHits": 0,
-        "negativeHits": 0
-      },
-      "aiScore": 66,
-      "confidence": 82,
-      "price": 214.72,
-      "changePct": -0.9822457920221331,
-      "signal": "watch",
       "prediction": "News impact looks mixed. Keep it on watch and wait for price confirmation."
     }
   ]
